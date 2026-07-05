@@ -1,6 +1,6 @@
 # Research Ledger
 Phase: 0 | Gate status: OPEN
-Last session: 2026-07-06 | Last commit: (initial setup)
+Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 
 ## Done
 | source_id | RQ | tier | era | batch |
