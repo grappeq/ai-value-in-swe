@@ -1,4 +1,4 @@
-# AI Value in Software Engineering — Research Protocol v0.2
+# AI Value in Software Engineering — Research Protocol v0.3
 
 **Purpose:** Internal evidence base to shape AI strategy direction. Not for external publication — optimise for decision-relevance, honesty about uncertainty, and reusability, not citation polish.
 
@@ -7,7 +7,7 @@
 2. How to measure AI impact internally (what to instrument, what to stop trusting)
 3. Exec narrative and expectation-setting (what we can credibly claim, what the hype gets wrong)
 
-**Evidence bar:** Rigorous core (RCTs, telemetry studies) + graded practitioner signal. Everything gets a quality grade; nothing gets discarded for being anecdotal, but grades travel with claims all the way to the exec brief.
+**Evidence bar:** Practitioner-weighted, not academic. The expected bulk of evidence is company write-ups, engineering-blog case studies, and industry reports (Tiers B–D); rigorous studies (Tier A) are anchors where they exist, not a requirement — few formal papers are expected, especially for the agentic era. Everything still gets a quality grade, and grades travel with claims all the way to the exec brief, so the register stays honest even where the evidence is informal. **Triangulation substitutes for rigour:** independent practitioner sources converging on the same pattern carry more weight than any one of them alone (see §3).
 
 **Scope:** Full SDLC — requirements/specs, design, implementation, review, testing, debugging, deployment, operations/incidents. Excludes adjacent knowledge work (support, general docs) unless a source covers it incidentally.
 
@@ -57,7 +57,7 @@ Cross-cutting tags: developer seniority (junior/senior effects often diverge), c
 
 **Tier A — Rigorous:** RCTs, controlled field experiments, large-N telemetry with counterfactuals. Carries claims on its own.
 **Tier B — Structured observational:** Large-scale telemetry without randomisation, longitudinal industry reports (DORA-class), multi-company code-quality analyses. Carries claims with caveats.
-**Tier C — Practitioner signal:** Engineering-org case studies with real numbers, credible engineering blogs, postmortems of AI rollouts. Used for mechanism hypotheses and colour, never as sole support for an exec-brief claim.
+**Tier C — Practitioner signal:** Engineering-org case studies with real numbers, credible engineering blogs, postmortems of AI rollouts. **Expected to be the volume centre of this research.** A single Tier C source supports directional claims and mechanism hypotheses only; **three or more independent Tier C sources** can jointly carry an exec-brief claim at medium confidence. Independent means: different organisations, not retellings of the same rollout, and no shared vendor sponsorship. Prefer write-ups that report numbers *and* describe how they were measured over pure narrative.
 **Tier D — Vendor & consultancy:** GitHub/Microsoft/Anthropic/McKinsey-class publications. Always flag conflict of interest; use for directional signal and to understand the hype baseline the exec narrative must correct against.
 
 Each source record gets: tier, independence (vendor-funded? population selection?), population (n, seniority, context), and a one-line "what this can and cannot support."
@@ -118,6 +118,14 @@ Seeded from memory (early 2026); **verify every detail and expect 2026 publicati
 
 **Tier D standing set:** GitHub/Microsoft research, vendor whitepapers, consultancy reports — collect to characterise the hype baseline the exec narrative corrects against; COI-flag everything.
 
+**Tier C hunting grounds (expected volume centre — search these deliberately, not incidentally):**
+- Engineering blogs of large orgs describing AI-tooling rollouts with real delivery numbers
+- The Pragmatic Engineer — AI tooling surveys and rollout deep-dives
+- LeadDev, InfoQ, IEEE Software practice track — practitioner reports and eng-leadership talks (QCon-class) with metrics
+- Postmortems and "what didn't work" retrospectives — these are the scarcest and most valuable Tier C material; hunt for them explicitly
+- DX / LinearB / Swarmia / Faros-class published customer analyses — grade these **D**, not C, when vendor-published
+- Aggregators (Hacker News, newsletters) are leads to primary write-ups, not sources themselves
+
 ## 6.5 Per-RQ Query Plans
 
 Seed queries per RQ. These are starting points, not a ceiling: refinements, dead ends, and productive variants get logged in the ledger's batch log so search strategy survives context resets. Default era filter: 2025+ unless explicitly hunting baselines.
@@ -128,6 +136,8 @@ Seed queries per RQ. These are starting points, not a ceiling: refinements, dead
 - **RQ4 (cost):** `AI code review overhead cost` · `rework rate AI-generated code` · `AI coding tool ROI total cost ownership study` · `verification cost AI-authored pull requests`
 - **RQ5 (translation):** `AI adoption DORA delivery performance 2025 2026` · `feature velocity production codebase AI telemetry` · `system-level productivity AI local task speedup` · `AI code production incidents stability`
 - **RQ6 (internal measurement):** `developer productivity metrics critique AI era` · `SPACE framework DX Core 4 AI measurement` · `suggestion acceptance rate metric criticism` · `engineering metrics anti-patterns AI adoption`
+
+**Practitioner variants (apply to every RQ):** pair each academic-flavoured query with company-write-up phrasings — `"how we rolled out" Claude Code|Cursor engineering blog` · `"we measured" AI coding assistant impact` · `AI coding rollout retrospective|postmortem` · `engineering team AI adoption results 2025 2026`. Expect the practitioner variants to return most of the usable material.
 
 ## 7. Execution Workflow (Claude Code)
 
@@ -194,7 +204,7 @@ Full agent instructions live in `CLAUDE.md` (drafted alongside this protocol).
 - **Scarcity clause:** if a genuine search cannot meet the 60% E3 bar, do not grade-inflate tiers or era-inflate boundary studies to hit it. Record the shortfall in the ledger and report "the agentic era has not yet been rigorously measured" as a headline finding in the exec brief — scarcity is a result, not a protocol failure, and it directly informs decisions 2 and 3
 - Every §5 tension has a written verdict: resolved, contested, or insufficient evidence
 - RQ5 answered with an explicit confidence level and the strongest counter-evidence stated
-- Exec brief contains zero claims resting solely on Tier C/D evidence
+- Every exec-brief claim carries its evidence grade. A claim may rest on Tier C alone only via the §3 triangulation rule (≥3 independent sources, labelled medium confidence at most); no claim rests on Tier D alone
 - Measurement proposal names ≤6 metrics to adopt and ≥3 popular metrics to explicitly reject
 - RQ4 may close at "insufficient evidence" per its pre-registered expectation (§1) without blocking overall completion
 
@@ -206,5 +216,6 @@ Full agent instructions live in `CLAUDE.md` (drafted alongside this protocol).
 
 ## Changelog
 
+- **v0.3 (2026-07-06):** reweighted toward practitioner evidence — few formal papers expected. Evidence bar reframed as practitioner-first with triangulation substituting for rigour; Tier C promoted to expected volume centre with a ≥3-independent-sources rule for carrying exec-brief claims (medium confidence cap); Tier C hunting grounds added to §6; practitioner query variants added to §6.5; DoD "zero Tier C/D claims" rule replaced with the triangulation rule (Tier D still never carries a claim alone).
 - **v0.2 (2026-07-06):** renamed file to PROTOCOL.md; commits standardised to one per source + batch checkpoint; era assignment by tool modality, not year; preprint substitution rule for paywalled Tier A/B; evidence table switched CSV→TSV, `era` and `measurement_basis` columns added to schema; per-RQ query plans added (§6.5); saturation rule disambiguated for multi-RQ sources; DoD scarcity clause added; RQ4 thin-evidence expectation pre-registered.
 - **v0.1:** initial draft.

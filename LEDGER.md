@@ -34,4 +34,5 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 RQ1: OPEN | RQ2: OPEN | RQ3: OPEN | RQ4: OPEN | RQ5: OPEN | RQ6: OPEN
 
 ## Batch log
+- 2026-07-06 setup (2): protocol v0.3 — reweighted toward practitioner evidence: Tier C is the expected volume centre, ≥3 independent Tier C sources can carry an exec-brief claim (medium confidence cap), Tier C hunting grounds and practitioner query variants added. Few formal papers expected; that is by design, not a gap.
 - 2026-07-06 setup: protocol v0.2 adopted (renamed to PROTOCOL.md; per-source commits; era-by-modality; preprint rule; TSV schema + era/measurement_basis columns; §6.5 query plans; saturation rule disambiguated; DoD scarcity clause; RQ4 expectation pre-registered). Repository initialised, scaffolding created. No research batches yet — Phase 0 not started.
