@@ -5,6 +5,7 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 ## Done
 | source_id | RQ | tier | era | batch |
 |---|---|---|---|---|
+| anthropic-economic-index | RQ1 | D (COI: vendor self-analysis) | E2/E3 split by surface | 1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -13,7 +14,8 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 | DORA 2025 (+ 2026 if released) | RQ5 | high |
 | GitClear 2025–2026 code quality reports | RQ3, RQ4 | high |
 | Stanford / Denisov-Blanch telemetry, latest wave | RQ1, RQ5 | high |
-| Anthropic Economic Index 2025–2026 | RQ1 | medium |
+| OpenAI/NBER "How People Use ChatGPT" (WP 34255) — comparable vendor usage index, Tier D baseline | RQ1 | low |
+| Economic Index methodology critiques (Strauss; Empiricrafting) | RQ2 | low |
 | Stack Overflow Developer Survey 2025/2026 | RQ2 | medium |
 | Peng et al. 2023 Copilot RCT (baseline) | RQ1 | medium |
 | Cui et al. 2024 field experiments (seniority) | RQ1, RQ3 | medium |
