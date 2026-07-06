@@ -22,7 +22,7 @@ Exactly one measured E3 datapoint exists:
 
 Alongside it, **prageng-2026-survey** (Tier C, self-report, n=906, senior-skewed newsletter readership) provides adoption/sentiment signal only: Staff+ adopt agents most (63.5% vs 49.7% regular engineers), seniors describe AI as an "amplifier," juniors describe it as stressful with higher rework and token costs. This is directionally consistent with a reversal (seniors extracting more leverage), but it measures adoption and sentiment, not output — it cannot confirm or refute Cui's numeric claim, and its own EM/lead datapoint (lowest adoption at 46.1%) shows the pattern is not even monotonic by role within this sample.
 
-The practitioner "seniors extract more leverage from agents" hypothesis therefore remains a hypothesis: one non-independent case study plus adoption/sentiment correlation, not a powered measured-output comparison.
+The practitioner "seniors extract more leverage from agents" hypothesis therefore remains a hypothesis. *(Updated 2026-07-06: a second measured-output E3 datapoint now exists — microsoft-cli-agents-2026, see §7 — and it reports a C-shaped pattern that disagrees with he-2026's flat gradient and does not confirm the seniors-gain-more reversal either.)*
 
 ## 4. The two-sided complication
 
@@ -36,11 +36,11 @@ Even where task-speed gains for juniors are real, **shen-2026-coding-skills** (T
 - **E3:** he-2026-2x-mandate (measured, single firm) — flat gradient. metr-2025-rct (E2/E3 boundary) — familiarity (correlated with, not identical to, seniority) moderates toward more slowdown.
 - **E3 adoption/sentiment:** prageng-2026-survey — directional reversal signal, self-report only.
 
-Independence is thin on the E3 side: he-2026-2x-mandate is the only measured-output E3 source and is a single self-selected firm; no independent E3 study replicates or contradicts it with a powered seniority split.
+Independence is thin on the E3 side *(updated 2026-07-06)*: two measured-output E3 sources now exist — he-2026-2x-mandate (single self-selected firm, flat gradient) and microsoft-cli-agents-2026 (single firm, Microsoft-on-Microsoft COI, C-shaped pattern, not independent of heilman-2026-microsoft via shared authorship) — and they disagree on the shape of the effect. Neither is independent of the other clusters in this base; no third, independent E3 study with a powered seniority split was found in this programme's search.
 
 ## 6. VERDICT
 
-**Insufficient evidence.** Confidence: **high** that the commonly-cited "field experiments found junior gains" claim overstates the E1 evidence (Cui's own p-values, Peng's single-task covariates, and Google's null/contrary interaction jointly show this — a straightforward reading of primary sources). Confidence: **low** on any claim about the agentic era specifically, in either direction — one non-independent, self-selected case study (flat gradient) and one self-report adoption/sentiment survey (reversal-consistent but not output data) do not constitute a powered test. Neither "AI lifts the floor" nor "AI lifts the ceiling" is establishable for E3 on current evidence, and the two-sided skill-formation complication means even a confirmed floor-lift would not straightforwardly be good news. The E1 junior-gains story should not be repeated as established fact in the exec brief.
+**Insufficient evidence.** Confidence: **high** that the commonly-cited "field experiments found junior gains" claim overstates the E1 evidence (Cui's own p-values, Peng's single-task covariates, and Google's null/contrary interaction jointly show this — a straightforward reading of primary sources). Confidence: **low** on any claim about the agentic era specifically, in either direction — the two single-firm, COI-flagged measured datapoints that exist (he-2026's flat gradient; microsoft-cli-agents-2026's C-shape, added 2026-07-06) actively disagree on the effect's shape, and the self-report adoption/sentiment signal cannot arbitrate between them. Neither "AI lifts the floor" nor "AI lifts the ceiling" is establishable for E3 on current evidence, and the two-sided skill-formation complication means even a confirmed floor-lift would not straightforwardly be good news. The E1 junior-gains story should not be repeated as established fact in the exec brief.
 
 ## 7. What would change the verdict — UPDATED 2026-07-06 (audit remediation)
 
