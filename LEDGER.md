@@ -6,11 +6,14 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 | source_id | RQ | tier | era | batch |
 |---|---|---|---|---|
 | anthropic-economic-index | RQ1 | D (COI: vendor self-analysis) | E2/E3 split by surface | 1 |
+| metr-2025-rct | RQ1, RQ2 | A | E3 (early IDE-agent; boundary caveat) | 1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
 |---|---|---|
-| METR 2025 RCT — verify + replications/critiques | RQ1, RQ2 | high |
+| METR Feb 2026 uplift update (57 devs, 800+ tasks; METR judge wave unreliable but expect improved speedup) — reinterprets metr-2025-rct | RQ1, RQ2 | high |
+| METR "forthcoming" autonomous-agent evidence (per arXiv:2507.09089 §4.1) — search target | RQ1 | medium |
+| METR critiques roundup (Zvi Mowshowitz; The Experimentalist) | RQ2 | medium |
 | DORA 2025 (+ 2026 if released) | RQ5 | high |
 | GitClear 2025–2026 code quality reports | RQ3, RQ4 | high |
 | Stanford / Denisov-Blanch telemetry, latest wave | RQ1, RQ5 | high |
