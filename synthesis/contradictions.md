@@ -35,6 +35,12 @@ Never average conflicting results; never pick the convenient one.
 - Adjacent evidence (transcript-verified Nov 2025): stanford-denisov-blanch 43-developer experiment — self-rated vs measured productivity percentile "almost as good as flipping a coin", off by ~30 percentile points, 1-in-3 within own quartile; supports "miscalibration, not uniform inflation". Tier B, talk-grade.
 - Related §5 tension: 1 (perception–reality gap)
 
+## Magnitude of AI throughput gains in vendor telemetry: Faros vs DX
+- Side A: faros-2026-whiplash — task throughput/dev +33.7%, epics/dev +66.2%, PR merge rate/dev +16.2% between lowest- and highest-adoption quarters; Tier D (COI), E2/E3 blend; within-team before/after design with unaddressed time-trend confounders; several magnitudes denominator-sensitive.
+- Side B: DX/Reock (Mar 2026, queued) — 400-company telemetry reportedly finds PR throughput +7.76% against AI usage +65%, i.e. gains ~4–8x smaller. NOT YET EXTRACTED — entry provisional.
+- Plausible reconciliation: different estimands (within-team adoption-quarter contrast vs cross-company longitudinal trend), different metrics (task/epic vs PR throughput), different denominators. Both Tier D telemetry vendors; neither carries a claim alone. Both agree direction is positive-but-modest at the delivery level, and both show the review/absorption bottleneck.
+- Related §5 tension: 6 (bottleneck displacement)
+
 ## Copilot defect-rate: +41% bugs vs vendor counter-claims
 - Side A: uplevel-2024 — +41% bug rate in PRs for the Copilot-access group; Tier D (COI: vendor marketing), E1; no bug definition, CI, or significance test published; measures access not usage; observational, no randomisation.
 - Side B: GitHub/Accenture (Nov 2024) counter-research — opposing quality findings; Tier D (COI: vendor of the product). NOT YET EXTRACTED — queued; entry provisional.

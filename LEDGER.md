@@ -25,6 +25,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | agents-vs-ides-2026 | RQ1, RQ3, RQ5 | A (DiD+PSM telemetry w/ counterfactuals; NOT an RCT; no CIs reported; LOC/commit outcomes are §5.7-suspect metrics) | E3 treatment; E2/E3 prior-exposure | P1.1 |
 | dora-2026-roi | RQ4, RQ5 | D (COI: consulting-arm co-authorship; no new data; illustrative-only numbers — deliberate downgrade from DORA-brand B) | mixed, inherits 2025 survey's pre-agentic weighting | P1.1 |
 | he-2026-2x-mandate | RQ5, RQ1, RQ4 | A (staggered DiD, placebo tests; single unnamed firm; NOT independent of stanford-denisov-blanch — shared author) | E3 confirmed (Cursor, Claude Code, in-house agents) | P1.1 |
+| faros-2026-whiplash | RQ5, RQ4 | D (COI: reverse-direction — alarm sells governance tooling; before/after design, confounders unaddressed) | E2/E3 blend; agentic authorship <1% of dataset | P1.1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -77,7 +78,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — Opsera 2026 benchmark (D; headline %s lack methodology — cautious full read only, never cite headline alone) | RQ3 | low |
 | — E3 sweep, bottleneck displacement (§5.6): Agoda "coding was never the bottleneck" via InfoQ (C, E3; chase primary) | RQ5 | high |
 | — Zendesk "absorption capacity" via InfoQ (C, E3; chase primary) | RQ5 | high |
-| — Faros "AI Engineering Report 2026" telemetry: review time +441.5%, incidents/PR +242.7% (D, COI, E3; plus 2025 "AI Productivity Paradox" predecessor) | RQ5, RQ4 | high |
 | — E3 sweep, agentic controlled/mining studies: arXiv 2511.04427 "Speed at the Cost of Quality" Cursor DiD, MSR 2026 (B, E3) | RQ3, RQ5 | high |
 | — arXiv 2602.08915 task-stratified agent PR acceptance: Devin 42.9% vs Codex 81.6%, MSR 2026 (B, E3) | RQ1, RQ3 | high |
 | — arXiv 2605.23135 Vella & Blincoe 2-wave longitudinal: 84% self-report gains vs rising cognitive load (B, E3) | RQ2 | high |
