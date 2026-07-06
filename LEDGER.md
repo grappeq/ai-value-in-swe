@@ -85,6 +85,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | bain-2026-benchmark | RQ2 (citation-laundering exhibit) | REJECT — PHANTOM: no such Bain document exists; chain terminates at SEO aggregators; figures misattributed (some to an unverified "Gartner Pulse"); record kept as corruption-instance #11 | — | R1 |
 | quispe-2026-claude-frontier | RQ1 | B (Callaway–Sant'Anna staggered DiD, 5,838 devs, 28mo; self-selected adoption, author self-downgrades to "associational"; activity metrics only, §5.7 caveat; Caltech, independent of all our clusters) | E3 (Claude Code) | R1 |
 | sergeyuk-2026-evolving | RQ2, RQ6 | B (JetBrains telemetry, peer-reviewed ICSE 2026; STRONG vendor-data COI 4/6 authors; 800 devices not verified people; cohort not within-person; linear model — J-curve undetectable by design) | E1/E2 blended, pre-agentic (ends Oct 2024) — NOT the E3/skill-formation payload hoped; baseline + methodology value | R1 |
+| plandek-2026-benchmarks | RQ5 | D (vendor customer telemetry; "similar" not matched teams; headline metric publicly undefined; regression-to-mean unruled-out; fuller report demo-gated) | E2/E3 implied, no modality split | R1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -98,7 +99,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | arXiv 2601.16700 German SE industry adoption survey (B/C; policy-practice gap angle) | RQ2, RQ6 | medium |
 | Atlassian "cut PR cycle time 45% with AI code reviews" (D, COI; human review comments −35.6% — double-edged) | RQ5, RQ1 (T7) | medium |
 | arXiv 2601.16839 "AI builds, We Analyze" MSR 2026 — T11 build-code quality (B, E3) | RQ3 (T11) | medium |
-| Plandek 2026 benchmarks — Tier D delivery-level gains claim, no methodology disclosed — CHALLENGER (weak), tension 6/RQ5 | RQ5 | medium |
 | arXiv 2603.13723 "Do AI Agents Really Improve Code Readability?" (B, E3, equal-quality datapoint) | RQ3 | low-medium |
 | Aerospace rollout (psware.com, 81% fewer eng-hours) — independence/COI check REQUIRED before any use | RQ1, RQ5 | medium |
 | arXiv 2606.20598 biometrics AI-coding study — population check required (likely students → mechanism background only) | RQ6 (skill theme) | medium |

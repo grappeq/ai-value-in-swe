@@ -58,6 +58,12 @@ Never average conflicting results; never pick the convenient one.
 - Related §5 tension: 6 (bottleneck displacement)
 - Tension-6 voice tally (2026-07-06, post-P1.5): mechanism-existence has three converging independent orgs (he-2026 measured; Agoda and Zendesk narrative-only — the Zendesk piece is a prescriptive proposal, not a rollout report). Magnitude rests ONLY on Tier D vendor telemetry (Faros, DX) plus one unreplicated Tier A single-firm study (he-2026). OSS data (unreviewed-ai-prs-2026) complicates the coverage-collapse leg: matched-baseline review participation is equal for AI and human PRs; what shifts is composition (agent-steering displaces evaluation).
 
+## Who gains most from AI: DORA's amplifier (ceiling) vs Plandek's floor-lift
+- Side A: dora-2025 — the amplifier thesis: AI magnifies the strengths of high-performing organisations and the dysfunctions of struggling ones (Tier B, self-report survey, backed by a platform-quality moderation result).
+- Side B: plandek-2026-benchmarks (R1 refresh, blind-extracted) — lower-quartile AI teams reportedly improve "nearly 50%" in lead-time-to-value vs 10–15% for top performers, i.e. AI lifts the floor most (Tier D, vendor telemetry; comparison teams "similar" not matched; headline metric undefined publicly; regression-to-the-mean unruled-out).
+- Plausible reconciliation: different constructs (org capability vs team performance quartiles), different measurement bases (survey vs vendor telemetry), and Side B's design invites regression-to-the-mean, which would mechanically produce a floor-lift pattern. Neither side is strong; the disagreement mostly illustrates that "who gains most" is unsettled at every level (echoes tension 5's shape disagreement at the individual level).
+- Related §5 tension: 3/5 (adjacent to both)
+
 ## Duplication in AI-era code: GitClear's rise vs everyone else's nulls and reversals
 - Side A: gitclear-2025 — copy/paste share rising (8.3%→12.3% by 2024; +41% to 15.7% by H1 2026), duplicated blocks up 4–8x; Tier B (COI: vendor telemetry), population trend, no per-repo AI attribution.
 - Side B (four voices, added over time): agents-vs-ides-2026 (null), cursor-velocity-quality-2025 (null), agent-maintainability-2026 (null as predictor), and now mao-2026-code-metrics (R1 refresh, blind-extracted) — AI-attributed code is *less* duplicated than matched human code (14.29% vs 27.57% duplicated lines); Tier B, E2-weighted (83% ChatGPT-attributed), attribution-based (blind to undisclosed use).
