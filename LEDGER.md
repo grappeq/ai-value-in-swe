@@ -90,6 +90,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | atlassian-2026-ai-review | RQ5, RQ1 (T7), RQ4 | Blog: D (COI, own product); companion ICSE paper: B (10/11 Atlassian authors); ONE rollout = one voice; 45% headline vs measured −30.8% logged as within-org contradiction; quality outcomes explicitly absent | E3 (single-purpose review agent) | R1 |
 | german-se-survey-2026 | RQ2, RQ6 | B weak-end (FSE 2026 peer-reviewed mixed-methods; n=109 convenience; wholly self-report; policy-practice-gap claim traces to a CITED paper, not this one's data) | E1/E2 chat-dominant (mid-2025 fielding) | R1 |
 | nubank-devin-2025 | RQ5, RQ3 (T5) | Vendor page D (HIGH COI, undated, internally inconsistent 8x-vs-12x) + Nubank blog C (medium COI) = ONE data point; only "12x" corroborated by Nubank's own words; estimate-vs-baseline ratios, not telemetry; no quality/rework data | E3 confirmed (autonomous agent, human review at merge) | R1 |
+| readability-agents-2026 | RQ3 (T5, T10) | B weak-end (MSR 26 mining, n=403 commits, no counterfactual; AIDev cluster — one voice; internal tension between "agents fail" and "metrics inadequate" readings recorded) | E3 | R1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -100,7 +101,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | Bain (REAL publications, replacing the phantom lead): "Your AI Budget Is Growing, Your Returns Aren't" (Jun 2026, n=951 exec survey) + "From Pilots to Payoff" (2025) | RQ4, RQ2 | low |
 | "Gartner Agentic AI Pulse 2026" — verify existence before any use (source of the misattributed 41%/19% figures) | RQ2 | low |
 | Neumann et al. (2026) — the actual primary for the German policy-practice-gap claim (load-bearing citation in german-se-survey-2026) | RQ6 | low-medium |
-| arXiv 2603.13723 "Do AI Agents Really Improve Code Readability?" (B, E3, equal-quality datapoint) | RQ3 | low-medium |
 | Aerospace rollout (psware.com, 81% fewer eng-hours) — independence/COI check REQUIRED before any use | RQ1, RQ5 | medium |
 | arXiv 2606.20598 biometrics AI-coding study — population check required (likely students → mechanism background only) | RQ6 (skill theme) | medium |
 | Adam SSRN 6409098 junior-roles paper — primary-vs-commentary check | RQ3 (tension 5) | low-medium |
