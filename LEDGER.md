@@ -33,6 +33,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | dx-reock-2026 | RQ5, RQ1 | D (COI: reverse-direction, measurement vendor; near-zero methodology disclosure) | E2/E3 blend, unsplit | P1.2 |
 | cloudflare-2026-ai-review | RQ4, RQ1 | C strong-end (instrumented telemetry; mild COI: marketing register; cost data WITHOUT effectiveness data — supports "cheap", not "bottleneck relieved") | E3 confirmed (agentic multi-model pipeline) | P1.3 |
 | zalando-2025-postmortems | RQ3, RQ1 | C (clean independence, non-vendor; ~10% surface-attribution-error is a considered practitioner estimate, NOT audited) | E2 pipeline + an E3 negative datapoint (agentic attempt abandoned) | P1.3 |
+| vella-blincoe-2026 | RQ2, RQ6 (skill-formation theme) | B (well-instrumented self-report panel; no objective comparator; weak psychometrics; convenience sample) | E1/E2-dominant, unstratified encroaching E3 — NOT confirmed E3 (triage tag corrected; excluded from DoD E3 accounting) | P1.3 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -84,7 +85,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — Zendesk "absorption capacity" via InfoQ (C, E3; chase primary) | RQ5 | high |
 | — E3 sweep, agentic controlled/mining studies: arXiv 2511.04427 "Speed at the Cost of Quality" Cursor DiD, MSR 2026 (B, E3) | RQ3, RQ5 | high |
 | — arXiv 2602.08915 task-stratified agent PR acceptance: Devin 42.9% vs Codex 81.6%, MSR 2026 (B, E3) | RQ1, RQ3 | high |
-| — arXiv 2605.23135 Vella & Blincoe 2-wave longitudinal: 84% self-report gains vs rising cognitive load (B, E3) | RQ2 | high |
 | — arXiv 2605.20049 code-cleanliness minimal-pair, Claude Code: token use −7–8% (B, E3) | RQ3, RQ4 | high |
 | — arXiv 2509.14745 agentic PRs on GitHub: 83.8% merge rate (B, E3) | RQ1 | medium |
 | — arXiv 2604.13108 architecture descriptors as agent navigation (B, E3) | RQ1, RQ3 | medium |
