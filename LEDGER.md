@@ -30,6 +30,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | agoda-2026-bottleneck | RQ5 | C weak-end (named org, no vendor COI — but zero own numbers; mechanism corroboration only, cannot carry numeric claims; InfoQ's "Agoda numbers" are actually Faros's) | E3 confirmed | P1.2 |
 | churn-151-repos-2025 | RQ3 | A (RDD + placebos, peer-reviewed TSE; within-repo counterfactual; clean independence) | E1/E2 (explicitly disclaims Claude Code-era tools) | P1.2 |
 | shen-2026-coding-skills | RQ3, RQ4, RQ6 (skill-formation theme) | A-candidate (RCT n=52; small N, single session; COI: Anthropic reputational, tested GPT-4o not Claude) | E2 chat — NOT agentic; era-transfer caveat applies | P1.2 |
+| dx-reock-2026 | RQ5, RQ1 | D (COI: reverse-direction, measurement vendor; near-zero methodology disclosure) | E2/E3 blend, unsplit | P1.2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -103,8 +104,8 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — arXiv 2508.00178 "The SPACE of AI" — SPACE co-author's AI-era follow-up (Jul 2025) | RQ6 | high |
 | Shen-Tamkin OSF data pull — resolve absolute quiz-percentage discrepancy ("50% vs 67%" announcement vs ~64/80% in paper fetches) before any exec-brief use | RQ6 | low |
 | Dedicated skill-formation/cognitive-debt search sweep (theme approved in v0.4; current sources found incidentally) | RQ4, RQ6 | medium |
-| — [colleague] DX/Reock (Mar 2026) "gains are ~10%": 400-company telemetry, AI usage +65% vs PR throughput +7.76% (D, COI, E3 window) | RQ5, RQ1 | high |
-| — [colleague] DX/Noda companion "why aren't gains higher" — mechanisms; coding ≈16% of dev time (D, COI) | RQ5 | medium |
+| DX/Tacho study (121,000 devs / 450+ companies) — check overlap/redundancy vs dx-reock-2026 | RQ1 | medium |
+| arXiv 2502.15287 "Time Warp" (Microsoft, ICSE-SEIP 2025 Distinguished Paper) — actual source of coding-time share: ~11% actual / ~20% ideal (Noda's "16%" is a misquote — never propagate it) | RQ6 | medium |
 | — [colleague] arXiv 2605.01160 "Productivity-Reliability Paradox" — single-author MLR of 67 sources + 4-mo pilot; synthesis cross-check only | RQ5 | medium |
 | — [colleague] Orosz "Slow down to speed up" talk (C, E3; get transcript via yt-dlp) | RQ1, RQ5 | medium |
 | — [colleague] HBR "Psychological Costs of Adopting AI" (May 2026) — general workforce, not SWE; chase its underlying studies | RQ4 | low |

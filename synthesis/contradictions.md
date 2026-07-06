@@ -37,8 +37,8 @@ Never average conflicting results; never pick the convenient one.
 
 ## Magnitude of AI throughput gains in vendor telemetry: Faros vs DX
 - Side A: faros-2026-whiplash — task throughput/dev +33.7%, epics/dev +66.2%, PR merge rate/dev +16.2% between lowest- and highest-adoption quarters; Tier D (COI), E2/E3 blend; within-team before/after design with unaddressed time-trend confounders; several magnitudes denominator-sensitive.
-- Side B: DX/Reock (Mar 2026, queued) — 400-company telemetry reportedly finds PR throughput +7.76% against AI usage +65%, i.e. gains ~4–8x smaller. NOT YET EXTRACTED — entry provisional.
-- Plausible reconciliation: different estimands (within-team adoption-quarter contrast vs cross-company longitudinal trend), different metrics (task/epic vs PR throughput), different denominators. Both Tier D telemetry vendors; neither carries a claim alone. Both agree direction is positive-but-modest at the delivery level, and both show the review/absorption bottleneck.
+- Side B: dx-reock-2026 — EXTRACTED. ~400 companies, Nov 2024–Feb 2026, org-level longitudinal: AI usage +65% (metric undefined), PR throughput +7.76%; essentially no disclosed methodology (no significance tests, no defined usage metric, sample selection undisclosed).
+- Adjudication (2026-07-06, both extracted): **largely dissolves on inspection**. The "4–8x" gap compared different units of work — PR-to-PR (Faros +16.2% merge rate/dev vs DX +7.76%) the gap is ≈2x, within what estimand and window differences can absorb. Disclosure asymmetry noted: Faros discloses a statistical procedure, DX essentially none. Both remain Tier D, direction-convergent (modest delivery-level gains + review bottleneck). Also checked: DX's +7.76% coexists with he-2026-2x-mandate's 1.46–1.72x within-adopter effect — population-average dilution vs best-case single-firm causal effect, an expected signature, not a contradiction.
 - Related §5 tension: 6 (bottleneck displacement)
 
 ## Copilot defect-rate: +41% bugs vs vendor counter-claims
