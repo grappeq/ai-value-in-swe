@@ -22,6 +22,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | dora-2024 | RQ5, RQ2 | B (vendor-adjacency flag) | E2-dominant + E1; no E3 in instrument | 3 |
 | space-dx-core4 | RQ6 | SPACE: B-equiv methodology (COI: 5/6 MS/GitHub authors); DX Core 4: D (COI: vendor) | era-independent; DX AI ext E3-relevant | 3 |
 | metr-2026-uplift | RQ1, RQ2 | C (self-declared unreliable wave; belief statement ≠ evidence) | E3 later-gen (no per-task tool split) | P1.1 |
+| agents-vs-ides-2026 | RQ1, RQ3, RQ5 | A (DiD+PSM telemetry w/ counterfactuals; NOT an RCT; no CIs reported; LOC/commit outcomes are §5.7-suspect metrics) | E3 treatment; E2/E3 prior-exposure | P1.1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -48,7 +49,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | E3-era seniority evidence hunt — does the junior-gains pattern reverse under agentic tools? (Pragmatic Engineer etc., Tier C/D) | RQ1, RQ3 | high |
 | arXiv 2504.11436 "Shifting Work Patterns with Generative AI" (Microsoft) | RQ1 | medium |
 | arXiv 2509.20353 — Copilot longitudinal case study | RQ2, RQ5 | medium |
-| arXiv:2601.13597 "AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents" — potential E3 RCT (fills the biggest §6 gap) | RQ1 | high |
+| AIDev dataset paper (arXiv 2602.09185) — provenance/independence check: many MSR 2026 agentic-PR studies share this one dataset, which caps their triangulation value | RQ2 | high |
 | arXiv:2510.24265 "The Fast and Spurious: Developer Productivity with GenAI" | RQ2 | medium |
 | arXiv:2601.20112 "Usage, Effects and Requirements for AI Coding Assistants in the Enterprise" | RQ1, RQ4 | medium |
 | GitHub/Accenture Nov 2024 counter-research (Tier D; side B of the defect-rate contradiction) | RQ3 | medium |
