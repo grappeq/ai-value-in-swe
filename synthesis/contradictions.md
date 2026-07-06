@@ -18,6 +18,7 @@ Never average conflicting results; never pick the convenient one.
 - Side A: gitclear-2025 — two-week churn rose 3.1%→5.7% (2020→2024), framed as AI-driven quality decline; Tier B (COI: vendor telemetry), E1/E2 trendline. Note: undershot GitClear's own 7.1% projection.
 - Side B: arXiv 2507.10422 (peer-reviewed, 151 repos) — reportedly found *no* general churn increase after GenAI adoption. NOT YET EXTRACTED — queued high priority; entry provisional until full-text cross-ref.
 - Plausible reconciliation: different populations (GitClear customer base + megaprojects vs 151 sampled repos), different churn definitions, different adoption-attribution methods. Unresolved.
+- Update (2026-07-06, full 2026 PDF read, human-supplied): GitClear's side **weakened**. The 2026 edition's Appendix A1 shows churn rose 16.1%→18.6% (+15%) with nearly the entire rise in one 2024→2025 step — the same step where record counts behind all eight signals jump ~3.3–3.8× uniformly, consistent with undisclosed customer-base composition change. Dataset-composition drift is now a live, unaddressed alternative to an AI-driven churn increase. Detail in sources/gitclear-2025.md ("Churn contradiction assessment").
 - Related §5 tension: 4 (quality debt signals)
 
 ## DORA throughput association: negative (2024) vs positive (2025)
