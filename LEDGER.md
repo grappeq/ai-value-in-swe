@@ -7,6 +7,7 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 |---|---|---|---|---|
 | anthropic-economic-index | RQ1 | D (COI: vendor self-analysis) | E2/E3 split by surface | 1 |
 | metr-2025-rct | RQ1, RQ2 | A | E3 (early IDE-agent; boundary caveat) | 1 |
+| stanford-denisov-blanch | RQ1, RQ3, RQ5 | B (talk-grade figures) | E1/E2-mixed; 2026 wave E3 | 1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -16,7 +17,9 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 | METR critiques roundup (Zvi Mowshowitz; The Experimentalist) | RQ2 | medium |
 | DORA 2025 (+ 2026 if released) | RQ5 | high |
 | GitClear 2025–2026 code quality reports | RQ3, RQ4 | high |
-| Stanford / Denisov-Blanch telemetry, latest wave | RQ1, RQ5 | high |
+| arXiv:2607.01904 "AI Writes Faster Than Humans Can Review" (Denisov-Blanch co-auth., Jul 2026; 802 devs, 196k PRs, diff-in-diff, E3) | RQ5, RQ1 | high |
+| Denisov-Blanch Dec 2025 "inflection point" artefact + ASE 2026 repo-AI-config paper — search targets | RQ3, RQ5 | medium |
+| "Ghost engineers" critiques (Jellyfish, HN) — anti-metrics material on the Stanford model | RQ2, RQ6 | low |
 | OpenAI/NBER "How People Use ChatGPT" (WP 34255) — comparable vendor usage index, Tier D baseline | RQ1 | low |
 | Economic Index methodology critiques (Strauss; Empiricrafting) | RQ2 | low |
 | Stack Overflow Developer Survey 2025/2026 | RQ2 | medium |
@@ -30,6 +33,7 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 ## Blocked
 | source_id | reason | needs |
 |---|---|---|
+| stanford-denisov-blanch (verification upgrade only — extraction done at talk-grade) | headline effect sizes exist only in talks; slides PDF image-only, videos not viewable in-session; figures taken from secondary write-ups which disagree on the headline number | human to watch/skim the Jun 2025 + Nov 2025 talk videos, or accept talk-grade ranges as-is |
 
 ## Rejected (triage)
 | source | one-line reason |
