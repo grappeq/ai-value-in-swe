@@ -120,7 +120,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | source_id | reason | needs |
 |---|---|---|
 | stanford-denisov-blanch (residual only — RESOLVED for all spoken figures via yt-dlp transcripts of both talks) | slide-only figures remain audio-unverifiable: team quartile split, 4.8%→19% widening-gap number, ~30–100h learning curve (origin now unknown — do not cite as talk-confirmed); "7–9% Copilot-class" absent from both transcripts, likely secondary-source error | OPTIONAL, low priority: human skim of slides/video visuals; otherwise treat slide-only figures as secondary-sourced |
-| space-dx-core4 (SPACE primary-text upgrade only — record built from convergent secondaries + verified abstract) | ACM-family domains (queue.acm.org, cacm.acm.org, dl.acm.org) all 403 the fetch tool — likely bot-blocking, not a paywall; no preprint exists | human to open queue.acm.org/detail.cfm?id=3454124 in a browser and confirm free readability (then upgrade to full primary read) |
+| space-dx-core4 (SPACE primary-text upgrade only — record built from convergent secondaries + verified abstract) | RESOLVED as access status: human confirmed 2026-07-06 the article opens freely in a browser — ACM 403s were bot-blocking, not a paywall | OPTIONAL: human saves the page as PDF (print-to-PDF) and shares it in chat for a full primary read, as done for GitClear 2026; otherwise the secondaries-based record stands with its stated caveat |
 
 ## Rejected (triage)
 | source | one-line reason |
