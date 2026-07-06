@@ -81,6 +81,8 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | ghaleb-2026-fingerprinting | RQ2 (instrument check) | Instrument validation — CIRCULAR (AIDev's own labels as ground truth; Claude Code F1 0.67; one-voice cap HOLDS) | E3 instrument | AR |
 | microsoft-cli-agents-2026 | RQ1, RQ3 (tension 5) | B (synthetic control + within-person FE; COI: Microsoft-on-Microsoft; NOT independent of heilman via shared author) | E3 clean (Claude Code + Copilot CLI) | AR |
 | mao-2026-code-metrics | RQ3, RQ5 | B (large-N matched observational; keyword/LLM attribution, manually validated at 3 stages but blind to undisclosed use; title in flux across mirrors — flagged) | E2-weighted (83% ChatGPT-attributed) — not E3 evidence | R1 |
+| google-migrations-2025 | RQ5, RQ3 (T5) | C, Tier-D-adjacent (Google on own tooling; self-declares "not a research study"; time savings self-reported, no counterfactual; TWO papers = ONE voice) | E3-by-modality but bespoke task-specific pipeline, not a general agent | R1 |
+| bain-2026-benchmark | RQ2 (citation-laundering exhibit) | REJECT — PHANTOM: no such Bain document exists; chain terminates at SEO aggregators; figures misattributed (some to an unverified "Gartner Pulse"); record kept as corruption-instance #11 | — | R1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -90,7 +92,8 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | Google internal migrations (arXiv 2501.06972 + 2504.09691, one voice) — brownfield-success challenger, tension 2; self-graded "not a research study" | RQ5, RQ3 | high |
 | arXiv 2601.10258 Sergeyuk et al. ICSE 2026 "Evolving with AI" — 800 professional devs, 2-yr IDE telemetry — skill-formation + possible J-curve | RQ3, RQ4, RQ6 | high |
 | arXiv 2605.25438 Quispe — Claude Code natural experiment, 5,838 devs, 28 months, staggered adoption — bounds the scarcity headline | RQ1 | high |
-| Bain Agentic AI Benchmark 2026 — engineering payback median 9.3 months, 41% ROI-positive in 12mo, 19% never (D, COI; primary-text check) | RQ4 | high |
+| Bain (REAL publications, replacing the phantom lead): "Your AI Budget Is Growing, Your Returns Aren't" (Jun 2026, n=951 exec survey) + "From Pilots to Payoff" (2025) | RQ4, RQ2 | low |
+| "Gartner Agentic AI Pulse 2026" — verify existence before any use (source of the misattributed 41%/19% figures) | RQ2 | low |
 | Nubank ETL-migration pair: Devin vendor page + Nubank's own eng blog (12x claim, 6M-LOC legacy) — diff the two versions | RQ5, RQ3 (T5) | medium-high |
 | arXiv 2601.16700 German SE industry adoption survey (B/C; policy-practice gap angle) | RQ2, RQ6 | medium |
 | Atlassian "cut PR cycle time 45% with AI code reviews" (D, COI; human review comments −35.6% — double-edged) | RQ5, RQ1 (T7) | medium |
