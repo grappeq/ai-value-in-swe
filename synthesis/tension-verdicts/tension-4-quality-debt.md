@@ -22,6 +22,10 @@ PROTOCOL §5.4: "Quality debt signals. GitClear's multi-year analyses report ris
 
 Leg (c)'s metric family — complexity, static warnings, duplication — is exactly what agent-maintainability-2026 shows does *not* predict leg (d)'s actual cost (task-resolve-rate collapse). Quality debt is probably real, but the popular proxies may be measuring a correlate of rising agent authorship, not its cause. Complexity/duplication dashboards risk under-detecting the real failure mode (behavioural-contract drift). This is a direct input to RQ6.
 
+## 3b. The pre-agentic null that bounds the tension (added 2026-07-06, audit remediation)
+
+borg-2026-echoes (Tier A, pre-registered two-phase RCT, EMSE 2026; n=151, Java toy codebase, E1 with minor E2 admixture) randomised the *maintainer's* exposure to AI-derived code and found **no significant difference** in completion time, CodeHealth, or test coverage when developers evolved AI-derived vs non-AI-derived code. This does not rebut legs (c)/(d) — it tests human-typed-with-suggestions authorship, not agent-authored diffs, on a toy codebase — but it bounds the tension: the maintainability cost has **no measured pre-agentic precedent in a controlled design**, which is consistent with the cost being agentic-scale-specific rather than inherent to AI assistance. An E3 replication of Borg's maintainer-randomised design is the single most valuable study that could settle leg (d).
+
 ## 4. Era + independence audit
 
 CMU trio (cursor-velocity-quality-2025, agents-vs-ides-2026, and he-2026-2x-mandate per their own cross-referenced overlap note) = one lab, three datasets, **one voice**. GitClear = Tier B, dual-vendor COI, proprietary non-auditable classifier, undisclosed sample-composition jump. Genuinely independent voices: agent-maintainability-2026 (leg d) stands alone and cleanly E3; leg (b)'s null is corroborated by CMU (one voice) + agent-maintainability-2026 (second voice) against GitClear's outlier. Legs (a) and (f) have no E3 evidence at all on either side.
@@ -32,7 +36,7 @@ CMU trio (cursor-velocity-quality-2025, agents-vs-ides-2026, and he-2026-2x-mand
 
 ## 6. What would change the verdict
 
-A non-CMU replication of the complexity/warnings finding (removes the one-voice cap on leg c); an E3-only churn study on agentic adoption (settles leg a); a multi-step extension of CodeThread testing compounding drift (settles leg d's ceiling); any rigorous E3 defect-rate study (closes leg f); confirmation that GitClear's 2024→2025 jump is a customer-onboarding artefact (would further weaken legs a and, by extension, the refactoring-decline framing).
+A non-CMU replication of the complexity/warnings finding (removes the one-voice cap on leg c); an E3-only churn study on agentic adoption (settles leg a); a multi-step extension of CodeThread testing compounding drift (settles leg d's ceiling); any rigorous E3 defect-rate study (closes leg f — note leg f was re-verdicted "insufficient evidence, four non-comparable COI'd constructs" once defect-rate-side-b was read); an E3 replication of borg-2026-echoes' maintainer-randomised RCT (the cleanest possible test of leg d); confirmation that GitClear's 2024→2025 jump is a customer-onboarding artefact (would further weaken legs a and, by extension, the refactoring-decline framing).
 
 ## 7. Feeds exec brief as
 
