@@ -21,11 +21,12 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | uplevel-2024 | RQ2, RQ6 | D (COI: vendor marketing; access-not-usage confound) | E1 | 2 |
 | dora-2024 | RQ5, RQ2 | B (vendor-adjacency flag) | E2-dominant + E1; no E3 in instrument | 3 |
 | space-dx-core4 | RQ6 | SPACE: B-equiv methodology (COI: 5/6 MS/GitHub authors); DX Core 4: D (COI: vendor) | era-independent; DX AI ext E3-relevant | 3 |
+| metr-2026-uplift | RQ1, RQ2 | C (self-declared unreliable wave; belief statement ≠ evidence) | E3 later-gen (no per-task tool split) | P1.1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
 |---|---|---|
-| METR Feb 2026 uplift update (57 devs, 800+ tasks; METR judge wave unreliable but expect improved speedup) — reinterprets metr-2025-rct | RQ1, RQ2 | high |
+| METR 11 May 2026 AI usage self-report survey (metr.org/blog/2026-05-11-ai-usage-survey/) — direct tension-1/RQ2 material | RQ2 | high |
 | METR "forthcoming" autonomous-agent evidence (per arXiv:2507.09089 §4.1) — search target | RQ1 | medium |
 | METR critiques roundup (Zvi Mowshowitz; The Experimentalist) | RQ2 | medium |
 | DORA "ROI of AI-assisted Software Development" 2026 interim (v2026.01, Apr 2026) — J-curve model, "instability tax" | RQ4, RQ5 | high |
