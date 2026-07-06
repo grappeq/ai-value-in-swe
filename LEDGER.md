@@ -13,6 +13,7 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | google-rct-2024 | RQ1 | A (COI: Google-on-Google; headline 21% non-significant in main model) | E1/E2 boundary, autocomplete-dominant | 2 |
 | stackoverflow-survey-2025 | RQ2 | B (topline-percentages survey; self-selection; reverse-COI noted) | E1/E2/E3 mixed; agent sub-items E3 | 2 |
 | peng-2023-copilot-rct | RQ1, RQ2 | A (COI: 3/4 authors GitHub/MS; never peer-reviewed) | E1 | 2 |
+| cui-2024-copilot-field | RQ1, RQ3 | A (COI: 2/6 MS authors, vendor data; Mgmt Sci Feb 2026) | E1 (seed's E2 tag unsupported) | 2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -36,7 +37,9 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | SO "Closing the developer AI trust gap" post (Feb 2026) | RQ2, RQ6 | low |
 | Stray et al. (HICSS 2026) — independent 2-yr NAV IT longitudinal: null commit-activity change, perception ≠ measured | RQ2, RQ5 | high |
 | arXiv 2506.10051 — brownfield student study | RQ3 | medium |
-| Cui et al. 2024 field experiments (seniority) | RQ1, RQ3 | medium |
+| E3-era seniority evidence hunt — does the junior-gains pattern reverse under agentic tools? (Pragmatic Engineer etc., Tier C/D) | RQ1, RQ3 | high |
+| arXiv 2504.11436 "Shifting Work Patterns with Generative AI" (Microsoft) | RQ1 | medium |
+| arXiv 2509.20353 — Copilot longitudinal case study | RQ2, RQ5 | medium |
 | arXiv:2601.13597 "AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents" — potential E3 RCT (fills the biggest §6 gap) | RQ1 | high |
 | arXiv:2510.24265 "The Fast and Spurious: Developer Productivity with GenAI" | RQ2 | medium |
 | arXiv:2601.20112 "Usage, Effects and Requirements for AI Coding Assistants in the Enterprise" | RQ1, RQ4 | medium |
