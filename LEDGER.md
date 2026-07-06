@@ -94,7 +94,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | Stanford "Canaries in the Coal Mine" + dashboard (labour-market entry-level effects; Tier A labour econ, era-adjacent) — weak corroboration lead only | RQ3 | low |
 | arXiv 2504.11436 "Shifting Work Patterns with Generative AI" (Microsoft) | RQ1 | medium |
 | arXiv 2509.20353 — Copilot longitudinal case study | RQ2, RQ5 | medium |
-| AIDev dataset paper (arXiv 2602.09185) — provenance/independence check: many MSR 2026 agentic-PR studies share this one dataset, which caps their triangulation value | RQ2 | high |
 | arXiv:2510.24265 "The Fast and Spurious: Developer Productivity with GenAI" | RQ2 | medium |
 | arXiv:2601.20112 "Usage, Effects and Requirements for AI Coding Assistants in the Enterprise" | RQ1, RQ4 | medium |
 | arXiv 2510.10165 — AI-assisted programming and technical-debt/maintenance burden | RQ3, RQ4 | medium |
