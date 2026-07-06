@@ -37,6 +37,8 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | prageng-2026-survey | RQ1, RQ2 | C (independent practitioner journalism; readership self-selection toward senior/engaged devs; 65-pp full report paywalled) | E3-focused by design; per-item era tags | P1.3 |
 | cursor-velocity-quality-2025 | RQ3, RQ5 | A (staggered DiD, matched controls, own dataset; SAME CMU LAB as he-2026-2x-mandate + agents-vs-ides-2026 — three papers, ONE voice for triangulation) | E3 by window (.cursorrules proxy can't split sub-modality) | P1.3 |
 | uber-2026-claude-cost | RQ4 | C weak-end (single paywalled primary interview; no methodology for 70%/84% figures; cap figures independently attested by Bloomberg; COO on-record ROI-null) | E3 confirmed | P1.4 |
+| stray-2026-nav | RQ2, RQ5 | B (telemetry+survey+interviews, peer-reviewed HICSS-59; no causal design; cleanest independence in base) | E1 (pre-agent-mode Copilot) — inadmissible for E3 claims | P1.4 |
+| agent-maintainability-2026 | RQ3 | A (controlled authorship manipulation, own benchmark-derived dataset; first genuinely independent academic leg for tension 4 — no CMU-lab or AIDev overlap) | E3 clean (agent authorship definitional) | P1.4 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -47,7 +49,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | MIT NANDA "GenAI Divide" report — shadow-AI critique (via dora-2026-roi leads) | RQ3 | medium |
 | DORA 2025 critiques/analyses (RedMonk, InfoQ, getDX) | RQ2, RQ5 | medium |
 | DORA 2026 annual report — re-check September 2026 (does not exist as of Jul 2026) | RQ5 | note |
-| arXiv 2606.21804 "Is Agent Code Less Maintainable Than Human Code?" — direct E3 quality test | RQ3 | high |
 | arXiv 2603.28592 "Debt Behind the AI Boom" | RQ3, RQ4 | medium |
 | GitClear Jan 2026 "Top Performers" piece | RQ1 | low |
 | Hoffmann, Boysel, Nagle, Peng & Xu (2025) HBS WP 25-021 "Generative AI and the Nature of Work" — task-allocation quasi-experiment | RQ1 | medium |
@@ -57,7 +58,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | Economic Index methodology critiques (Strauss; Empiricrafting) | RQ2 | low |
 | Stack Overflow 2026 survey results — re-check ~Q4 2026 (collection opened 23 Jun 2026, no results yet) | RQ2 | note |
 | SO "Closing the developer AI trust gap" post (Feb 2026) | RQ2, RQ6 | low |
-| Stray et al. (HICSS 2026) — independent 2-yr NAV IT longitudinal: null commit-activity change, perception ≠ measured | RQ2, RQ5 | high |
 | arXiv 2506.10051 — brownfield student study | RQ3 | medium |
 | E3-era seniority evidence hunt — does the junior-gains pattern reverse under agentic tools? (Pragmatic Engineer etc., Tier C/D) | RQ1, RQ3 | high |
 | arXiv 2504.11436 "Shifting Work Patterns with Generative AI" (Microsoft) | RQ1 | medium |
