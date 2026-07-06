@@ -36,6 +36,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | vella-blincoe-2026 | RQ2, RQ6 (skill-formation theme) | B (well-instrumented self-report panel; no objective comparator; weak psychometrics; convenience sample) | E1/E2-dominant, unstratified encroaching E3 — NOT confirmed E3 (triage tag corrected; excluded from DoD E3 accounting) | P1.3 |
 | prageng-2026-survey | RQ1, RQ2 | C (independent practitioner journalism; readership self-selection toward senior/engaged devs; 65-pp full report paywalled) | E3-focused by design; per-item era tags | P1.3 |
 | cursor-velocity-quality-2025 | RQ3, RQ5 | A (staggered DiD, matched controls, own dataset; SAME CMU LAB as he-2026-2x-mandate + agents-vs-ides-2026 — three papers, ONE voice for triangulation) | E3 by window (.cursorrules proxy can't split sub-modality) | P1.3 |
+| uber-2026-claude-cost | RQ4 | C weak-end (single paywalled primary interview; no methodology for 70%/84% figures; cap figures independently attested by Bloomberg; COO on-record ROI-null) | E3 confirmed | P1.4 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -93,7 +94,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — arXiv 2602.00164 why fix-related agentic PRs stay unmerged (B, E3) | RQ3 | medium |
 | — arXiv 2605.04779 meta-analysis GenAI programming productivity 2019–2025, g=0.33 (B, mixed era) | RQ1 | medium |
 | — E3 sweep, rollouts/postmortems: Salesforce eng blog — Cursor legacy test coverage, 26→4 eng-days/repo (C, E3) | RQ4, RQ5 | high |
-| — Uber Claude Code budget burn (Forbes/The Information; $150–2,000/eng/mo, 84% adoption) (C/D, E3) | RQ4 | high |
 | — Replit agent production-DB deletion + fabrication postmortem (C, E3) | RQ3 | high |
 | — QCon London 2026 Böckeler keynote: cost escalation 12¢/100 lines → ~$91k/yr (C, E3) | RQ4 | high |
 | — Cursor vendor case-study set (Coinbase 90% idea→prod, Faire 2x PRs, NVIDIA 3x commits, Salesforce 30%) — triangulation pair with Salesforce eng blog (D, COI, E3) | RQ1, RQ5 | medium |
