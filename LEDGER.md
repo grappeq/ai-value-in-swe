@@ -31,6 +31,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | churn-151-repos-2025 | RQ3 | A (RDD + placebos, peer-reviewed TSE; within-repo counterfactual; clean independence) | E1/E2 (explicitly disclaims Claude Code-era tools) | P1.2 |
 | shen-2026-coding-skills | RQ3, RQ4, RQ6 (skill-formation theme) | A-candidate (RCT n=52; small N, single session; COI: Anthropic reputational, tested GPT-4o not Claude) | E2 chat — NOT agentic; era-transfer caveat applies | P1.2 |
 | dx-reock-2026 | RQ5, RQ1 | D (COI: reverse-direction, measurement vendor; near-zero methodology disclosure) | E2/E3 blend, unsplit | P1.2 |
+| cloudflare-2026-ai-review | RQ4, RQ1 | C strong-end (instrumented telemetry; mild COI: marketing register; cost data WITHOUT effectiveness data — supports "cheap", not "bottleneck relieved") | E3 confirmed (agentic multi-model pipeline) | P1.3 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -62,7 +63,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | GitHub/Accenture Nov 2024 counter-research (Tier D; side B of the defect-rate contradiction) | RQ3 | medium |
 | CodeRabbit Dec 2025 review-quality report (~1.7x issues in AI-coauthored PRs; Tier D) | RQ3, RQ4 | medium |
 | arXiv 2510.10165 — AI-assisted programming and technical-debt/maintenance burden | RQ3, RQ4 | medium |
-| — E3 sweep, code review (T7): Cloudflare "AI Code Review at scale" (C, E3, real cost data) | RQ1, RQ4 | high |
 | — arXiv 2604.03196 "From Industry Claims to Empirical Reality" code-review agents, MSR 2026 (B, E3) | RQ1, RQ2 | high |
 | — arXiv 2605.02273 "These Aren't the Reviews You're Looking For" — most AI PRs unreviewed or AI-reviewed (B, E3) | RQ5, RQ3 | high |
 | — arXiv 2605.22534 why agentic PRs merge/reject, MSR 2026 (B, E3) | RQ3 | medium |
