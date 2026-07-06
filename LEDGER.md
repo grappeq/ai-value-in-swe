@@ -23,6 +23,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | space-dx-core4 | RQ6 | SPACE: B-equiv methodology (COI: 5/6 MS/GitHub authors); DX Core 4: D (COI: vendor) | era-independent; DX AI ext E3-relevant | 3 |
 | metr-2026-uplift | RQ1, RQ2 | C (self-declared unreliable wave; belief statement ≠ evidence) | E3 later-gen (no per-task tool split) | P1.1 |
 | agents-vs-ides-2026 | RQ1, RQ3, RQ5 | A (DiD+PSM telemetry w/ counterfactuals; NOT an RCT; no CIs reported; LOC/commit outcomes are §5.7-suspect metrics) | E3 treatment; E2/E3 prior-exposure | P1.1 |
+| dora-2026-roi | RQ4, RQ5 | D (COI: consulting-arm co-authorship; no new data; illustrative-only numbers — deliberate downgrade from DORA-brand B) | mixed, inherits 2025 survey's pre-agentic weighting | P1.1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -30,7 +31,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | METR 11 May 2026 AI usage self-report survey (metr.org/blog/2026-05-11-ai-usage-survey/) — direct tension-1/RQ2 material | RQ2 | high |
 | METR "forthcoming" autonomous-agent evidence (per arXiv:2507.09089 §4.1) — search target | RQ1 | medium |
 | METR critiques roundup (Zvi Mowshowitz; The Experimentalist) | RQ2 | medium |
-| DORA "ROI of AI-assisted Software Development" 2026 interim (v2026.01, Apr 2026) — J-curve model, "instability tax" | RQ4, RQ5 | high |
+| MIT NANDA "GenAI Divide" report — shadow-AI critique (via dora-2026-roi leads) | RQ3 | medium |
 | DORA 2025 critiques/analyses (RedMonk, InfoQ, getDX) | RQ2, RQ5 | medium |
 | DORA 2026 annual report — re-check September 2026 (does not exist as of Jul 2026) | RQ5 | note |
 | arXiv 2507.10422 — peer-reviewed 151-repo churn study (contradicts gitclear-2025 churn leg) | RQ3 | high |
