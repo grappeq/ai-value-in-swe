@@ -39,6 +39,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | uber-2026-claude-cost | RQ4 | C weak-end (single paywalled primary interview; no methodology for 70%/84% figures; cap figures independently attested by Bloomberg; COO on-record ROI-null) | E3 confirmed | P1.4 |
 | stray-2026-nav | RQ2, RQ5 | B (telemetry+survey+interviews, peer-reviewed HICSS-59; no causal design; cleanest independence in base) | E1 (pre-agent-mode Copilot) — inadmissible for E3 claims | P1.4 |
 | agent-maintainability-2026 | RQ3 | A (controlled authorship manipulation, own benchmark-derived dataset; first genuinely independent academic leg for tension 4 — no CMU-lab or AIDev overlap) | E3 clean (agent authorship definitional) | P1.4 |
+| task-stratified-agents-2026 | RQ1, RQ3 | B (large-N observational, no counterfactual; independent authors but AIDev dataset — provenance hub caveat; triage note's 42.9%/81.6% figures were misattributed, actual Devin 61.6%/Codex 77.9%) | E3 confirmed | P1.4 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -86,7 +87,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — Opsera 2026 benchmark (D; headline %s lack methodology — cautious full read only, never cite headline alone) | RQ3 | low |
 | Agoda CTO Zalzberg interview (Tech Wire Asia) — actual Agoda numbers (~27% uplift, 1–6 hrs/wk saved), different spokesperson/topic from Stern post | RQ1, RQ5 | medium |
 | — Zendesk "absorption capacity" via InfoQ (C, E3; chase primary) | RQ5 | high |
-| — arXiv 2602.08915 task-stratified agent PR acceptance: Devin 42.9% vs Codex 81.6%, MSR 2026 (B, E3) | RQ1, RQ3 | high |
+| AIDev dataset provenance cluster — ONE central check (Li/Zhang/Hassan dataset paper + the 3 known MSR 26 users incl. Rahman arXiv:2602.02345) instead of per-paper checks | RQ2 | high |
 | — arXiv 2605.20049 code-cleanliness minimal-pair, Claude Code: token use −7–8% (B, E3) | RQ3, RQ4 | high |
 | — arXiv 2509.14745 agentic PRs on GitHub: 83.8% merge rate (B, E3) | RQ1 | medium |
 | — arXiv 2604.13108 architecture descriptors as agent navigation (B, E3) | RQ1, RQ3 | medium |
