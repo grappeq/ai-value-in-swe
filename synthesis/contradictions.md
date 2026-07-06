@@ -58,6 +58,13 @@ Never average conflicting results; never pick the convenient one.
 - Related §5 tension: 6 (bottleneck displacement)
 - Tension-6 voice tally (2026-07-06, post-P1.5): mechanism-existence has three converging independent orgs (he-2026 measured; Agoda and Zendesk narrative-only — the Zendesk piece is a prescriptive proposal, not a rollout report). Magnitude rests ONLY on Tier D vendor telemetry (Faros, DX) plus one unreplicated Tier A single-firm study (he-2026). OSS data (unreviewed-ai-prs-2026) complicates the coverage-collapse leg: matched-baseline review participation is equal for AI and human PRs; what shifts is composition (agent-steering displaces evaluation).
 
+## Atlassian vs Atlassian: the 45% headline vs the 30.8% measurement
+- Side A: atlassian-2026-ai-review (CTO blog, Jan 2026) — "cut PR cycle time by 45%", no methodology disclosed; Tier D (own product powering the result).
+- Side B: the same organisation's ICSE 2026 paper (86,614 PRs, >5,500 engineers, Jun 2024–Jun 2025) — measured −30.8% median cycle time (14.35h vs 20.73h, p<.001, non-random groups); Tier B with heavy vendor COI (10/11 Atlassian authors). Baselines are mutually inconsistent (">3 days" vs 20.73h) and the gap is unexplained by Atlassian.
+- Additional finding travelling with this: human review comments −35.6% is *celebrated* in the vendor telling, while the paper's own data shows AI comments are resolved less often than human ones (38.70% vs 44.45%) and overlap human comments only ~4% of the time.
+- Adjudication: cite only the measured −30.8% with its COI flag; the 45% is a marketing rounding-up of the same rollout (vendor headline ≈1.5x the measured effect) — corruption-instance-class evidence for RQ2, this time within a single organisation. Also yields an anti-metric candidate: "time to first review comment" becomes definitionally zero and meaning-free once an AI auto-comments on every PR.
+- Related §5 tension: 6 and 7
+
 ## Who gains most from AI: DORA's amplifier (ceiling) vs Plandek's floor-lift
 - Side A: dora-2025 — the amplifier thesis: AI magnifies the strengths of high-performing organisations and the dysfunctions of struggling ones (Tier B, self-report survey, backed by a platform-quality moderation result).
 - Side B: plandek-2026-benchmarks (R1 refresh, blind-extracted) — lower-quartile AI teams reportedly improve "nearly 50%" in lead-time-to-value vs 10–15% for top performers, i.e. AI lifts the floor most (Tier D, vendor telemetry; comparison teams "similar" not matched; headline metric undefined publicly; regression-to-the-mean unruled-out).

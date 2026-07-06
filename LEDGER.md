@@ -86,6 +86,10 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | quispe-2026-claude-frontier | RQ1 | B (Callaway–Sant'Anna staggered DiD, 5,838 devs, 28mo; self-selected adoption, author self-downgrades to "associational"; activity metrics only, §5.7 caveat; Caltech, independent of all our clusters) | E3 (Claude Code) | R1 |
 | sergeyuk-2026-evolving | RQ2, RQ6 | B (JetBrains telemetry, peer-reviewed ICSE 2026; STRONG vendor-data COI 4/6 authors; 800 devices not verified people; cohort not within-person; linear model — J-curve undetectable by design) | E1/E2 blended, pre-agentic (ends Oct 2024) — NOT the E3/skill-formation payload hoped; baseline + methodology value | R1 |
 | plandek-2026-benchmarks | RQ5 | D (vendor customer telemetry; "similar" not matched teams; headline metric publicly undefined; regression-to-mean unruled-out; fuller report demo-gated) | E2/E3 implied, no modality split | R1 |
+| ai-build-code-2026 | RQ3 (T11 — first direct evidence) | B weak-end (MSR challenge paper; AIDev-derived — one-voice cluster; NO human baseline; 824/945 files smell-free, a denominator the abstract underplays) | E3 | R1 |
+| atlassian-2026-ai-review | RQ5, RQ1 (T7), RQ4 | Blog: D (COI, own product); companion ICSE paper: B (10/11 Atlassian authors); ONE rollout = one voice; 45% headline vs measured −30.8% logged as within-org contradiction; quality outcomes explicitly absent | E3 (single-purpose review agent) | R1 |
+| german-se-survey-2026 | RQ2, RQ6 | B weak-end (FSE 2026 peer-reviewed mixed-methods; n=109 convenience; wholly self-report; policy-practice-gap claim traces to a CITED paper, not this one's data) | E1/E2 chat-dominant (mid-2025 fielding) | R1 |
+| nubank-devin-2025 | RQ5, RQ3 (T5) | Vendor page D (HIGH COI, undated, internally inconsistent 8x-vs-12x) + Nubank blog C (medium COI) = ONE data point; only "12x" corroborated by Nubank's own words; estimate-vs-baseline ratios, not telemetry; no quality/rework data | E3 confirmed (autonomous agent, human review at merge) | R1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -95,10 +99,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | Quispe v2/full paper — placebo/covariate checks and heterogeneity splits explicitly promised; re-check before any future synthesis refresh | RQ1 | note |
 | Bain (REAL publications, replacing the phantom lead): "Your AI Budget Is Growing, Your Returns Aren't" (Jun 2026, n=951 exec survey) + "From Pilots to Payoff" (2025) | RQ4, RQ2 | low |
 | "Gartner Agentic AI Pulse 2026" — verify existence before any use (source of the misattributed 41%/19% figures) | RQ2 | low |
-| Nubank ETL-migration pair: Devin vendor page + Nubank's own eng blog (12x claim, 6M-LOC legacy) — diff the two versions | RQ5, RQ3 (T5) | medium-high |
-| arXiv 2601.16700 German SE industry adoption survey (B/C; policy-practice gap angle) | RQ2, RQ6 | medium |
-| Atlassian "cut PR cycle time 45% with AI code reviews" (D, COI; human review comments −35.6% — double-edged) | RQ5, RQ1 (T7) | medium |
-| arXiv 2601.16839 "AI builds, We Analyze" MSR 2026 — T11 build-code quality (B, E3) | RQ3 (T11) | medium |
+| Neumann et al. (2026) — the actual primary for the German policy-practice-gap claim (load-bearing citation in german-se-survey-2026) | RQ6 | low-medium |
 | arXiv 2603.13723 "Do AI Agents Really Improve Code Readability?" (B, E3, equal-quality datapoint) | RQ3 | low-medium |
 | Aerospace rollout (psware.com, 81% fewer eng-hours) — independence/COI check REQUIRED before any use | RQ1, RQ5 | medium |
 | arXiv 2606.20598 biometrics AI-coding study — population check required (likely students → mechanism background only) | RQ6 (skill theme) | medium |
