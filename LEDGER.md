@@ -32,6 +32,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | shen-2026-coding-skills | RQ3, RQ4, RQ6 (skill-formation theme) | A-candidate (RCT n=52; small N, single session; COI: Anthropic reputational, tested GPT-4o not Claude) | E2 chat — NOT agentic; era-transfer caveat applies | P1.2 |
 | dx-reock-2026 | RQ5, RQ1 | D (COI: reverse-direction, measurement vendor; near-zero methodology disclosure) | E2/E3 blend, unsplit | P1.2 |
 | cloudflare-2026-ai-review | RQ4, RQ1 | C strong-end (instrumented telemetry; mild COI: marketing register; cost data WITHOUT effectiveness data — supports "cheap", not "bottleneck relieved") | E3 confirmed (agentic multi-model pipeline) | P1.3 |
+| zalando-2025-postmortems | RQ3, RQ1 | C (clean independence, non-vendor; ~10% surface-attribution-error is a considered practitioner estimate, NOT audited) | E2 pipeline + an E3 negative datapoint (agentic attempt abandoned) | P1.3 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -69,7 +70,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — arXiv 2601.21276 "More Code, Less Reuse" — redundancy up, reviewer sentiment up (B, E3) | RQ2, RQ3 | medium |
 | — GitHub blog "Agent pull requests are everywhere" (D, E3; 60M+ Copilot reviews claim) | RQ5 | medium |
 | — Microsoft devblog AI-powered code reviews rollout (D, E3) | RQ1 | low |
-| — E3 sweep, incident response (T8): Zalando 2-yr postmortem analysis, ~10% surface-attribution error (C, E3) | RQ3 | high |
 | — arXiv 2601.22208 "Stalled, Biased, and Confused" RCA reasoning failures, 48k scenarios (A/B, E3) | RQ3 | high |
 | — arXiv 2604.12108 Google Auto-Diagnose test-failure RCA, ICSE-SEIP 2026 (B/C, COI, E3) | RQ1 | medium |
 | — Datadog LLM postmortem pipeline (D, E3) | RQ1 | medium |
