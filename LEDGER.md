@@ -24,6 +24,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | metr-2026-uplift | RQ1, RQ2 | C (self-declared unreliable wave; belief statement ≠ evidence) | E3 later-gen (no per-task tool split) | P1.1 |
 | agents-vs-ides-2026 | RQ1, RQ3, RQ5 | A (DiD+PSM telemetry w/ counterfactuals; NOT an RCT; no CIs reported; LOC/commit outcomes are §5.7-suspect metrics) | E3 treatment; E2/E3 prior-exposure | P1.1 |
 | dora-2026-roi | RQ4, RQ5 | D (COI: consulting-arm co-authorship; no new data; illustrative-only numbers — deliberate downgrade from DORA-brand B) | mixed, inherits 2025 survey's pre-agentic weighting | P1.1 |
+| he-2026-2x-mandate | RQ5, RQ1, RQ4 | A (staggered DiD, placebo tests; single unnamed firm; NOT independent of stanford-denisov-blanch — shared author) | E3 confirmed (Cursor, Claude Code, in-house agents) | P1.1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -38,7 +39,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | arXiv 2606.21804 "Is Agent Code Less Maintainable Than Human Code?" — direct E3 quality test | RQ3 | high |
 | arXiv 2603.28592 "Debt Behind the AI Boom" | RQ3, RQ4 | medium |
 | GitClear Jan 2026 "Top Performers" piece | RQ1 | low |
-| arXiv:2607.01904 "AI Writes Faster Than Humans Can Review" (Denisov-Blanch co-auth., Jul 2026; 802 devs, 196k PRs, diff-in-diff, E3) | RQ5, RQ1 | high |
+| Heilman et al. 2026 (Microsoft, 16,223 engineers, dose-response) — named by he-2026-2x-mandate authors as the closest comparable design | RQ1, RQ5 | high |
 | Denisov-Blanch Dec 2025 "inflection point" artefact + ASE 2026 repo-AI-config paper — search targets | RQ3, RQ5 | medium |
 | "Ghost engineers" critiques (Jellyfish, HN) — anti-metrics material on the Stanford model | RQ2, RQ6 | low |
 | OpenAI/NBER "How People Use ChatGPT" (WP 34255) — comparable vendor usage index, Tier D baseline | RQ1 | low |
