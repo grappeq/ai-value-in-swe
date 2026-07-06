@@ -26,6 +26,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | dora-2026-roi | RQ4, RQ5 | D (COI: consulting-arm co-authorship; no new data; illustrative-only numbers — deliberate downgrade from DORA-brand B) | mixed, inherits 2025 survey's pre-agentic weighting | P1.1 |
 | he-2026-2x-mandate | RQ5, RQ1, RQ4 | A (staggered DiD, placebo tests; single unnamed firm; NOT independent of stanford-denisov-blanch — shared author) | E3 confirmed (Cursor, Claude Code, in-house agents) | P1.1 |
 | faros-2026-whiplash | RQ5, RQ4 | D (COI: reverse-direction — alarm sells governance tooling; before/after design, confounders unaddressed) | E2/E3 blend; agentic authorship <1% of dataset | P1.1 |
+| heilman-2026-microsoft | RQ1, RQ5, RQ6 | A (TWFE dose-response, placebo battery; intensity-only identification, no never-adopters; COI: 3/3 Microsoft, undisclosed) | E1/E2 (agent modes absent from telemetry — NOT the E3 comparator it's cited as) | P1.2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -40,7 +41,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | arXiv 2606.21804 "Is Agent Code Less Maintainable Than Human Code?" — direct E3 quality test | RQ3 | high |
 | arXiv 2603.28592 "Debt Behind the AI Boom" | RQ3, RQ4 | medium |
 | GitClear Jan 2026 "Top Performers" piece | RQ1 | low |
-| Heilman et al. 2026 (Microsoft, 16,223 engineers, dose-response) — named by he-2026-2x-mandate authors as the closest comparable design | RQ1, RQ5 | high |
+| Hoffmann, Boysel, Nagle, Peng & Xu (2025) HBS WP 25-021 "Generative AI and the Nature of Work" — task-allocation quasi-experiment | RQ1 | medium |
 | Denisov-Blanch Dec 2025 "inflection point" artefact + ASE 2026 repo-AI-config paper — search targets | RQ3, RQ5 | medium |
 | "Ghost engineers" critiques (Jellyfish, HN) — anti-metrics material on the Stanford model | RQ2, RQ6 | low |
 | OpenAI/NBER "How People Use ChatGPT" (WP 34255) — comparable vendor usage index, Tier D baseline | RQ1 | low |
