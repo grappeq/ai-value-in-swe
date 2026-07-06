@@ -41,11 +41,11 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | agent-maintainability-2026 | RQ3 | A (controlled authorship manipulation, own benchmark-derived dataset; first genuinely independent academic leg for tension 4 — no CMU-lab or AIDev overlap) | E3 clean (agent authorship definitional) | P1.4 |
 | task-stratified-agents-2026 | RQ1, RQ3 | B (large-N observational, no counterfactual; independent authors but AIDev dataset — provenance hub caveat; triage note's 42.9%/81.6% figures were misattributed, actual Devin 61.6%/Codex 77.9%) | E3 confirmed | P1.4 |
 | unreviewed-ai-prs-2026 | RQ5, RQ3 | B (peer-reviewed EASE 2026, validated classifier; cross-sectional; independent authors but population = AIDev creators' own pre-curated slice) | E3 confirmed (5 agents) | P1.4 |
+| metr-2026-survey | RQ2 | C weak-end (perception-only, no comparator, ~2% response rate, 335-vs-349 count gap; METR self-flags overstatement) | E3-leaning, not isolable; only ~25% SWE sample | P1.5 |
 
 ## Queued
 | source_id / search target | RQ | priority |
 |---|---|---|
-| METR 11 May 2026 AI usage self-report survey (metr.org/blog/2026-05-11-ai-usage-survey/) — direct tension-1/RQ2 material | RQ2 | high |
 | METR "forthcoming" autonomous-agent evidence (per arXiv:2507.09089 §4.1) — search target | RQ1 | medium |
 | METR critiques roundup (Zvi Mowshowitz; The Experimentalist) | RQ2 | medium |
 | MIT NANDA "GenAI Divide" report — shadow-AI critique (via dora-2026-roi leads) | RQ3 | medium |
