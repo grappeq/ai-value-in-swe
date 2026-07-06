@@ -115,7 +115,7 @@ All 12 seed anchors verified: 10 VERIFIED (stanford-denisov-blanch upgraded post
 | [colleague] terriblesoftware.org "Using my fucking brain" (May 2026) | personal anecdote, no data — cognitive-debt cluster colour only |
 | [colleague] siddhantkhare.com "AI fatigue is real" (2026) | personal essay, two-week self-log only, no data — same cluster |
 | [colleague] tomwojcik.com "What AI coding costs you" (Feb 2026) | essay; its citable evidence (Shen-Tamkin RCT, Storey cognitive debt) captured directly in Queued |
-| [colleague] arXiv 2506.08872 "Your Brain on ChatGPT" (essay-writing EEG) | out of SDLC scope per protocol; admissible only as era-independent mechanism background if the skill-formation theme is approved — never carries an SWE claim |
+| [colleague] arXiv 2506.08872 "Your Brain on ChatGPT" (essay-writing EEG) | out of SDLC scope; per PROTOCOL v0.4 (approved) admissible as era-independent mechanism background only — never carries an SWE claim |
 
 ## RQ status
 RQ1: OPEN | RQ2: OPEN | RQ3: OPEN | RQ4: OPEN | RQ5: OPEN | RQ6: OPEN

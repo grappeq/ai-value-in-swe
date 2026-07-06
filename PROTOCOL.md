@@ -43,7 +43,9 @@ Every piece of evidence gets tagged against this taxonomy. Refine it during Phas
 | T10 | Documentation & knowledge | Code docs, runbooks, onboarding material |
 | T11 | Ops / infra / CI | IaC, pipeline config, deployment |
 
-Cross-cutting tags: developer seniority (junior/senior effects often diverge), codebase size/age, language ecosystem, and — critically — **tool era**:
+Cross-cutting tags: developer seniority (junior/senior effects often diverge), codebase size/age, language ecosystem, and — critically — **tool era** (below).
+
+**Cross-cutting theme — skill formation & cognitive effects (added v0.4, human-approved):** the impact of AI assistance on developer comprehension, skill acquisition, cognitive load, and long-term capability ("cognitive debt"). Not a task type — tag it alongside T1–T11. Feeds **RQ4** (long-term cost profile: skill atrophy and comprehension loss are costs even when task speed rises) and **RQ6** (what to instrument: comprehension/wellbeing measures alongside output measures). Scope rule: out-of-domain mechanism studies (e.g. the essay-writing EEG study, arXiv:2506.08872) are admissible as era-independent mechanism *background only* — they never carry an SWE claim in the evidence table or exec brief.
 
 - **E1 — Autocomplete era:** inline single-point suggestions (Copilot-classic); typical of ~2021–2023
 - **E2 — Chat-assisted era:** ChatGPT/Claude in a side panel, copy-paste workflows; typical of 2023–2024
@@ -216,6 +218,7 @@ Full agent instructions live in `CLAUDE.md` (drafted alongside this protocol).
 
 ## Changelog
 
+- **v0.4 (2026-07-06):** added the skill-formation & cognitive-effects cross-cutting theme (feeds RQ4 and RQ6; mechanism-background scope rule for out-of-domain studies). Prompted by colleague-shared resources at the Phase 0 gate (Anthropic/Shen-Tamkin comprehension RCT, cognitive-load and cognitive-debt material); approved by the human 2026-07-06.
 - **v0.3 (2026-07-06):** reweighted toward practitioner evidence — few formal papers expected. Evidence bar reframed as practitioner-first with triangulation substituting for rigour; Tier C promoted to expected volume centre with a ≥3-independent-sources rule for carrying exec-brief claims (medium confidence cap); Tier C hunting grounds added to §6; practitioner query variants added to §6.5; DoD "zero Tier C/D claims" rule replaced with the triangulation rule (Tier D still never carries a claim alone).
 - **v0.2 (2026-07-06):** renamed file to PROTOCOL.md; commits standardised to one per source + batch checkpoint; era assignment by tool modality, not year; preprint substitution rule for paywalled Tier A/B; evidence table switched CSV→TSV, `era` and `measurement_basis` columns added to schema; per-RQ query plans added (§6.5); saturation rule disambiguated for multi-RQ sources; DoD scarcity clause added; RQ4 thin-evidence expectation pre-registered.
 - **v0.1:** initial draft.
