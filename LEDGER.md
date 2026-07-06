@@ -34,6 +34,8 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | cloudflare-2026-ai-review | RQ4, RQ1 | C strong-end (instrumented telemetry; mild COI: marketing register; cost data WITHOUT effectiveness data — supports "cheap", not "bottleneck relieved") | E3 confirmed (agentic multi-model pipeline) | P1.3 |
 | zalando-2025-postmortems | RQ3, RQ1 | C (clean independence, non-vendor; ~10% surface-attribution-error is a considered practitioner estimate, NOT audited) | E2 pipeline + an E3 negative datapoint (agentic attempt abandoned) | P1.3 |
 | vella-blincoe-2026 | RQ2, RQ6 (skill-formation theme) | B (well-instrumented self-report panel; no objective comparator; weak psychometrics; convenience sample) | E1/E2-dominant, unstratified encroaching E3 — NOT confirmed E3 (triage tag corrected; excluded from DoD E3 accounting) | P1.3 |
+| prageng-2026-survey | RQ1, RQ2 | C (independent practitioner journalism; readership self-selection toward senior/engaged devs; 65-pp full report paywalled) | E3-focused by design; per-item era tags | P1.3 |
+| cursor-velocity-quality-2025 | RQ3, RQ5 | A (staggered DiD, matched controls, own dataset; SAME CMU LAB as he-2026-2x-mandate + agents-vs-ides-2026 — three papers, ONE voice for triangulation) | E3 by window (.cursorrules proxy can't split sub-modality) | P1.3 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -83,7 +85,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — Opsera 2026 benchmark (D; headline %s lack methodology — cautious full read only, never cite headline alone) | RQ3 | low |
 | Agoda CTO Zalzberg interview (Tech Wire Asia) — actual Agoda numbers (~27% uplift, 1–6 hrs/wk saved), different spokesperson/topic from Stern post | RQ1, RQ5 | medium |
 | — Zendesk "absorption capacity" via InfoQ (C, E3; chase primary) | RQ5 | high |
-| — E3 sweep, agentic controlled/mining studies: arXiv 2511.04427 "Speed at the Cost of Quality" Cursor DiD, MSR 2026 (B, E3) | RQ3, RQ5 | high |
 | — arXiv 2602.08915 task-stratified agent PR acceptance: Devin 42.9% vs Codex 81.6%, MSR 2026 (B, E3) | RQ1, RQ3 | high |
 | — arXiv 2605.20049 code-cleanliness minimal-pair, Claude Code: token use −7–8% (B, E3) | RQ3, RQ4 | high |
 | — arXiv 2509.14745 agentic PRs on GitHub: 83.8% merge rate (B, E3) | RQ1 | medium |
@@ -92,7 +93,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — arXiv 2602.00164 why fix-related agentic PRs stay unmerged (B, E3) | RQ3 | medium |
 | — arXiv 2605.04779 meta-analysis GenAI programming productivity 2019–2025, g=0.33 (B, mixed era) | RQ1 | medium |
 | — E3 sweep, rollouts/postmortems: Salesforce eng blog — Cursor legacy test coverage, 26→4 eng-days/repo (C, E3) | RQ4, RQ5 | high |
-| — Pragmatic Engineer "AI Tooling for Software Engineers in 2026" survey, n=906 (C, E3, self-report) | RQ1, RQ2 | high |
 | — Uber Claude Code budget burn (Forbes/The Information; $150–2,000/eng/mo, 84% adoption) (C/D, E3) | RQ4 | high |
 | — Replit agent production-DB deletion + fabrication postmortem (C, E3) | RQ3 | high |
 | — QCon London 2026 Böckeler keynote: cost escalation 12¢/100 lines → ~$91k/yr (C, E3) | RQ4 | high |
