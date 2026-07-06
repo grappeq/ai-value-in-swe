@@ -9,6 +9,7 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 | metr-2025-rct | RQ1, RQ2 | A | E3 (early IDE-agent; boundary caveat) | 1 |
 | stanford-denisov-blanch | RQ1, RQ3, RQ5 | B (talk-grade figures) | E1/E2-mixed; 2026 wave E3 | 1 |
 | gitclear-2025 | RQ3, RQ4 | B (COI: vendor telemetry) | E1/E2 trendline; 2026 edn E2/E3 (gated) | 1 |
+| dora-2025 | RQ5, RQ2 | B (vendor-adjacency flag) | E1/E2/E3 mixed, weighted pre-agentic | 1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -16,7 +17,9 @@ Last session: 2026-07-06 | Last commit: 562983d (initial setup)
 | METR Feb 2026 uplift update (57 devs, 800+ tasks; METR judge wave unreliable but expect improved speedup) — reinterprets metr-2025-rct | RQ1, RQ2 | high |
 | METR "forthcoming" autonomous-agent evidence (per arXiv:2507.09089 §4.1) — search target | RQ1 | medium |
 | METR critiques roundup (Zvi Mowshowitz; The Experimentalist) | RQ2 | medium |
-| DORA 2025 (+ 2026 if released) | RQ5 | high |
+| DORA "ROI of AI-assisted Software Development" 2026 interim (v2026.01, Apr 2026) — J-curve model, "instability tax" | RQ4, RQ5 | high |
+| DORA 2025 critiques/analyses (RedMonk, InfoQ, getDX) | RQ2, RQ5 | medium |
+| DORA 2026 annual report — re-check September 2026 (does not exist as of Jul 2026) | RQ5 | note |
 | arXiv 2507.10422 — peer-reviewed 151-repo churn study (contradicts gitclear-2025 churn leg) | RQ3 | high |
 | arXiv 2606.21804 "Is Agent Code Less Maintainable Than Human Code?" — direct E3 quality test | RQ3 | high |
 | arXiv 2603.28592 "Debt Behind the AI Boom" | RQ3, RQ4 | medium |
