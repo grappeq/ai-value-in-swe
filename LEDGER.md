@@ -57,6 +57,11 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | bockeler-2026-qcon | RQ4, RQ3 | C (primary transcript read; cost figures are anecdote-of-anecdote extrapolations — EXCLUDED from quantitative RQ4 rows, prose colour only; mild Thoughtworks COI) | E3 confirmed | P1.5 |
 | zendesk-2026-absorption | RQ5 | C weak-end (named org, no COI; ZERO numbers; prescriptive proposal, not a rollout report — InfoQ's "Zendesk says" framing overstates) | E3 by inference, no tool named | P1.5 |
 | aidev-dataset-2026 | RQ2 (instrument record) | Dataset/instrument, not findings source (Queen's U; attribution heuristics have ZERO reported validation; Codex ~90% of early volume; local agents underrepresented) | E3 instrument | P1.5 |
+| borg-2026-echoes | RQ3 (tension-4 bound) | A (pre-registered 2-phase RCT, EMSE; CodeScene-metric COI; preprint substituted §3) | E1 + minor E2 — NOT agentic | AR |
+| defect-rate-side-b | RQ3 (tension-4 leg f) | D x2 (GitHub lab study + CodeRabbit own-tool counts; opposing COIs; "Accenture" piece contains no quality figure) | E1/E2; CodeRabbit untaggable | AR |
+| end-of-code-review-2026 | RQ1 (T7 opposing thesis) | Position paper — non-evidentiary (Monperrus, KTH; no empirical content; argues past measured data) | E3 topic | AR |
+| ghaleb-2026-fingerprinting | RQ2 (instrument check) | Instrument validation — CIRCULAR (AIDev's own labels as ground truth; Claude Code F1 0.67; one-voice cap HOLDS) | E3 instrument | AR |
+| microsoft-cli-agents-2026 | RQ1, RQ3 (tension 5) | B (synthetic control + within-person FE; COI: Microsoft-on-Microsoft; NOT independent of heilman via shared author) | E3 clean (Claude Code + Copilot CLI) | AR |
 
 ## Queued
 | source_id / search target | RQ | priority |
