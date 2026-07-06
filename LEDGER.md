@@ -10,6 +10,7 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | stanford-denisov-blanch | RQ1, RQ3, RQ5 | B (talk-grade figures) | E1/E2-mixed; 2026 wave E3 | 1 |
 | gitclear-2025 | RQ3, RQ4 | B (COI: vendor telemetry) | E1/E2 trendline; 2026 edn E2/E3 (gated) | 1 |
 | dora-2025 | RQ5, RQ2 | B (vendor-adjacency flag) | E1/E2/E3 mixed, weighted pre-agentic | 1 |
+| google-rct-2024 | RQ1 | A (COI: Google-on-Google; headline 21% non-significant in main model) | E1/E2 boundary, autocomplete-dominant | 2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -32,7 +33,9 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | Stack Overflow Developer Survey 2025/2026 | RQ2 | medium |
 | Peng et al. 2023 Copilot RCT (baseline) | RQ1 | medium |
 | Cui et al. 2024 field experiments (seniority) | RQ1, RQ3 | medium |
-| Google internal RCT ~2024 (baseline) | RQ1 | medium |
+| arXiv:2601.13597 "AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents" — potential E3 RCT (fills the biggest §6 gap) | RQ1 | high |
+| arXiv:2510.24265 "The Fast and Spurious: Developer Productivity with GenAI" | RQ2 | medium |
+| arXiv:2601.20112 "Usage, Effects and Requirements for AI Coding Assistants in the Enterprise" | RQ1, RQ4 | medium |
 | Uplevel 2024 (methodology critique) | RQ2, RQ6 | medium |
 | DORA 2024 (trendline anchor) | RQ5 | medium |
 | SPACE framework & DX Core 4 | RQ6 | medium |
