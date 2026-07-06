@@ -42,6 +42,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | task-stratified-agents-2026 | RQ1, RQ3 | B (large-N observational, no counterfactual; independent authors but AIDev dataset — provenance hub caveat; triage note's 42.9%/81.6% figures were misattributed, actual Devin 61.6%/Codex 77.9%) | E3 confirmed | P1.4 |
 | unreviewed-ai-prs-2026 | RQ5, RQ3 | B (peer-reviewed EASE 2026, validated classifier; cross-sectional; independent authors but population = AIDev creators' own pre-curated slice) | E3 confirmed (5 agents) | P1.4 |
 | metr-2026-survey | RQ2 | C weak-end (perception-only, no comparator, ~2% response rate, 335-vs-349 count gap; METR self-flags overstatement) | E3-leaning, not isolable; only ~25% SWE sample | P1.5 |
+| review-agents-reality-2026 | RQ1, RQ2 | B (large-N observational; Mining Challenge poster track — lighter review bar; independent authors, AIDev slice) | E3 confirmed (CRAs on agent PRs) | P1.5 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -70,7 +71,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | GitHub/Accenture Nov 2024 counter-research (Tier D; side B of the defect-rate contradiction) | RQ3 | medium |
 | CodeRabbit Dec 2025 review-quality report (~1.7x issues in AI-coauthored PRs; Tier D) | RQ3, RQ4 | medium |
 | arXiv 2510.10165 — AI-assisted programming and technical-debt/maintenance burden | RQ3, RQ4 | medium |
-| — arXiv 2604.03196 "From Industry Claims to Empirical Reality" code-review agents, MSR 2026 (B, E3) | RQ1, RQ2 | high |
+| arXiv 2606.13175 "The End of Code Review: Coding Agents Supersede Human Inspection" — opposing T7 thesis vs review-agents-reality-2026; contradiction-hunt priority | RQ1, RQ5 | high |
 | — arXiv 2605.22534 why agentic PRs merge/reject, MSR 2026 (B, E3) | RQ3 | medium |
 | — arXiv 2601.21276 "More Code, Less Reuse" — redundancy up, reviewer sentiment up (B, E3) | RQ2, RQ3 | medium |
 | — GitHub blog "Agent pull requests are everywhere" (D, E3; 60M+ Copilot reviews claim) | RQ5 | medium |
