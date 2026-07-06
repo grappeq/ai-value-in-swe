@@ -28,6 +28,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | faros-2026-whiplash | RQ5, RQ4 | D (COI: reverse-direction — alarm sells governance tooling; before/after design, confounders unaddressed) | E2/E3 blend; agentic authorship <1% of dataset | P1.1 |
 | heilman-2026-microsoft | RQ1, RQ5, RQ6 | A (TWFE dose-response, placebo battery; intensity-only identification, no never-adopters; COI: 3/3 Microsoft, undisclosed) | E1/E2 (agent modes absent from telemetry — NOT the E3 comparator it's cited as) | P1.2 |
 | agoda-2026-bottleneck | RQ5 | C weak-end (named org, no vendor COI — but zero own numbers; mechanism corroboration only, cannot carry numeric claims; InfoQ's "Agoda numbers" are actually Faros's) | E3 confirmed | P1.2 |
+| churn-151-repos-2025 | RQ3 | A (RDD + placebos, peer-reviewed TSE; within-repo counterfactual; clean independence) | E1/E2 (explicitly disclaims Claude Code-era tools) | P1.2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -38,7 +39,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | MIT NANDA "GenAI Divide" report — shadow-AI critique (via dora-2026-roi leads) | RQ3 | medium |
 | DORA 2025 critiques/analyses (RedMonk, InfoQ, getDX) | RQ2, RQ5 | medium |
 | DORA 2026 annual report — re-check September 2026 (does not exist as of Jul 2026) | RQ5 | note |
-| arXiv 2507.10422 — peer-reviewed 151-repo churn study (contradicts gitclear-2025 churn leg) | RQ3 | high |
 | arXiv 2606.21804 "Is Agent Code Less Maintainable Than Human Code?" — direct E3 quality test | RQ3 | high |
 | arXiv 2603.28592 "Debt Behind the AI Boom" | RQ3, RQ4 | medium |
 | GitClear Jan 2026 "Top Performers" piece | RQ1 | low |
