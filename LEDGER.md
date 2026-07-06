@@ -93,6 +93,13 @@ All 12 seed anchors verified: 10 VERIFIED (stanford-denisov-blanch upgraded post
 | — Anthropic Apr 2026 Claude Code quality postmortem (D, COI, E3) | RQ3 | medium |
 | — Pragmatic Engineer "How Claude Code Is Built" + Wolff QCon talk (C/D; Anthropic self-report, 90% Claude-written claim) | RQ1 | low |
 | — arXiv 2508.00178 "The SPACE of AI" — SPACE co-author's AI-era follow-up (Jul 2025) | RQ6 | high |
+| — [colleague] Anthropic/Shen-Tamkin arXiv 2601.20245 — RCT n=52: AI-assisted learners −17pp comprehension (d=0.738), speed gain ns (A design, COI: Anthropic) | RQ3, RQ4, RQ6 | high |
+| — [colleague] DX/Reock (Mar 2026) "gains are ~10%": 400-company telemetry, AI usage +65% vs PR throughput +7.76% (D, COI, E3 window) | RQ5, RQ1 | high |
+| — [colleague] DX/Noda companion "why aren't gains higher" — mechanisms; coding ≈16% of dev time (D, COI) | RQ5 | medium |
+| — [colleague] arXiv 2605.01160 "Productivity-Reliability Paradox" — single-author MLR of 67 sources + 4-mo pilot; synthesis cross-check only | RQ5 | medium |
+| — [colleague] Orosz "Slow down to speed up" talk (C, E3; get transcript via yt-dlp) | RQ1, RQ5 | medium |
+| — [colleague] HBR "Psychological Costs of Adopting AI" (May 2026) — general workforce, not SWE; chase its underlying studies | RQ4 | low |
+| — Storey "cognitive debt" concept (via tomwojcik post) — RQ6 vocabulary/instrument lead | RQ6 | low |
 
 ## Blocked
 | source_id | reason | needs |
@@ -104,6 +111,11 @@ All 12 seed anchors verified: 10 VERIFIED (stanford-denisov-blanch upgraded post
 ## Rejected (triage)
 | source | one-line reason |
 |---|---|
+| [colleague] James Shore "You Need AI That Reduces Maintenance Costs" (May 2026) | credible practitioner, but hypothetical numbers by the author's own admission — framing lens for RQ4 synthesis, not evidence |
+| [colleague] terriblesoftware.org "Using my fucking brain" (May 2026) | personal anecdote, no data — cognitive-debt cluster colour only |
+| [colleague] siddhantkhare.com "AI fatigue is real" (2026) | personal essay, two-week self-log only, no data — same cluster |
+| [colleague] tomwojcik.com "What AI coding costs you" (Feb 2026) | essay; its citable evidence (Shen-Tamkin RCT, Storey cognitive debt) captured directly in Queued |
+| [colleague] arXiv 2506.08872 "Your Brain on ChatGPT" (essay-writing EEG) | out of SDLC scope per protocol; admissible only as era-independent mechanism background if the skill-formation theme is approved — never carries an SWE claim |
 
 ## RQ status
 RQ1: OPEN | RQ2: OPEN | RQ3: OPEN | RQ4: OPEN | RQ5: OPEN | RQ6: OPEN
