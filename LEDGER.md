@@ -29,6 +29,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | heilman-2026-microsoft | RQ1, RQ5, RQ6 | A (TWFE dose-response, placebo battery; intensity-only identification, no never-adopters; COI: 3/3 Microsoft, undisclosed) | E1/E2 (agent modes absent from telemetry — NOT the E3 comparator it's cited as) | P1.2 |
 | agoda-2026-bottleneck | RQ5 | C weak-end (named org, no vendor COI — but zero own numbers; mechanism corroboration only, cannot carry numeric claims; InfoQ's "Agoda numbers" are actually Faros's) | E3 confirmed | P1.2 |
 | churn-151-repos-2025 | RQ3 | A (RDD + placebos, peer-reviewed TSE; within-repo counterfactual; clean independence) | E1/E2 (explicitly disclaims Claude Code-era tools) | P1.2 |
+| shen-2026-coding-skills | RQ3, RQ4, RQ6 (skill-formation theme) | A-candidate (RCT n=52; small N, single session; COI: Anthropic reputational, tested GPT-4o not Claude) | E2 chat — NOT agentic; era-transfer caveat applies | P1.2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -100,7 +101,8 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — Anthropic Apr 2026 Claude Code quality postmortem (D, COI, E3) | RQ3 | medium |
 | — Pragmatic Engineer "How Claude Code Is Built" + Wolff QCon talk (C/D; Anthropic self-report, 90% Claude-written claim) | RQ1 | low |
 | — arXiv 2508.00178 "The SPACE of AI" — SPACE co-author's AI-era follow-up (Jul 2025) | RQ6 | high |
-| — [colleague] Anthropic/Shen-Tamkin arXiv 2601.20245 — RCT n=52: AI-assisted learners −17pp comprehension (d=0.738), speed gain ns (A design, COI: Anthropic) | RQ3, RQ4, RQ6 | high |
+| Shen-Tamkin OSF data pull — resolve absolute quiz-percentage discrepancy ("50% vs 67%" announcement vs ~64/80% in paper fetches) before any exec-brief use | RQ6 | low |
+| Dedicated skill-formation/cognitive-debt search sweep (theme approved in v0.4; current sources found incidentally) | RQ4, RQ6 | medium |
 | — [colleague] DX/Reock (Mar 2026) "gains are ~10%": 400-company telemetry, AI usage +65% vs PR throughput +7.76% (D, COI, E3 window) | RQ5, RQ1 | high |
 | — [colleague] DX/Noda companion "why aren't gains higher" — mechanisms; coding ≈16% of dev time (D, COI) | RQ5 | medium |
 | — [colleague] arXiv 2605.01160 "Productivity-Reliability Paradox" — single-author MLR of 67 sources + 4-mo pilot; synthesis cross-check only | RQ5 | medium |
