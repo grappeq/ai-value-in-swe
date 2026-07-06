@@ -21,9 +21,9 @@ Never average conflicting results; never pick the convenient one.
 - Related §5 tension: 4 (quality debt signals)
 
 ## DORA throughput association: negative (2024) vs positive (2025)
-- Side A: DORA 2024 (queued, not yet extracted) — AI adoption associated with reduced delivery throughput (−1.5% per 25% adoption increase) and reduced stability (+7.2% instability), as quoted within dora-2025; Tier B, E1/E2.
-- Side B: dora-2025 — throughput association flipped positive (standardised betas, chart-only, 89% CrI); **instability association persisted**; Tier B, mixed era weighted pre-agentic; all outcomes self-reported.
-- Plausible reconciliation (DORA's own): 2024 measured earlier-stage adoption; ecosystem adaptation (tooling maturity, team practices) since. Alternative: different instruments/samples across years; both waves self-report. Note the stability leg did NOT flip — only throughput did.
+- Side A: dora-2024 — AI adoption associated with delivery throughput −1.5% and delivery **stability −7.2%** per 25% adoption increase (primary text says "stability reduction"; DORA 2025's own paraphrase renames it "instability increase" — same direction, inverted construct name; cite the 2024 framing). Tier B, E1/E2 (2024 instrument had no agent-mode concept at all).
+- Side B: dora-2025 — throughput association flipped positive (standardised betas, chart-only, 89% CrI); **the stability leg did NOT flip** — negative stability association persisted; Tier B, mixed era weighted pre-agentic; all outcomes self-reported.
+- Plausible reconciliation: three live candidates, unresolved from primary texts alone — (a) real effect change with adoption maturity (DORA's own reading); (b) construct redefinition: 2024 itself introduced the throughput/stability two-factor split, with stability including a brand-new "rework rate" item (confirms RedMonk's comparability critique); (c) modality-mix shift between waves. Both waves are self-report throughout.
 - Related §5 tension: 3 (throughput vs stability)
 
 ## Perception–reality gap: direction is not consistent

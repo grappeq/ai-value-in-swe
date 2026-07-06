@@ -15,6 +15,7 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | peng-2023-copilot-rct | RQ1, RQ2 | A (COI: 3/4 authors GitHub/MS; never peer-reviewed) | E1 | 2 |
 | cui-2024-copilot-field | RQ1, RQ3 | A (COI: 2/6 MS authors, vendor data; Mgmt Sci Feb 2026) | E1 (seed's E2 tag unsupported) | 2 |
 | uplevel-2024 | RQ2, RQ6 | D (COI: vendor marketing; access-not-usage confound) | E1 | 2 |
+| dora-2024 | RQ5, RQ2 | B (vendor-adjacency flag) | E2-dominant + E1; no E3 in instrument | 3 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -47,7 +48,6 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | GitHub/Accenture Nov 2024 counter-research (Tier D; side B of the defect-rate contradiction) | RQ3 | medium |
 | CodeRabbit Dec 2025 review-quality report (~1.7x issues in AI-coauthored PRs; Tier D) | RQ3, RQ4 | medium |
 | arXiv 2510.10165 — AI-assisted programming and technical-debt/maintenance burden | RQ3, RQ4 | medium |
-| DORA 2024 (trendline anchor) | RQ5 | medium |
 | SPACE framework & DX Core 4 | RQ6 | medium |
 
 ## Blocked
