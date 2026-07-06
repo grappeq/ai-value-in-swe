@@ -12,6 +12,7 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | dora-2025 | RQ5, RQ2 | B (vendor-adjacency flag) | E1/E2/E3 mixed, weighted pre-agentic | 1 |
 | google-rct-2024 | RQ1 | A (COI: Google-on-Google; headline 21% non-significant in main model) | E1/E2 boundary, autocomplete-dominant | 2 |
 | stackoverflow-survey-2025 | RQ2 | B (topline-percentages survey; self-selection; reverse-COI noted) | E1/E2/E3 mixed; agent sub-items E3 | 2 |
+| peng-2023-copilot-rct | RQ1, RQ2 | A (COI: 3/4 authors GitHub/MS; never peer-reviewed) | E1 | 2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -33,7 +34,8 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | Economic Index methodology critiques (Strauss; Empiricrafting) | RQ2 | low |
 | Stack Overflow 2026 survey results — re-check ~Q4 2026 (collection opened 23 Jun 2026, no results yet) | RQ2 | note |
 | SO "Closing the developer AI trust gap" post (Feb 2026) | RQ2, RQ6 | low |
-| Peng et al. 2023 Copilot RCT (baseline) | RQ1 | medium |
+| Stray et al. (HICSS 2026) — independent 2-yr NAV IT longitudinal: null commit-activity change, perception ≠ measured | RQ2, RQ5 | high |
+| arXiv 2506.10051 — brownfield student study | RQ3 | medium |
 | Cui et al. 2024 field experiments (seniority) | RQ1, RQ3 | medium |
 | arXiv:2601.13597 "AI IDEs or Autonomous Agents? Measuring the Impact of Coding Agents" — potential E3 RCT (fills the biggest §6 gap) | RQ1 | high |
 | arXiv:2510.24265 "The Fast and Spurious: Developer Productivity with GenAI" | RQ2 | medium |

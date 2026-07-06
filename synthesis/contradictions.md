@@ -25,3 +25,9 @@ Never average conflicting results; never pick the convenient one.
 - Side B: dora-2025 — throughput association flipped positive (standardised betas, chart-only, 89% CrI); **instability association persisted**; Tier B, mixed era weighted pre-agentic; all outcomes self-reported.
 - Plausible reconciliation (DORA's own): 2024 measured earlier-stage adoption; ecosystem adaptation (tooling maturity, team practices) since. Alternative: different instruments/samples across years; both waves self-report. Note the stability leg did NOT flip — only throughput did.
 - Related §5 tension: 3 (throughput vs stability)
+
+## Perception–reality gap: direction is not consistent
+- Side A: metr-2025-rct — experienced OSS devs believed AI made them ~20% faster while measured 19% slower (over-estimate); Tier A, E3 (early IDE-agent).
+- Side B: peng-2023-copilot-rct — freelancers in both arms self-estimated ~35% speedup while the measured treatment effect was 55.8% (under-estimate); Tier A (COI: GitHub/Microsoft), E1.
+- Plausible reconciliation: self-report is miscalibrated in *both* directions depending on setting — experienced devs on familiar brownfield code overestimate AI benefit; freelancers on greenfield toy tasks underestimate it. Either way, self-report is an unreliable magnitude instrument (RQ2/RQ6); the gap itself, not its direction, is the robust finding so far.
+- Related §5 tension: 1 (perception–reality gap)
