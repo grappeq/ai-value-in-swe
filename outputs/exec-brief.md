@@ -1,42 +1,54 @@
-# AI in Software Engineering: What the Evidence Actually Says
+# AI Coding Tools: What the Evidence Actually Says
 
-**Two-page brief · July 2026 · based on 42 sources, 181 extracted findings, 7 adjudicated controversies · full evidence base in this repository**
+**Two pages · July 2026 · based on 42 sources and 181 extracted findings · everything traceable in this repository**
 
-Every claim below carries its evidence grade: **[A]** rigorous experiment, **[B]** large-scale observational, **[C]** credible practitioner account, **[D]** vendor material (conflict of interest), plus a confidence level.
+How to read the tags: **[A]** = rigorous experiment, **[B]** = large-scale data without an experiment, **[C]** = credible company account, **[D]** = vendor material (they have something to sell). Plus how sure we are: high / medium / low.
 
 ---
 
-## The headline: the agentic era has not yet been rigorously measured
+## The big picture: nobody has properly measured today's AI agents yet
 
-Almost every famous number in circulation ("55% faster", "26% more output") comes from studies of **autocomplete-era tools on artificial tasks**, not today's agents on real work. Only three randomised trials of AI coding productivity exist anywhere, all pre-agentic or early-boundary, and one of them found experienced developers got **19% slower** on their own mature codebases — while believing they were 20% faster [A, high]. For current agentic tools, rigorous evidence amounts to a handful of single-company studies. This scarcity was pre-registered as a possible outcome of this research; it is the finding, and it should temper every velocity claim we hear or make.
+Almost every famous number you've heard — "55% faster", "26% more output" — comes from studies of **old autocomplete tools doing artificial tasks**. Not today's agents doing real work.
 
-## Three things we can say with high confidence
+In the entire world, only three rigorous trials of AI coding productivity exist. All predate modern agents. And one of them found something remarkable: experienced developers working on codebases they knew well got **19% slower** with AI — while being convinced they were 20% faster [A, high].
 
-1. **Developers' own estimates of AI benefit are unreliable — in both directions.** Four independent studies paired what people *said* against what was *measured*: estimates were wrong by 20–40 percentage points, overshooting in some settings, undershooting in others, and essentially uncorrelated with reality at the individual level [A/B, high]. Self-report surveys measure sentiment, never impact.
-2. **Second-hand numbers in this field are routinely corrupted.** This research caught ten instances of press, newsletters, and vendors misquoting confidence intervals, attributing one company's figures to another, and inventing statistics that appear in no primary source. Rule: never act on an AI-productivity number that hasn't been traced to its original study [high].
-3. **Companies spend on AI without measuring what it returns.** Every organisation with published cost data (token bills growing 20× in a year at one firm; $150–2,000 per engineer per month at Uber, which then capped spend) publishes **no paired outcome data** — and Uber's COO says on record the productivity link "is not there yet" [C, high on the pattern].
+We suspected the evidence might be this thin before we started, and wrote that expectation down. It turned out to be true. So the first rule is: treat every AI velocity claim — from vendors, from the press, from our own gut feeling — with suspicion.
 
-## Where AI helps — and where it doesn't (the value and failure maps)
+## Three things we're genuinely sure about
 
-**Helps most:** fresh code in clean, well-tested codebases; the gains are real and *compound with sustained use* — the best-run enterprise measured a causal 1.5–1.7× throughput gain that took ~9 months of tool tenure to build [A, single firm, medium]. **Helps least or hurts:** large, mature, complex codebases that developers know intimately — the one rigorous trial there found a measured slowdown [A, high on direction]; low-popularity languages, messy codebases, and performance-critical work also consistently underperform [B, medium]. Five of eleven software-lifecycle task types (requirements, architecture, internal tooling, documentation, ops) have **no measured value evidence at all** — only usage statistics [high on the absence].
+1. **Don't trust what developers say about their own AI gains — including us.** Four separate studies compared what people *said* AI did for them against what was *measured*. People were off by 20–40 percentage points. Some overshot, some undershot, and at the individual level guesses were basically uncorrelated with reality [A/B, high]. Surveys tell you how people feel. They never tell you what happened.
+2. **Numbers get mangled as they travel.** While doing this research we caught ten cases of press articles, newsletters, and vendors misquoting studies — wrong error margins, one company's figures attributed to another, statistics that appear in no original source at all. Rule: never act on an AI number that hasn't been traced back to the original study [high].
+3. **Companies are spending without checking what they get back.** Every organisation that has published its AI costs (one firm's token bill grew 20× in a year; Uber pays $150–2,000 per engineer per month and had to cap it) has published **nothing** about what those costs bought. Uber's own COO says the productivity link "is not there yet" [C, high on the pattern].
 
-## The strategic answer: local speedup ≠ delivery speedup
+## Where AI helps, and where it doesn't
 
-Individual coding gains are genuine, but organisation-level delivery moves far less: cross-company telemetry shows single-digit-to-low-teens percentage improvements against usage growth of 65% (vendor-measured, direction only [D]), and even the best-case firm's raw "2×" shrinks to ~1.5× once statistical artefacts are removed [A]. The reason is now well-evidenced in direction: **the bottleneck has moved from writing code to reviewing and absorbing it**. In the one firm measured end-to-end, human review coverage fell from 89% to 68%, substantive review halved, reviewer load doubled — and cycle time *rose* 22% even as output doubled [A, single firm; corroborated in direction by two vendor telemetry sets and two practitioner accounts, medium-high on mechanism, low on magnitude]. Automated review absorbs the queue cheaply (~$1 per review at Cloudflare [C]) but not demonstrably the *function*: agent-only-reviewed changes merge 23 points less often and are mostly noise where measured [B].
+**Best case:** new code in clean, well-tested codebases. The gains are real and they *grow with practice* — the best-documented company measured a genuine 1.5–1.7× throughput gain, but it took about nine months of daily use to get there [A, one company, medium].
 
-**Quality:** a real maintainability cost of agent-written code is supported by two independent rigorous studies (complexity rises persistently; agents work measurably worse on top of agent-written code) [A, medium], and notably a controlled pre-agentic trial found *no* such cost — this is an agent-era phenomenon [A]. But no trustworthy defect-rate number exists in either direction: the viral claims (both "+41% bugs" and vendor rebuttals) are all conflicted sources measuring incomparable things [insufficient evidence].
+**Worst case:** big, old, complicated codebases that developers already know inside out. The one rigorous trial in that setting found people got slower [A, high on direction]. Rare programming languages, messy codebases, and performance-tuning work also do consistently badly [B, medium].
 
-## What the hype gets wrong — expectation-setting corrections
+**Unknown:** for five of the eleven kinds of software work (requirements, architecture, internal tools, documentation, ops) there is **no measured evidence at all** — only stats about how often people use AI for them [high on the absence]. Not evidence AI fails there. Just nobody has checked.
 
-- "Developers report 2–3× gains" — sentiment, not measurement; self-reported multipliers are inflating over time with no comparator.
-- "AI helps juniors most" — the founding evidence was never statistically significant, and the only two agentic-era measurements disagree with each other on the pattern [insufficient evidence].
-- "X% of our code is AI-generated" and lines-of-code, acceptance-rate, or token-volume metrics — gameable or meaning-free; every one has a documented failure case (see measurement proposal).
-- "Quality debt is churn and copy-paste" — the popular framing is the *least*-supported version; three independent studies find no duplication effect.
+## The key insight: writing code faster ≠ shipping faster
+
+Individual coding gains are real. But whole-organisation delivery barely moves in comparison: across hundreds of companies, delivery improved by single digits to low teens percent while AI usage grew 65% (vendor-measured, so trust the direction, not the exact number [D]).
+
+Why the gap? **The bottleneck moved.** Code gets written faster, but reviewing it, testing it, and absorbing it didn't speed up. In the one company measured end to end: code output tripled, human review coverage dropped from 89% to 68%, meaningful review halved, each reviewer's load doubled — and things actually took 22% *longer* to ship [A, one company; the pattern is echoed by two vendors and two other companies, medium-high that it's real, low on exact size].
+
+Can AI review its own output? It can do it cheaply (about $1 per review at Cloudflare [C]) — but where anyone measured quality, AI-only-reviewed changes got accepted 23 points less often and most of the review comments were noise [B]. So automation clears the queue; it doesn't yet replace the judgement.
+
+**Quality:** agent-written code does carry a real maintenance cost — two independent rigorous studies show complexity creeping up and agents struggling to build on top of other agents' code [A, medium]. Interestingly, a controlled trial of the *older* tools found no such cost — this looks like a new, agent-era problem [A]. But there's no trustworthy bug-rate number anywhere: the viral claims in both directions come from conflicted sources measuring different things [not enough evidence].
+
+## Popular claims to stop repeating
+
+- **"Developers report 2–3× gains"** — that's a feeling, not a measurement, and the feelings are getting bigger every year while the measurements aren't.
+- **"AI helps juniors most"** — the original evidence was never statistically significant, and the only two agent-era measurements contradict each other [not enough evidence].
+- **"X% of our code is AI-generated"**, lines of code, acceptance rates, token usage — all of these are gameable or meaningless. Each has a documented case of pointing the wrong way (see the measurement proposal).
+- **"AI is creating copy-paste spaghetti"** — actually the *weakest*-supported version of the quality concern; three independent studies found no duplication increase.
 
 ## What we should do
 
-1. **Push adoption** where evidence supports it: greenfield and clean-codebase work, with patience for the ~months-long compounding curve; treat mature-codebase work as a split decision requiring our own measurement, not an assumption.
-2. **Fund absorption, not just generation:** review and verification capacity is the binding constraint; instrument it before scaling agent output.
-3. **Measure ourselves** — the companion proposal names six instruments and rejects seven popular metrics. External evidence cannot settle whether AI works *for us*; on current published data, nobody's can.
+1. **Push AI adoption where the evidence supports it** — new and clean-codebase work — and be patient: the gains compound over months. For old, complex codebases, don't assume either way; measure our own.
+2. **Invest in review and verification capacity, not just AI licences.** That's the proven bottleneck. Scaling code generation without scaling absorption just builds a queue.
+3. **Measure ourselves.** The companion proposal lists six things to track and seven popular metrics to refuse. Published evidence cannot tell us whether AI works *for us* — on today's data, it can't tell anyone.
 
-*Scope note: the long-term effect of AI on engineers' skill formation rests on two incidental studies (one showing a measured comprehension cost of AI-assisted learning, effect size d=0.738, with no speed gain); a dedicated evidence sweep was deliberately deferred. Treat skill-formation claims in either direction as open.*
+*One honest gap: whether AI use erodes engineers' skills over time rests on just two studies (one found a real comprehension cost from AI-assisted learning, with no speed benefit to offset it). We deliberately didn't do a full evidence sweep on this. Treat all skill-formation claims, positive or negative, as open questions.*

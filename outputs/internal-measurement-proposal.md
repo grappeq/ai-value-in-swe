@@ -1,40 +1,46 @@
-# Internal Measurement Proposal: Knowing Whether AI Works For Us
+# How To Tell Whether AI Is Working For Us
 
-**July 2026 · companion to the exec brief · evidence base: synthesis/rq6-measurement.md and the seven tension verdicts**
+**July 2026 · companion to the exec brief · full reasoning in synthesis/rq6-measurement.md**
 
-The published evidence cannot answer whether AI tooling works *for us* — it can only tell us what to instrument and what to avoid. Three design facts drive everything below: (1) individual-level gains dilute severely at system level, so we must measure delivery, not activity [Tier A internal evidence + Tier D direction]; (2) no published organisation pairs cost telemetry with outcome telemetry — the single most repeated measurement failure [high confidence]; (3) self-report is uninformative about magnitude in every paired test ever run [high confidence].
+Published research can't answer whether AI helps *our* teams. What it can do is tell us how to find out — and which mistakes every other company has already made so we don't repeat them. Three lessons drive this whole proposal:
 
-## Six metrics to adopt (organised as three cost/outcome pairs plus two guards)
+1. **Individual gains shrink dramatically at company level** — so measure delivery, not activity.
+2. **Nobody pairs cost data with results data.** Not one published company. That's the single most common failure, so every cost meter here comes glued to an outcome meter.
+3. **What people say tells you nothing about what happened** — proven in every study that ever checked. Surveys are for morale, never for productivity numbers.
 
-| # | Metric | What it detects | Design notes (from the evidence) |
+## Six things to track
+
+Built as three cost/result pairs plus two safety checks — deliberately, so no number ever stands alone.
+
+| # | What to track | What it tells us | How to do it right |
 |---|---|---|---|
-| 1 | **Controlled task/PR throughput per developer** — within-team trend, fixed effects, anti-gaming exclusions | Real velocity change net of calendar drift, hiring, and commit-splitting | The raw version is rejected (metric R2 below); only the controlled version survives. Date adoption *per team*, compare within-team before/after — calendar-trend comparisons are confounded (he-2026; churn-151's design lesson) |
-| 2 | **Review absorption**: human review coverage %, substantive-review share, and review latency/queue depth | The bottleneck-displacement early warning — the best-evidenced failure mode in the literature | In the one firm measured, coverage fell 89%→68% and substantive review halved while output doubled; watch composition (agent-steering replacing evaluation), not just coverage |
-| 3 | **Stability pair**: revert rate + change-failure rate, tracked together | Whether faster merging costs production stability | The two constructs disagree in the literature (flat reverts vs rising incidents) — we need both, on our own data |
-| 4 | **Rework share on AI-touched work** — % of changes substantially revised within 2–4 weeks, with per-team adoption dating | The "gross gains eaten by rework" effect (~half of gross volume in the best telemetry account) | Attribution must be adoption-dated, not calendar-dated; the era's biggest churn controversy was a dataset-composition artefact |
-| 5 | **AI spend per developer, paired with metrics 1–3 in the same dashboard** | Cost-to-value ratio — the pairing no published company has done | Expect heavy-tail spend (org averages $150–250/mo; power users $500–2,000/mo; caps are the emerging control). A cost meter without an outcome meter is explicitly rejected |
-| 6 | **Experience & skill track, kept separate from productivity claims**: periodic developer-experience survey (sentiment only) + comprehension spot-checks for learning-heavy AI use | Wellbeing/trust trend; the skill-formation risk | Self-report is legitimate here *only because it claims nothing about output*; the comprehension check follows the one RCT showing a measured learning cost (d=0.738) with no speed gain |
+| 1 | **Work shipped per developer — properly controlled** (within-team trend, adjusted for hiring and gaming) | Whether velocity actually changed | Raw counts are on the reject list below. Compare each team against *its own* pre-adoption baseline, dated to when *that team* actually started using AI — company-wide calendar trends are how other people fooled themselves |
+| 2 | **Review absorption**: how much code still gets meaningful human review, and how long review takes | The early-warning light for the bottleneck problem | In the best-studied company, review coverage fell 89%→68% and meaningful review halved while output tripled. Watch what *kind* of review is happening, not just whether any happened |
+| 3 | **Stability pair**: reverted changes + failed deployments, tracked together | Whether shipping faster is costing us production stability | The two published signals point in opposite directions at different companies — only our own data can settle it for us |
+| 4 | **Rework on AI-touched code**: share of changes substantially rewritten within 2–4 weeks | The hidden tax — one dataset suggests rework eats about half the apparent gains | Date it to team adoption, not the calendar; the era's biggest churn scare turned out to be a data artefact |
+| 5 | **AI spend per developer — on the same dashboard as #1–3** | Whether the money buys anything | Expect a long tail: averages of $150–250/month, power users at $500–2,000. A spend number without a results number next to it is banned by design |
+| 6 | **People track, kept separate from productivity**: a morale/experience survey (labelled as sentiment) + occasional comprehension checks where AI is used for learning | Whether the team is healthy, and whether skills are quietly eroding | Surveys are fine *here* because they claim nothing about output. The skill check follows the one trial showing AI-assisted learners understood significantly less (effect size d=0.738) while going no faster |
 
-Deferred as not yet feasible: downstream-maintenance signal on agent-authored code (the strongest quality-cost evidence, but no practical instrument exists today).
+One thing we'd like to measure but can't yet: how maintainable AI-written code is over time. The evidence says this is the real cost, but no practical off-the-shelf way to track it exists today. Revisit in a year.
 
-## Seven metrics to reject (each with its documented failure)
+## Seven metrics to refuse — each has already burned someone
 
-1. **Lines of code / volume** — rewards scope creep and bloat; rose 47% in the study where developers got measurably slower.
-2. **Raw commit/PR counts** — a 350-person case showed PRs +14% while effective output stayed flat and rework hit 2.5×; counts improved exactly as the process degraded elsewhere too.
-3. **Suggestion acceptance rate** — developers accepted <44% of suggestions *while being slowed down*; acceptance and value move independently.
-4. **"% of code AI-generated"** — no validated attribution method exists even in academia; the vendor versions disclose no methodology at all.
-5. **Token/usage volume as a value proxy** — usage correlates with productivity at only r≈0.2, with a documented "death valley" where heavy usage underperforms; usage leaderboards caused one company's budget blow-out.
-6. **Self-reported productivity multipliers** — wrong in both directions in every paired test; inflating over time.
-7. **Any single metric alone** — the foundational SPACE warning; every metric above is gameable in isolation, which is why the adopt-list is built as pairs.
+1. **Lines of code** — rewards bloat; grew 47% in the very study where developers got slower.
+2. **Raw commit/PR counts** — one 350-person team saw PRs rise 14% while real output stayed flat and rework hit 2.5×. Their dashboards said "great"; the truth said "negative ROI".
+3. **Suggestion acceptance rate** — developers accepted under 44% of suggestions *while being slowed down*. Acceptance and value simply aren't related.
+4. **"% of code that's AI-generated"** — no validated way to compute it exists, even in academia. Vendor versions don't even say how they counted.
+5. **Token/usage volume as a success measure** — usage barely correlates with results (r≈0.2), heavy use can *underperform* moderate use, and one company's token leaderboard directly caused its budget blow-out.
+6. **Self-reported productivity multipliers** — wrong in both directions every time they've been checked, and inflating year on year.
+7. **Any single number by itself** — every metric above can be gamed alone; that's exactly why the adopt-list comes in pairs.
 
-## Pilot design principles
+## How to run the pilot
 
-- **Within-team, adoption-dated comparisons** — never company-wide calendar trends.
-- **Pre-register the outcome metrics** before the pilot starts; do not switch mid-flight.
-- **Expect a J-curve but don't assume it**: the "gains take months to compound" claim has one good study behind it (~9 months to peak) and the "dip is temporary" narrative has none — let our data decide.
-- **Run it long enough to see decay**: velocity gains in open-source data spike then fade to nothing by month 3–6 in some populations; a 4-week pilot would catch only the spike.
-- **Self-report only for sentiment and adoption**, clearly labelled as such, never aggregated into a productivity figure.
+- **Each team compared with its own past**, from the date that team actually adopted — never a company-wide before/after.
+- **Decide the success metrics before starting**, in writing. No switching mid-pilot.
+- **Expect things to get worse before better — but verify it.** The "dip then rise" story is plausible (the best study took ~9 months to peak) but no one has actually proven the rise follows the dip. Let our data decide.
+- **Run long enough to see the fade.** In open-source data, velocity gains sometimes spike and then vanish by month 3–6. A four-week pilot would catch only the spike and declare victory.
+- **Surveys measure mood, and are labelled that way.** They never feed a productivity figure.
 
-## Scope note
+## Honest limits
 
-The skill-formation instrument (metric 6's comprehension component) rests on deliberately thin evidence — two incidental studies, one E2-era RCT — because the dedicated evidence sweep for this theme was deferred. Treat it as a precautionary instrument, revisit when the theme's literature matures, and never quote the underlying study's absolute quiz percentages (use the effect size, d=0.738).
+The skill-erosion check (#6) rests on deliberately thin evidence — two studies, found incidentally, one of them from the pre-agent era — because we chose not to do a full evidence sweep on that theme. Treat it as a precaution, not a proven risk, and revisit when better research lands. (And if anyone quotes that study's raw quiz scores at you: those specific percentages never checked out — the effect size, d=0.738, is the number that's safe to use.)
