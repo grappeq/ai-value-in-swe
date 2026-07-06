@@ -27,6 +27,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | he-2026-2x-mandate | RQ5, RQ1, RQ4 | A (staggered DiD, placebo tests; single unnamed firm; NOT independent of stanford-denisov-blanch — shared author) | E3 confirmed (Cursor, Claude Code, in-house agents) | P1.1 |
 | faros-2026-whiplash | RQ5, RQ4 | D (COI: reverse-direction — alarm sells governance tooling; before/after design, confounders unaddressed) | E2/E3 blend; agentic authorship <1% of dataset | P1.1 |
 | heilman-2026-microsoft | RQ1, RQ5, RQ6 | A (TWFE dose-response, placebo battery; intensity-only identification, no never-adopters; COI: 3/3 Microsoft, undisclosed) | E1/E2 (agent modes absent from telemetry — NOT the E3 comparator it's cited as) | P1.2 |
+| agoda-2026-bottleneck | RQ5 | C weak-end (named org, no vendor COI — but zero own numbers; mechanism corroboration only, cannot carry numeric claims; InfoQ's "Agoda numbers" are actually Faros's) | E3 confirmed | P1.2 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -77,7 +78,7 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — Amazon Mar 2026 AI-linked outages + 90-day safety reset (C journalism; causation contested by Amazon) | RQ3, RQ5 | medium |
 | — GitLab AI Accountability Report 2026 "AI Paradox" survey (D, E3, self-reported) | RQ5, RQ2 | medium |
 | — Opsera 2026 benchmark (D; headline %s lack methodology — cautious full read only, never cite headline alone) | RQ3 | low |
-| — E3 sweep, bottleneck displacement (§5.6): Agoda "coding was never the bottleneck" via InfoQ (C, E3; chase primary) | RQ5 | high |
+| Agoda CTO Zalzberg interview (Tech Wire Asia) — actual Agoda numbers (~27% uplift, 1–6 hrs/wk saved), different spokesperson/topic from Stern post | RQ1, RQ5 | medium |
 | — Zendesk "absorption capacity" via InfoQ (C, E3; chase primary) | RQ5 | high |
 | — E3 sweep, agentic controlled/mining studies: arXiv 2511.04427 "Speed at the Cost of Quality" Cursor DiD, MSR 2026 (B, E3) | RQ3, RQ5 | high |
 | — arXiv 2602.08915 task-stratified agent PR acceptance: Devin 42.9% vs Codex 81.6%, MSR 2026 (B, E3) | RQ1, RQ3 | high |
