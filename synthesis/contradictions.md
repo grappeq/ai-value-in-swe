@@ -1,5 +1,19 @@
 # Contradictions
 
+## §5 tension verdicts (Phase 3, 2026-07-06) — full memos in synthesis/tension-verdicts/
+
+| # | Tension | Verdict | Confidence |
+|---|---|---|---|
+| 1 | Perception–reality gap | SPLIT: METR's specific direction NOT replicated (Peng runs opposite); the operative claim — self-report magnitude is uninformative about measured change — RESOLVED on four independent paired designs | high (operative claim) / low (direction generality) |
+| 2 | Greenfield vs brownfield | CONTESTED on magnitude/mechanism; direction unanimous (no source shows brownfield > greenfield); sharpest quantifications non-independent; construct unstable across sources | medium |
+| 3 | Throughput vs stability | CONTESTED: DORA's flip sits inside one redefined self-report instrument; measured stability proxies conflict on non-comparable constructs; "temporary J-curve" has zero longitudinal support | medium |
+| 4 | Quality debt | CONTESTED-BUT-SUBSTANTIATED on two independent Tier A legs (complexity growth; downstream agent-code maintenance cost); churn/duplication is the WEAKEST-supported version; static-metric proxies don't predict the real cost | medium |
+| 5 | Seniority asymmetry | INSUFFICIENT EVIDENCE for the agentic era; secondary finding: the E1 "juniors gain most" claim overstates its own statistics | — (secondary finding: high) |
+| 6 | Bottleneck displacement | CONFIRMED in direction — five independent orgs converge, no dissenting source; magnitude unresolved (one unreplicated firm + two COI'd telemetry sets disagreeing 2–8x); automation absorbs the review queue but not clearly the function | medium-high (mechanism) / low-medium (magnitude) |
+| 7 | Bad-metric traps | RESOLVED: seven-metric anti-metrics table with per-metric evidence; no source defended any §5.7 metric as impact evidence | high |
+
+---
+
 Appended at discovery time (operating-loop CROSS-REF step), never deferred to synthesis. One entry per contradiction:
 
 ```
