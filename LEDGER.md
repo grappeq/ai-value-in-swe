@@ -43,6 +43,8 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | unreviewed-ai-prs-2026 | RQ5, RQ3 | B (peer-reviewed EASE 2026, validated classifier; cross-sectional; independent authors but population = AIDev creators' own pre-curated slice) | E3 confirmed (5 agents) | P1.4 |
 | metr-2026-survey | RQ2 | C weak-end (perception-only, no comparator, ~2% response rate, 335-vs-349 count gap; METR self-flags overstatement) | E3-leaning, not isolable; only ~25% SWE sample | P1.5 |
 | review-agents-reality-2026 | RQ1, RQ2 | B (large-N observational; Mining Challenge poster track — lighter review bar; independent authors, AIDev slice) | E3 confirmed (CRAs on agent PRs) | P1.5 |
+| bockeler-2026-qcon | RQ4, RQ3 | C (primary transcript read; cost figures are anecdote-of-anecdote extrapolations — EXCLUDED from quantitative RQ4 rows, prose colour only; mild Thoughtworks COI) | E3 confirmed | P1.5 |
+| zendesk-2026-absorption | RQ5 | C weak-end (named org, no COI; ZERO numbers; prescriptive proposal, not a rollout report — InfoQ's "Zendesk says" framing overstates) | E3 by inference, no tool named | P1.5 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -87,7 +89,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — GitLab AI Accountability Report 2026 "AI Paradox" survey (D, E3, self-reported) | RQ5, RQ2 | medium |
 | — Opsera 2026 benchmark (D; headline %s lack methodology — cautious full read only, never cite headline alone) | RQ3 | low |
 | Agoda CTO Zalzberg interview (Tech Wire Asia) — actual Agoda numbers (~27% uplift, 1–6 hrs/wk saved), different spokesperson/topic from Stern post | RQ1, RQ5 | medium |
-| — Zendesk "absorption capacity" via InfoQ (C, E3; chase primary) | RQ5 | high |
 | AIDev dataset provenance cluster — ONE central check (Li/Zhang/Hassan dataset paper + the 3 known MSR 26 users incl. Rahman arXiv:2602.02345) instead of per-paper checks | RQ2 | high |
 | — arXiv 2605.20049 code-cleanliness minimal-pair, Claude Code: token use −7–8% (B, E3) | RQ3, RQ4 | high |
 | — arXiv 2509.14745 agentic PRs on GitHub: 83.8% merge rate (B, E3) | RQ1 | medium |
@@ -97,7 +98,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — arXiv 2605.04779 meta-analysis GenAI programming productivity 2019–2025, g=0.33 (B, mixed era) | RQ1 | medium |
 | — E3 sweep, rollouts/postmortems: Salesforce eng blog — Cursor legacy test coverage, 26→4 eng-days/repo (C, E3) | RQ4, RQ5 | high |
 | — Replit agent production-DB deletion + fabrication postmortem (C, E3) | RQ3 | high |
-| — QCon London 2026 Böckeler keynote: cost escalation 12¢/100 lines → ~$91k/yr (C, E3) | RQ4 | high |
 | — Cursor vendor case-study set (Coinbase 90% idea→prod, Faire 2x PRs, NVIDIA 3x commits, Salesforce 30%) — triangulation pair with Salesforce eng blog (D, COI, E3) | RQ1, RQ5 | medium |
 | — Grigorev first-hand postmortem: Claude Code + Terraform dropped production DB (C, E3) | RQ3 | medium |
 | — AWS Kiro 13-hr Cost Explorer outage (D secondary; "user error" framing suspect; 1,500-eng petition) | RQ3 | medium |
