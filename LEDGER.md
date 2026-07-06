@@ -83,15 +83,15 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | mao-2026-code-metrics | RQ3, RQ5 | B (large-N matched observational; keyword/LLM attribution, manually validated at 3 stages but blind to undisclosed use; title in flux across mirrors — flagged) | E2-weighted (83% ChatGPT-attributed) — not E3 evidence | R1 |
 | google-migrations-2025 | RQ5, RQ3 (T5) | C, Tier-D-adjacent (Google on own tooling; self-declares "not a research study"; time savings self-reported, no counterfactual; TWO papers = ONE voice) | E3-by-modality but bespoke task-specific pipeline, not a general agent | R1 |
 | bain-2026-benchmark | RQ2 (citation-laundering exhibit) | REJECT — PHANTOM: no such Bain document exists; chain terminates at SEO aggregators; figures misattributed (some to an unverified "Gartner Pulse"); record kept as corruption-instance #11 | — | R1 |
+| quispe-2026-claude-frontier | RQ1 | B (Callaway–Sant'Anna staggered DiD, 5,838 devs, 28mo; self-selected adoption, author self-downgrades to "associational"; activity metrics only, §5.7 caveat; Caltech, independent of all our clusters) | E3 (Claude Code) | R1 |
+| sergeyuk-2026-evolving | RQ2, RQ6 | B (JetBrains telemetry, peer-reviewed ICSE 2026; STRONG vendor-data COI 4/6 authors; 800 devices not verified people; cohort not within-person; linear model — J-curve undetectable by design) | E1/E2 blended, pre-agentic (ends Oct 2024) — NOT the E3/skill-formation payload hoped; baseline + methodology value | R1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
 |---|---|---|
 | R1 SWEEP ADDITIONS (2026-07-06, three gap sweeps; full triage in the sweep reports): | | |
 | arXiv 2508.21634 Cotroneo/Improta et al. — controlled 3-LLM vs human defect/CWE comparison (sibling to mao-2026, different design) | RQ3 | medium |
-| Google internal migrations (arXiv 2501.06972 + 2504.09691, one voice) — brownfield-success challenger, tension 2; self-graded "not a research study" | RQ5, RQ3 | high |
-| arXiv 2601.10258 Sergeyuk et al. ICSE 2026 "Evolving with AI" — 800 professional devs, 2-yr IDE telemetry — skill-formation + possible J-curve | RQ3, RQ4, RQ6 | high |
-| arXiv 2605.25438 Quispe — Claude Code natural experiment, 5,838 devs, 28 months, staggered adoption — bounds the scarcity headline | RQ1 | high |
+| Quispe v2/full paper — placebo/covariate checks and heterogeneity splits explicitly promised; re-check before any future synthesis refresh | RQ1 | note |
 | Bain (REAL publications, replacing the phantom lead): "Your AI Budget Is Growing, Your Returns Aren't" (Jun 2026, n=951 exec survey) + "From Pilots to Payoff" (2025) | RQ4, RQ2 | low |
 | "Gartner Agentic AI Pulse 2026" — verify existence before any use (source of the misattributed 41%/19% figures) | RQ2 | low |
 | Nubank ETL-migration pair: Devin vendor page + Nubank's own eng blog (12x claim, 6M-LOC legacy) — diff the two versions | RQ5, RQ3 (T5) | medium-high |
