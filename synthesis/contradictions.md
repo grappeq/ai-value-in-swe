@@ -30,6 +30,7 @@ Never average conflicting results; never pick the convenient one.
 - Side A: metr-2025-rct — experienced OSS devs believed AI made them ~20% faster while measured 19% slower (over-estimate); Tier A, E3 (early IDE-agent).
 - Side B: peng-2023-copilot-rct — freelancers in both arms self-estimated ~35% speedup while the measured treatment effect was 55.8% (under-estimate); Tier A (COI: GitHub/Microsoft), E1.
 - Plausible reconciliation: self-report is miscalibrated in *both* directions depending on setting — experienced devs on familiar brownfield code overestimate AI benefit; freelancers on greenfield toy tasks underestimate it. Either way, self-report is an unreliable magnitude instrument (RQ2/RQ6); the gap itself, not its direction, is the robust finding so far.
+- Adjacent evidence (transcript-verified Nov 2025): stanford-denisov-blanch 43-developer experiment — self-rated vs measured productivity percentile "almost as good as flipping a coin", off by ~30 percentile points, 1-in-3 within own quartile; supports "miscalibration, not uniform inflation". Tier B, talk-grade.
 - Related §5 tension: 1 (perception–reality gap)
 
 ## Copilot defect-rate: +41% bugs vs vendor counter-claims
