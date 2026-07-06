@@ -1,5 +1,7 @@
 # Tension 2 — Greenfield vs. Brownfield Split
 
+> **Re-derivation R1 addendum (2026-07-06):** two refresh sources (google-migrations-2025: 74–80% AI-authored measured, time savings self-reported; nubank-devin-2025: ~12x claimed, estimate-basis, one data point) show agent pipelines performing well on *mechanical, well-specified transformations inside old codebases* (T5 migrations). Evidence is C/D-grade and two voices only, but from scratch the failure gradient reads as **open-ended contextual work in mature codebases (T4), not codebase age per se** — the operative variable looks like task contextuality × maturity. Verdict unchanged (contested on magnitude/mechanism, direction unanimous, medium); this refinement carries low-medium confidence and should travel with any exec-brief use of the brownfield claim.
+
 ## 1. The tension as pre-registered
 
 PROTOCOL §5.2: "Early Copilot RCTs (Peng et al. 2023, ~55% faster) used standardized greenfield tasks; telemetry work (e.g., Stanford / Denisov-Blanch) suggests gains concentrate in low-complexity/greenfield code and shrink toward zero or negative in complex legacy systems. This is the crux of RQ5."

@@ -29,6 +29,7 @@ The five sibling memos converge on one instrumentation logic, not five separate 
 | **"AI-generated %" of code** | `uber-2026-claude-cost`'s ~70% figure has no disclosed methodology; the academic version (`aidev-dataset-2026`) is an unvalidated heuristic with no precision/recall estimate |
 | **Token/usage volume as a value proxy** | `stanford-denisov-blanch`: r≈0.20 with a "death valley" around 10M tokens/month — heavy users underperformed moderate ones |
 | **Self-reported productivity multipliers** | Four independent paired designs (tension 1) show self-report decoupled from measured change, in either direction |
+| **"Time to first review comment"** *(added, re-derivation R1)* | Becomes definitionally zero and meaning-free once an AI auto-comments on every PR (`atlassian-2026-ai-review` demonstrates the mechanism) — pair review-latency metrics with substantive-review measures or they will be gamed by auto-commenting |
 | **Any single metric used alone** | `space-dx-core4`'s verbatim, tri-confirmed claim: productivity "cannot be measured by a single metric or dimension" |
 
 ## 4. Design principles for the internal pilot (from RQ2)

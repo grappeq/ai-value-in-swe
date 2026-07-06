@@ -23,7 +23,7 @@ Built as three cost/result pairs plus two safety checks — deliberately, so no 
 
 One thing we'd like to measure but can't yet: how maintainable AI-written code is over time. The evidence says this is the real cost, but no practical off-the-shelf way to track it exists today. Revisit in a year.
 
-## Seven metrics to refuse — each has already burned someone
+## Eight metrics to refuse — each has already burned someone
 
 1. **Lines of code** — rewards bloat; grew 47% in the very study where developers got slower.
 2. **Raw commit/PR counts** — one 350-person team saw PRs rise 14% while real output stayed flat and rework hit 2.5×. Their dashboards said "great"; the truth said "negative ROI".
@@ -31,7 +31,8 @@ One thing we'd like to measure but can't yet: how maintainable AI-written code i
 4. **"% of code that's AI-generated"** — no validated way to compute it exists, even in academia. Vendor versions don't even say how they counted.
 5. **Token/usage volume as a success measure** — usage barely correlates with results (r≈0.2), heavy use can *underperform* moderate use, and one company's token leaderboard directly caused its budget blow-out.
 6. **Self-reported productivity multipliers** — wrong in both directions every time they've been checked, and inflating year on year.
-7. **Any single number by itself** — every metric above can be gamed alone; that's exactly why the adopt-list comes in pairs.
+7. **"Time to first review comment"** — becomes automatically zero (and meaningless) the moment an AI comments on every PR; one vendor's rollout demonstrates exactly this. Watch *substantive* review measures instead.
+8. **Any single number by itself** — every metric above can be gamed alone; that's exactly why the adopt-list comes in pairs.
 
 ## How to run the pilot
 

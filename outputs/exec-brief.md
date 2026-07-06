@@ -17,7 +17,7 @@ We suspected the evidence might be this thin before we started, and wrote that e
 ## Three things we're genuinely sure about
 
 1. **Don't trust what developers say about their own AI gains — including us.** Four separate studies compared what people *said* AI did for them against what was *measured*. People were off by 20–40 percentage points. Some overshot, some undershot, and at the individual level guesses were basically uncorrelated with reality [A/B, high]. Surveys tell you how people feel. They never tell you what happened.
-2. **Numbers get mangled as they travel.** While doing this research we caught ten cases of press articles, newsletters, and vendors misquoting studies — wrong error margins, one company's figures attributed to another, statistics that appear in no original source at all. Rule: never act on an AI number that hasn't been traced back to the original study [high].
+2. **Numbers get mangled as they travel — at every layer.** We caught fourteen cases of press, newsletters, vendors, and aggregators corrupting numbers: wrong error margins, one company's figures attributed to another, an entire consultancy "benchmark report" that turns out not to exist, and one vendor whose marketing headline inflates its own peer-reviewed measurement by half. Rule: never act on an AI number that hasn't been traced back to the original study [high].
 3. **Companies are spending without checking what they get back.** Every organisation that has published its AI costs (one firm's token bill grew 20× in a year; Uber pays $150–2,000 per engineer per month and had to cap it) has published **nothing** about what those costs bought. Uber's own COO says the productivity link "is not there yet" [C, high on the pattern].
 
 ## Where AI helps, and where it doesn't
@@ -26,7 +26,9 @@ We suspected the evidence might be this thin before we started, and wrote that e
 
 **Worst case:** big, old, complicated codebases that developers already know inside out. The one rigorous trial in that setting found people got slower [A, high on direction]. Rare programming languages, messy codebases, and performance-tuning work also do consistently badly [B, medium].
 
-**Unknown:** for five of the eleven kinds of software work (requirements, architecture, internal tools, documentation, ops) there is **no measured evidence at all** — only stats about how often people use AI for them [high on the absence]. Not evidence AI fails there. Just nobody has checked.
+**A useful nuance from the refresh:** "old codebase" isn't one thing. Mechanical, well-specified transformations inside old code — migrations, dependency upgrades — are where agent pipelines report their best results (Google's internal migrations; a bank's 6M-line legacy migration), though those numbers are self-reported or vendor-told [C/D, low-medium]. The struggle zone is open-ended feature work that needs context an agent doesn't have.
+
+**Unknown:** for three of the eleven kinds of software work (requirements, architecture, internal tooling) there is **no measured evidence at all** — and we know because we hunted specifically and documented the dry holes [high on the absence]. Documentation and build/CI work now have first thin evidence. Not proof AI fails in the unmeasured areas — just nobody has checked.
 
 ## The key insight: writing code faster ≠ shipping faster
 
@@ -43,7 +45,7 @@ Can AI review its own output? It can do it cheaply (about $1 per review at Cloud
 - **"Developers report 2–3× gains"** — that's a feeling, not a measurement, and the feelings are getting bigger every year while the measurements aren't.
 - **"AI helps juniors most"** — the original evidence was never statistically significant, and the only two agent-era measurements contradict each other [not enough evidence].
 - **"X% of our code is AI-generated"**, lines of code, acceptance rates, token usage — all of these are gameable or meaningless. Each has a documented case of pointing the wrong way (see the measurement proposal).
-- **"AI is creating copy-paste spaghetti"** — actually the *weakest*-supported version of the quality concern; three independent studies found no duplication increase.
+- **"AI is creating copy-paste spaghetti"** — the quality claim most clearly contradicted by measurement: four studies found no duplication increase, and the largest real-world comparison found AI-attributed code *less* duplicated than human code.
 
 ## What we should do
 
