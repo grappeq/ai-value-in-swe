@@ -1,6 +1,14 @@
 # Research Ledger
-Phase: 5 COMPLETE — PROJECT COMPLETE (pending final human acceptance of the two outputs)
+Phase: REFRESH CYCLE R1 (human-directed, 2026-07-06) — gap sweeps → blind extraction → re-derivation
 Last session: 2026-07-06 | Last commit: see git log
+
+## Refresh cycle R1 — pre-registered method (recorded BEFORE the counter-evidence sweep reported)
+Purpose: three gap sweeps (missed channels / topic holes / counter-evidence) are hunting sources the original search shape missed. All KEEPs get queued and analysed per the standard protocol loop, with these bias guards, fixed in advance:
+1. **Blind extraction:** refresh subagents read ONLY PROTOCOL.md, CLAUDE.md, and their source — NOT the tension verdicts, RQ memos, or outputs. They must not know what conclusions exist, so their grading and finding selection cannot anchor on them.
+2. **Cross-ref after, not during:** the orchestrator cross-references each new record against the evidence table only after the record is written and committed.
+3. **Re-derivation, not confirmation:** after all refresh extractions land, every affected tension verdict and RQ memo is re-examined against the FULL refreshed table, asking "what would we conclude from scratch?" — not "does the new source fit?". Any movement (verdict, bound, confidence, wording) is applied and logged; outputs are revised last.
+4. **Equal diligence:** counter-evidence KEEPs are extracted with the same depth and priority as confirming ones; a challenger that survives cross-referencing goes to contradictions.md like any other conflict.
+5. Standard rules hold: batches of ≤5, one commit per source, Sonnet extraction agents, tier/era/COI grading per §2–§3.
 
 ## Final DoD §8 status
 - ≥25 graded sources, Tiers A–D, ≥8 task types: **MET** (42 sources, 11 task types tagged — with the audit's caveat that T1/T2/T9/T10/T11 carry usage data only)
@@ -76,6 +84,26 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 ## Queued
 | source_id / search target | RQ | priority |
 |---|---|---|
+| R1 SWEEP ADDITIONS (2026-07-06, three gap sweeps; full triage in the sweep reports): | | |
+| arXiv 2603.27130 Mao et al. — large-scale real-world AI-vs-human code metrics ("differences rather small") — CHALLENGER, tension 4 | RQ3 | high |
+| Google internal migrations (arXiv 2501.06972 + 2504.09691, one voice) — brownfield-success challenger, tension 2; self-graded "not a research study" | RQ5, RQ3 | high |
+| arXiv 2601.10258 Sergeyuk et al. ICSE 2026 "Evolving with AI" — 800 professional devs, 2-yr IDE telemetry — skill-formation + possible J-curve | RQ3, RQ4, RQ6 | high |
+| arXiv 2605.25438 Quispe — Claude Code natural experiment, 5,838 devs, 28 months, staggered adoption — bounds the scarcity headline | RQ1 | high |
+| Bain Agentic AI Benchmark 2026 — engineering payback median 9.3 months, 41% ROI-positive in 12mo, 19% never (D, COI; primary-text check) | RQ4 | high |
+| Nubank ETL-migration pair: Devin vendor page + Nubank's own eng blog (12x claim, 6M-LOC legacy) — diff the two versions | RQ5, RQ3 (T5) | medium-high |
+| arXiv 2601.16700 German SE industry adoption survey (B/C; policy-practice gap angle) | RQ2, RQ6 | medium |
+| Atlassian "cut PR cycle time 45% with AI code reviews" (D, COI; human review comments −35.6% — double-edged) | RQ5, RQ1 (T7) | medium |
+| arXiv 2601.16839 "AI builds, We Analyze" MSR 2026 — T11 build-code quality (B, E3) | RQ3 (T11) | medium |
+| Plandek 2026 benchmarks — Tier D delivery-level gains claim, no methodology disclosed — CHALLENGER (weak), tension 6/RQ5 | RQ5 | medium |
+| arXiv 2603.13723 "Do AI Agents Really Improve Code Readability?" (B, E3, equal-quality datapoint) | RQ3 | low-medium |
+| Aerospace rollout (psware.com, 81% fewer eng-hours) — independence/COI check REQUIRED before any use | RQ1, RQ5 | medium |
+| arXiv 2606.20598 biometrics AI-coding study — population check required (likely students → mechanism background only) | RQ6 (skill theme) | medium |
+| Adam SSRN 6409098 junior-roles paper — primary-vs-commentary check | RQ3 (tension 5) | low-medium |
+| ICSE 2026 SEIP "Beyond the Commit" — fetchability check (may lack preprint) | RQ1, RQ2 | low-medium |
+| AI-SQE @ ICSE 2026 comment-quality study — T10 evidence (thin) | RQ3 (T10) | low |
+| O'Reilly primary AI survey report (if standalone doc exists — search lead) | RQ2 | low |
+| Beller et al. 2021 "Mind the Gap" (pre-AI self-report-vs-telemetry methodology; likely double-edged) | RQ2 | low |
+| Gartner 2026 "90% report improvement / +19.3% net" — hype-baseline colour only (D) | RQ2 | low |
 | METR "forthcoming" autonomous-agent evidence (per arXiv:2507.09089 §4.1) — search target | RQ1 | medium |
 | METR critiques roundup (Zvi Mowshowitz; The Experimentalist) | RQ2 | medium |
 | MIT NANDA "GenAI Divide" report — shadow-AI critique (via dora-2026-roi leads) | RQ3 | medium |
