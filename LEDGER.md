@@ -91,20 +91,17 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | german-se-survey-2026 | RQ2, RQ6 | B weak-end (FSE 2026 peer-reviewed mixed-methods; n=109 convenience; wholly self-report; policy-practice-gap claim traces to a CITED paper, not this one's data) | E1/E2 chat-dominant (mid-2025 fielding) | R1 |
 | nubank-devin-2025 | RQ5, RQ3 (T5) | Vendor page D (HIGH COI, undated, internally inconsistent 8x-vs-12x) + Nubank blog C (medium COI) = ONE data point; only "12x" corroborated by Nubank's own words; estimate-vs-baseline ratios, not telemetry; no quality/rework data | E3 confirmed (autonomous agent, human review at merge) | R1 |
 | readability-agents-2026 | RQ3 (T5, T10) | B weak-end (MSR 26 mining, n=403 commits, no counterfactual; AIDev cluster — one voice; internal tension between "agents fail" and "metrics inadequate" readings recorded) | E3 | R1 |
+| beyond-the-commit-2026 | RQ2, RQ6 | B/C (BNY Mellon single-company, n=2,989 survey + 11 interviews, CMU co-authored; wholly self-report; adds the 86%-satisfied vs <1hr/wk-saved disconnect + two longer-horizon productivity factors absent from SPACE/DORA) | E1/E2 (agentic explicitly out of scope despite 2026 date) | R1 |
+| cotroneo-2025-defects | RQ3 | B (ISSRE 2025 peer-reviewed, paired controlled generation, 507k specs, replication package; DESCRIPTIVE ONLY — no inferential stats; lab-only; 47% of human-Python defects = one lint rule) | E2 single-shot, 2023-era models — pre-agentic label required | R1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
 |---|---|---|
 | R1 SWEEP ADDITIONS (2026-07-06, three gap sweeps; full triage in the sweep reports): | | |
-| arXiv 2508.21634 Cotroneo/Improta et al. — controlled 3-LLM vs human defect/CWE comparison (sibling to mao-2026, different design) | RQ3 | medium |
 | Quispe v2/full paper — placebo/covariate checks and heterogeneity splits explicitly promised; re-check before any future synthesis refresh | RQ1 | note |
 | Bain (REAL publications, replacing the phantom lead): "Your AI Budget Is Growing, Your Returns Aren't" (Jun 2026, n=951 exec survey) + "From Pilots to Payoff" (2025) | RQ4, RQ2 | low |
 | "Gartner Agentic AI Pulse 2026" — verify existence before any use (source of the misattributed 41%/19% figures) | RQ2 | low |
 | Neumann et al. (2026) — the actual primary for the German policy-practice-gap claim (load-bearing citation in german-se-survey-2026) | RQ6 | low-medium |
-| Aerospace rollout (psware.com, 81% fewer eng-hours) — independence/COI check REQUIRED before any use | RQ1, RQ5 | medium |
-| arXiv 2606.20598 biometrics AI-coding study — population check required (likely students → mechanism background only) | RQ6 (skill theme) | medium |
-| Adam SSRN 6409098 junior-roles paper — primary-vs-commentary check | RQ3 (tension 5) | low-medium |
-| ICSE 2026 SEIP "Beyond the Commit" — fetchability check (may lack preprint) | RQ1, RQ2 | low-medium |
 | AI-SQE @ ICSE 2026 comment-quality study — T10 evidence (thin) | RQ3 (T10) | low |
 | O'Reilly primary AI survey report (if standalone doc exists — search lead) | RQ2 | low |
 | Beller et al. 2021 "Mind the Gap" (pre-AI self-report-vs-telemetry methodology; likely double-edged) | RQ2 | low |
@@ -182,6 +179,9 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | [colleague] siddhantkhare.com "AI fatigue is real" (2026) | personal essay, two-week self-log only, no data — same cluster |
 | [colleague] tomwojcik.com "What AI coding costs you" (Feb 2026) | essay; its citable evidence (Shen-Tamkin RCT, Storey cognitive debt) captured directly in Queued |
 | [colleague] arXiv 2506.08872 "Your Brain on ChatGPT" (essay-writing EEG) | out of SDLC scope; per PROTOCOL v0.4 (approved) admissible as era-independent mechanism background only — never carries an SWE claim |
+| [R1] Aerospace case (psware.com, 81% fewer eng-hours etc.) | vendor self-promotion of own AI-augmented delivery services; no named client, no methodology — Tier D marketing, unusable without client corroboration |
+| [R1] arXiv 2606.20598 biometrics AI-coding study | population = 60 CS students — mechanism background only per v0.4 scope rule (findings noted in check report: reduced EEG cognitive-engagement signature under AI) |
+| [R1] Adam SSRN 6409098 junior-roles paper | commentary/framework piece, not primary empirical (full text 403-blocked; verdict from convergent secondary description — flagged) |
 
 ## RQ status
 RQ1: ANSWERED (rq1-value-map.md) | RQ2: ANSWERED (rq2-measurement-methods.md) | RQ3: ANSWERED (rq3-failure-map.md) | RQ4: CLOSED at insufficient evidence per pre-registration, with the cost-without-outcome gap as the finding (rq4-cost-profile.md) | RQ5: ANSWERED at medium confidence with counter-evidence stated (rq5-translation.md) | RQ6: ANSWERED (rq6-measurement.md)
