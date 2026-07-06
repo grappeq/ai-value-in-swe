@@ -16,6 +16,7 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | cui-2024-copilot-field | RQ1, RQ3 | A (COI: 2/6 MS authors, vendor data; Mgmt Sci Feb 2026) | E1 (seed's E2 tag unsupported) | 2 |
 | uplevel-2024 | RQ2, RQ6 | D (COI: vendor marketing; access-not-usage confound) | E1 | 2 |
 | dora-2024 | RQ5, RQ2 | B (vendor-adjacency flag) | E2-dominant + E1; no E3 in instrument | 3 |
+| space-dx-core4 | RQ6 | SPACE: B-equiv methodology (COI: 5/6 MS/GitHub authors); DX Core 4: D (COI: vendor) | era-independent; DX AI ext E3-relevant | 3 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -48,13 +49,54 @@ Last session: 2026-07-06 | Last commit: phase-0 batch 1 checkpoint (see git log)
 | GitHub/Accenture Nov 2024 counter-research (Tier D; side B of the defect-rate contradiction) | RQ3 | medium |
 | CodeRabbit Dec 2025 review-quality report (~1.7x issues in AI-coauthored PRs; Tier D) | RQ3, RQ4 | medium |
 | arXiv 2510.10165 — AI-assisted programming and technical-debt/maintenance burden | RQ3, RQ4 | medium |
-| SPACE framework & DX Core 4 | RQ6 | medium |
+| — E3 sweep, code review (T7): Cloudflare "AI Code Review at scale" (C, E3, real cost data) | RQ1, RQ4 | high |
+| — arXiv 2604.03196 "From Industry Claims to Empirical Reality" code-review agents, MSR 2026 (B, E3) | RQ1, RQ2 | high |
+| — arXiv 2605.02273 "These Aren't the Reviews You're Looking For" — most AI PRs unreviewed or AI-reviewed (B, E3) | RQ5, RQ3 | high |
+| — arXiv 2605.22534 why agentic PRs merge/reject, MSR 2026 (B, E3) | RQ3 | medium |
+| — arXiv 2601.21276 "More Code, Less Reuse" — redundancy up, reviewer sentiment up (B, E3) | RQ2, RQ3 | medium |
+| — GitHub blog "Agent pull requests are everywhere" (D, E3; 60M+ Copilot reviews claim) | RQ5 | medium |
+| — Microsoft devblog AI-powered code reviews rollout (D, E3) | RQ1 | low |
+| — E3 sweep, incident response (T8): Zalando 2-yr postmortem analysis, ~10% surface-attribution error (C, E3) | RQ3 | high |
+| — arXiv 2601.22208 "Stalled, Biased, and Confused" RCA reasoning failures, 48k scenarios (A/B, E3) | RQ3 | high |
+| — arXiv 2604.12108 Google Auto-Diagnose test-failure RCA, ICSE-SEIP 2026 (B/C, COI, E3) | RQ1 | medium |
+| — Datadog LLM postmortem pipeline (D, E3) | RQ1 | medium |
+| — E3 sweep, agent-code quality/security: arXiv 2605.06464 agent-code maintenance (B, E3) | RQ3 | high |
+| — arXiv 2601.15195 failed agentic PRs taxonomy (B, E3) | RQ3 | high |
+| — arXiv 2605.29442 developer-agent misalignment, 20,574 sessions (B, E3) | RQ3 | high |
+| — arXiv 2606.14796 tech-debt multivocal review (B, E2/E3) | RQ3 | medium |
+| — Amazon Mar 2026 AI-linked outages + 90-day safety reset (C journalism; causation contested by Amazon) | RQ3, RQ5 | medium |
+| — GitLab AI Accountability Report 2026 "AI Paradox" survey (D, E3, self-reported) | RQ5, RQ2 | medium |
+| — Opsera 2026 benchmark (D; headline %s lack methodology — cautious full read only, never cite headline alone) | RQ3 | low |
+| — E3 sweep, bottleneck displacement (§5.6): Agoda "coding was never the bottleneck" via InfoQ (C, E3; chase primary) | RQ5 | high |
+| — Zendesk "absorption capacity" via InfoQ (C, E3; chase primary) | RQ5 | high |
+| — Faros "AI Engineering Report 2026" telemetry: review time +441.5%, incidents/PR +242.7% (D, COI, E3; plus 2025 "AI Productivity Paradox" predecessor) | RQ5, RQ4 | high |
+| — E3 sweep, agentic controlled/mining studies: arXiv 2511.04427 "Speed at the Cost of Quality" Cursor DiD, MSR 2026 (B, E3) | RQ3, RQ5 | high |
+| — arXiv 2602.08915 task-stratified agent PR acceptance: Devin 42.9% vs Codex 81.6%, MSR 2026 (B, E3) | RQ1, RQ3 | high |
+| — arXiv 2605.23135 Vella & Blincoe 2-wave longitudinal: 84% self-report gains vs rising cognitive load (B, E3) | RQ2 | high |
+| — arXiv 2605.20049 code-cleanliness minimal-pair, Claude Code: token use −7–8% (B, E3) | RQ3, RQ4 | high |
+| — arXiv 2509.14745 agentic PRs on GitHub: 83.8% merge rate (B, E3) | RQ1 | medium |
+| — arXiv 2604.13108 architecture descriptors as agent navigation (B, E3) | RQ1, RQ3 | medium |
+| — arXiv 2606.13298 architectural quality under agentic adoption, DiD 151 Java repos (B, E3) | RQ3 | medium |
+| — arXiv 2602.00164 why fix-related agentic PRs stay unmerged (B, E3) | RQ3 | medium |
+| — arXiv 2605.04779 meta-analysis GenAI programming productivity 2019–2025, g=0.33 (B, mixed era) | RQ1 | medium |
+| — E3 sweep, rollouts/postmortems: Salesforce eng blog — Cursor legacy test coverage, 26→4 eng-days/repo (C, E3) | RQ4, RQ5 | high |
+| — Pragmatic Engineer "AI Tooling for Software Engineers in 2026" survey, n=906 (C, E3, self-report) | RQ1, RQ2 | high |
+| — Uber Claude Code budget burn (Forbes/The Information; $150–2,000/eng/mo, 84% adoption) (C/D, E3) | RQ4 | high |
+| — Replit agent production-DB deletion + fabrication postmortem (C, E3) | RQ3 | high |
+| — QCon London 2026 Böckeler keynote: cost escalation 12¢/100 lines → ~$91k/yr (C, E3) | RQ4 | high |
+| — Cursor vendor case-study set (Coinbase 90% idea→prod, Faire 2x PRs, NVIDIA 3x commits, Salesforce 30%) — triangulation pair with Salesforce eng blog (D, COI, E3) | RQ1, RQ5 | medium |
+| — Grigorev first-hand postmortem: Claude Code + Terraform dropped production DB (C, E3) | RQ3 | medium |
+| — AWS Kiro 13-hr Cost Explorer outage (D secondary; "user error" framing suspect; 1,500-eng petition) | RQ3 | medium |
+| — Anthropic Apr 2026 Claude Code quality postmortem (D, COI, E3) | RQ3 | medium |
+| — Pragmatic Engineer "How Claude Code Is Built" + Wolff QCon talk (C/D; Anthropic self-report, 90% Claude-written claim) | RQ1 | low |
+| — arXiv 2508.00178 "The SPACE of AI" — SPACE co-author's AI-era follow-up (Jul 2025) | RQ6 | high |
 
 ## Blocked
 | source_id | reason | needs |
 |---|---|---|
 | stanford-denisov-blanch (verification upgrade only — extraction done at talk-grade) | headline effect sizes exist only in talks; slides PDF image-only, videos not viewable in-session; figures taken from secondary write-ups which disagree on the headline number | human to watch/skim the Jun 2025 + Nov 2025 talk videos, or accept talk-grade ranges as-is |
 | gitclear-2026 full report ("The Maintainability Gap") | email-gated (business email + name + job title); no free PDF exists; landing-page headline figures extracted, but methodology/caveats/baselines unreadable | human to register once and hand over the PDF, or accept landing-page figures only |
+| space-dx-core4 (SPACE primary-text upgrade only — record built from convergent secondaries + verified abstract) | ACM-family domains (queue.acm.org, cacm.acm.org, dl.acm.org) all 403 the fetch tool — likely bot-blocking, not a paywall; no preprint exists | human to open queue.acm.org/detail.cfm?id=3454124 in a browser and confirm free readability (then upgrade to full primary read) |
 
 ## Rejected (triage)
 | source | one-line reason |
