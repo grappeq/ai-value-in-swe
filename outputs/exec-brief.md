@@ -1,6 +1,6 @@
 # AI Coding Tools: What the Evidence Actually Says
 
-**Two pages · July 2026 · based on 42 sources and 181 extracted findings · everything traceable in this repository**
+**Two pages · July 2026 · based on 54 sources and 207 extracted findings · everything traceable in this repository**
 
 How to read the tags: **[A]** = rigorous experiment, **[B]** = large-scale data without an experiment, **[C]** = credible company account, **[D]** = vendor material (they have something to sell). Plus how sure we are: high / medium / low.
 
@@ -8,9 +8,9 @@ How to read the tags: **[A]** = rigorous experiment, **[B]** = large-scale data 
 
 ## The big picture: nobody has properly measured today's AI agents yet
 
-Almost every famous number you've heard — "55% faster", "26% more output" — comes from **old autocomplete tools timed on artificial lab tasks** (the "55% faster" was writing a toy web server from scratch), not today's agents doing real work. Read that carefully: it does *not* mean autocomplete beat agents. Those old numbers never measured real-world value either — stopwatch speed on toy problems doesn't survive contact with a real codebase, which is the whole point. Today's agents simply haven't had an equivalent rigorous test at all. So nobody holds a trustworthy productivity figure for *either* generation doing real work.
+Almost every famous number you've heard — "55% faster", "26% more output" — comes from **old autocomplete tools timed on artificial lab tasks** (the "55% faster" was writing a toy web server from scratch), not today's agents doing real work. This does *not* mean autocomplete beat agents: those old numbers never measured real-world value either — stopwatch speed on toy problems doesn't survive contact with a real codebase. Today's agents simply haven't had an equivalent rigorous test at all, so nobody holds a trustworthy productivity figure for *either* generation doing real work.
 
-In the entire world, only three rigorous trials of AI coding productivity exist. All predate modern agents. And one of them found something remarkable: experienced developers working on codebases they knew well got **19% slower** with AI — while being convinced they were 20% faster [A, high].
+In the entire world, only three rigorous (randomised) trials of AI coding *productivity* exist — and none tested a mature present-day agent. One of them found something remarkable: experienced developers working on codebases they knew well got **19% slower** with early AI agents, while being convinced they were 20% faster [A, high].
 
 We suspected the evidence might be this thin before we started, and wrote that expectation down. It turned out to be true. So the first rule is: treat every AI velocity claim — from vendors, from the press, from our own gut feeling — with suspicion.
 
@@ -18,7 +18,7 @@ We suspected the evidence might be this thin before we started, and wrote that e
 
 1. **Don't trust what developers say about their own AI gains — including us.** Four separate studies compared what people *said* AI did for them against what was *measured*. People were off by 20–40 percentage points. Some overshot, some undershot, and at the individual level guesses were basically uncorrelated with reality [A/B, high]. Surveys tell you how people feel. They never tell you what happened.
 2. **Numbers get mangled as they travel — at every layer.** We caught fifteen cases of press, newsletters, vendors, and aggregators corrupting numbers: wrong error margins, an entire consultancy "benchmark report" that turns out not to exist, one vendor whose marketing headline inflates its own peer-reviewed measurement by half — and a whole ecosystem pasting one company's real cost figure onto other companies' stories (the "$2,000/month at Microsoft" you may have seen is Uber's number; Microsoft never stated one). Rule: never act on an AI number that hasn't been traced back to the original source [high].
-3. **Companies are spending without checking what they get back — and the spending just changed shape.** Budgets set in the seat-licence era ($100–500 per developer per *year* was typical in 2025) are colliding with token-era bills (a quarter of tech leaders now report $200–500 per developer per *month*; 6% exceed $2,000/month; Gartner forecasts AI coding spend passing the average developer's salary by 2028) [D, distribution-grade]. Consumption grows at constant prices — Anthropic's own per-day cost estimate doubled in three months with no price change — and it's already forcing policy: Uber capped spend at $1,500/month, Microsoft pulled its Claude Code licences over cost. Yet every organisation that publishes costs publishes **nothing** about what those costs bought; Uber's own COO says the productivity link "is not there yet" [C, high on the pattern].
+3. **Companies are spending without checking what they get back — and the spending just changed shape.** Budgets set in the seat-licence era (typically $100–500 per developer per *year* in 2025) are colliding with token-era bills: a quarter of tech leaders now report $200–500 per developer per *month*, 6% exceed $2,000/month, and Gartner forecasts AI coding spend passing the average developer's salary by 2028 [D, distribution-grade]. Consumption climbs even at flat prices — Anthropic's own per-day cost estimate doubled in three months with no price change — and it is already forcing policy: Uber capped spend at $1,500/month per developer, Microsoft pulled its Claude Code licences over cost. Yet every organisation that publishes costs publishes **nothing** about what those costs bought; Uber's own COO says the productivity link "is not there yet" [C, high on the pattern].
 
 ## Where AI helps, and where it doesn't
 
@@ -32,7 +32,7 @@ We suspected the evidence might be this thin before we started, and wrote that e
 
 ## The key insight: writing code faster ≠ shipping faster
 
-Individual coding gains are real. But whole-organisation delivery barely moves in comparison: across hundreds of companies, delivery improved by single digits to low teens percent while AI usage grew 65% (vendor-measured, so trust the direction, not the exact number [D]).
+Individual coding gains are real. But whole-organisation delivery barely moves in comparison: across ~400 companies, delivery rose about 8% while AI usage grew 65% (vendor-measured, so trust the direction, not the exact figure [D]).
 
 Why the gap? **The bottleneck moved.** Code gets written faster, but reviewing it, testing it, and absorbing it didn't speed up. In the one company measured end to end: code output tripled, human review coverage dropped from 89% to 68%, meaningful review halved, each reviewer's load doubled — and things actually took 22% *longer* to ship [A, one company; the pattern is echoed by two vendors and two other companies, medium-high that it's real, low on exact size].
 
@@ -51,6 +51,6 @@ Can AI review its own output? It can do it cheaply (about $1 per review at Cloud
 
 1. **Push AI adoption where the evidence supports it** — new and clean-codebase work — and be patient: the gains compound over months. For old, complex codebases, don't assume either way; measure our own.
 2. **Invest in review and verification capacity, not just AI licences.** That's the proven bottleneck. Scaling code generation without scaling absorption just builds a queue.
-3. **Measure ourselves.** The companion proposal lists six things to track and seven popular metrics to refuse. Published evidence cannot tell us whether AI works *for us* — on today's data, it can't tell anyone.
+3. **Measure ourselves.** The companion proposal lists six things to track and eight popular metrics to refuse. Published evidence cannot tell us whether AI works *for us* — on today's data, it can't tell anyone.
 
 *One honest gap: whether AI use erodes engineers' skills over time rests on just two studies (one found a real comprehension cost from AI-assisted learning, with no speed benefit to offset it). We deliberately didn't do a full evidence sweep on this. Treat all skill-formation claims, positive or negative, as open questions.*
