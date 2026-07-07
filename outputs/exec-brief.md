@@ -8,7 +8,7 @@ How to read the tags: **[A]** = rigorous experiment, **[B]** = large-scale data 
 
 ## The big picture: nobody has properly measured today's AI agents yet
 
-Almost every famous number you've heard — "55% faster", "26% more output" — comes from studies of **old autocomplete tools doing artificial tasks**. Not today's agents doing real work.
+Almost every famous number you've heard — "55% faster", "26% more output" — comes from **old autocomplete tools timed on artificial lab tasks** (the "55% faster" was writing a toy web server from scratch), not today's agents doing real work. Read that carefully: it does *not* mean autocomplete beat agents. Those old numbers never measured real-world value either — stopwatch speed on toy problems doesn't survive contact with a real codebase, which is the whole point. Today's agents simply haven't had an equivalent rigorous test at all. So nobody holds a trustworthy productivity figure for *either* generation doing real work.
 
 In the entire world, only three rigorous trials of AI coding productivity exist. All predate modern agents. And one of them found something remarkable: experienced developers working on codebases they knew well got **19% slower** with AI — while being convinced they were 20% faster [A, high].
 
