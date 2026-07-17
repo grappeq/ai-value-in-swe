@@ -23,7 +23,7 @@ Built as three cost/result pairs plus two safety checks — deliberately, so no 
 
 One thing we'd like to measure but can't yet: how maintainable AI-written code is over time. The evidence says this is the real cost, but no practical off-the-shelf way to track it exists today. Revisit in a year.
 
-## Eight metrics to refuse — each has already burned someone
+## Nine metrics to refuse — each has already burned someone
 
 1. **Lines of code** — rewards bloat; grew 47% in the very study where developers got slower.
 2. **Raw commit/PR counts** — one 350-person team saw PRs rise 14% while real output stayed flat and rework hit 2.5×. Their dashboards said "great"; the truth said "negative ROI".
@@ -32,7 +32,8 @@ One thing we'd like to measure but can't yet: how maintainable AI-written code i
 5. **Token/usage volume as a success measure** — usage barely correlates with results (r≈0.2), heavy use can *underperform* moderate use, and one company's token leaderboard directly caused its budget blow-out.
 6. **Self-reported productivity multipliers** — wrong in both directions every time they've been checked, and inflating year on year.
 7. **"Time to first review comment"** — becomes automatically zero (and meaningless) the moment an AI comments on every PR; one vendor's rollout demonstrates exactly this. Watch *substantive* review measures instead.
-8. **Any single number by itself** — every metric above can be gamed alone; that's exactly why the adopt-list comes in pairs.
+8. **Agent PR merge/rejection rate** — in the largest open-source data, at most a third of rejected agent PRs actually failed for code reasons; the rest died of process (nobody reviewed them, duplicates, silent closes), and per-agent rates differ 2× for workflow reasons alone. A merge rate measures the pipeline, not the agent.
+9. **Any single number by itself** — every metric above can be gamed alone; that's exactly why the adopt-list comes in pairs.
 
 ## How to run the pilot
 
@@ -41,6 +42,7 @@ One thing we'd like to measure but can't yet: how maintainable AI-written code i
 - **Expect things to get worse before better — but verify it.** The "dip then rise" story is plausible (the best study took ~9 months to peak) but no one has actually proven the rise follows the dip. Let our data decide.
 - **Run long enough to see the fade.** In open-source data, velocity gains sometimes spike and then vanish by month 3–6. A four-week pilot would catch only the spike and declare victory.
 - **Surveys measure mood, and are labelled that way.** They never feed a productivity figure.
+- **Keep a standing complaint channel, and treat it as an instrument.** Twice in seven months, the maker of Claude Code shipped quality regressions its own internal testing missed — user complaints were the alarm both times, taking weeks to surface. Small quality drops will not show up on our dashboards either; a low-friction "the AI got worse" report path, reviewed weekly, is the cheapest early-warning system that demonstrably works.
 
 ## Honest limits
 
