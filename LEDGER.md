@@ -1,6 +1,20 @@
 # Research Ledger
-Phase: REFRESH CYCLE R1 (human-directed, 2026-07-06) — gap sweeps → blind extraction → re-derivation
-Last session: 2026-07-06 | Last commit: see git log
+Phase: REFRESH CYCLE R3 (human-directed, 2026-07-17) — open-questions push: Route 1 (queue extraction, Q3/Q8/Q1 clusters) + Route 2 (targeted searches, Q1/Q6/Q7/Q11/Q12)
+Last session: 2026-07-17 | Last commit: see git log
+
+## Refresh cycle R3 — pre-registered method (recorded BEFORE any extraction or search reported)
+Purpose: answer/advance the open questions in outputs/follow-up-questions.md. Route 1 extracts the already-triaged queued leads mapping onto Q3 (quality debt → defects/incidents), Q8 (review bottleneck: queue vs function), Q1 (transient-gain bounding). Route 2 runs bounded orchestrator searches on Q1 (METR agent work re-check, Quispe v2), Q6 (third seniority split — null-confirmation), Q7 (he-2026 context re-read + enabling-conditions colour), Q11 (post-cap output reporting), Q12 (consumption curve). Bias guards, fixed in advance, identical to R1:
+1. **Blind extraction:** subagents read ONLY PROTOCOL.md, CLAUDE.md, and their source — NOT the tension verdicts, RQ memos, outputs, or ledger. Grading and finding selection must not anchor on existing conclusions.
+2. **Cross-ref after, not during:** orchestrator cross-references each record against the evidence table only after the record is written and committed.
+3. **Re-derivation, not confirmation:** after all R3 extractions land, affected open-question statuses, tension verdicts, and memos are re-examined against the full refreshed table from scratch; movements applied and logged; outputs revised last.
+4. **Equal diligence:** counter-evidence extracted with the same depth as confirming evidence.
+5. Standard rules hold: batches of ≤5, one commit per source, Sonnet extraction agents, tier/era/COI grading per §2–§3. Evidence rows appended as a verified row batch after extractions (R1 pattern).
+
+**Planned batches (from Queued):**
+- R3.1 (Q3 high-priority): arXiv 2605.06464 agent-code maintenance · arXiv 2601.15195 failed-agentic-PRs taxonomy · arXiv 2605.29442 developer-agent misalignment · Replit production-DB deletion postmortem · Amazon Mar 2026 AI-linked outages
+- R3.2 (Q3 completion + Q8): arXiv 2606.13298 architectural quality DiD · arXiv 2605.20049 code-cleanliness minimal-pair · arXiv 2601.21276 more-code-less-reuse · arXiv 2605.22534 why agentic PRs merge/reject · arXiv 2602.00164 unmerged fix PRs
+- R3.3 (Q1 bounds + Q7 + remaining postmortems): arXiv 2605.04779 meta-analysis · METR critiques roundup · Salesforce eng blog Cursor test coverage · Grigorev postmortem · AWS Kiro outage (+ Anthropic Apr 2026 postmortem if batch space allows)
+- R3.4 conditional on what R3.1–R3.3 surface (candidates: arXiv 2601.22208 RCA failures, arXiv 2510.10165 tech debt, Datadog pipeline, Cursor vendor case-study set)
 
 ## Refresh cycle R1 — pre-registered method (recorded BEFORE the counter-evidence sweep reported)
 Purpose: three gap sweeps (missed channels / topic holes / counter-evidence) are hunting sources the original search shape missed. All KEEPs get queued and analysed per the standard protocol loop, with these bias guards, fixed in advance:
