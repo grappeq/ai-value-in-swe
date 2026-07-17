@@ -1,6 +1,6 @@
 # AI Value in Software Engineering — Research Protocol v0.3
 
-**Purpose:** Internal evidence base to shape AI strategy direction. Not for external publication — optimise for decision-relevance, honesty about uncertainty, and reusability, not citation polish.
+**Purpose:** An evidence base to shape AI adoption decisions. Optimised for decision-relevance, honesty about uncertainty, and reusability, not citation polish.
 
 **Decisions this must inform:**
 1. Which task types to push AI adoption on (and which to explicitly deprioritise)
@@ -212,13 +212,13 @@ Full agent instructions live in `CLAUDE.md` (drafted alongside this protocol).
 
 ## Scope Decisions (resolved)
 
-1. **No proprietary/internal data.** External literature only; internal calibration is out of scope and, if ever wanted, a separate exercise.
+1. **No proprietary/internal data.** External literature only; calibration against any specific organisation is out of scope and, if ever wanted, a separate exercise.
 2. **One-time research.** No refresh cadence; the ledger and evidence table make a future re-run cheap if the need arises, but none is planned.
 3. **Cost evidence stays literature-level.** RQ4 reports cost findings as reported by sources (licence/token spend, review-overhead, rework) — no bespoke cost model scaled to org size.
 
 ## Changelog
 
-- **v0.4 (2026-07-06):** added the skill-formation & cognitive-effects cross-cutting theme (feeds RQ4 and RQ6; mechanism-background scope rule for out-of-domain studies). Prompted by colleague-shared resources at the Phase 0 gate (Anthropic/Shen-Tamkin comprehension RCT, cognitive-load and cognitive-debt material); approved by the human 2026-07-06.
+- **v0.4 (2026-07-06):** added the skill-formation & cognitive-effects cross-cutting theme (feeds RQ4 and RQ6; mechanism-background scope rule for out-of-domain studies). Prompted by externally shared resources at the Phase 0 gate (Anthropic/Shen-Tamkin comprehension RCT, cognitive-load and cognitive-debt material); approved by the human 2026-07-06.
 - **v0.3 (2026-07-06):** reweighted toward practitioner evidence — few formal papers expected. Evidence bar reframed as practitioner-first with triangulation substituting for rigour; Tier C promoted to expected volume centre with a ≥3-independent-sources rule for carrying exec-brief claims (medium confidence cap); Tier C hunting grounds added to §6; practitioner query variants added to §6.5; DoD "zero Tier C/D claims" rule replaced with the triangulation rule (Tier D still never carries a claim alone).
 - **v0.2 (2026-07-06):** renamed file to PROTOCOL.md; commits standardised to one per source + batch checkpoint; era assignment by tool modality, not year; preprint substitution rule for paywalled Tier A/B; evidence table switched CSV→TSV, `era` and `measurement_basis` columns added to schema; per-RQ query plans added (§6.5); saturation rule disambiguated for multi-RQ sources; DoD scarcity clause added; RQ4 thin-evidence expectation pre-registered.
 - **v0.1:** initial draft.
