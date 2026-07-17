@@ -13,7 +13,7 @@ A personal research project, completed July 2026. I wanted a straight answer to 
 
 An AI research agent (Claude Code) executed a pre-registered protocol ([PROTOCOL.md](PROTOCOL.md)) under human review gates: fixed research questions, a source-quality grading scheme, rules against averaging away contradictions, and saturation criteria — with a human (me) reviewing each phase before the next opened. [CLAUDE.md](CLAUDE.md) contains the agent's working instructions, and [LEDGER.md](LEDGER.md) is the running log of what was searched, extracted, rejected, and why.
 
-That provenance matters for how you read it: the documents mention "the human" (me, at review gates) and are written from the perspective of an engineering organisation deciding where to invest in AI — that's the deliverable format the protocol specifies, and the outputs are published unedited. Anywhere they say "we should measure X", read "an org adopting AI should measure X".
+That provenance matters for how you read it. The final documents in `outputs/` speak with two voices: "we" is the research programme reporting what it found; "you" is the reader — anyone deciding where to invest in AI. The working documents (`synthesis/`, `sources/`, `LEDGER.md`) keep their internal research voice, including mentions of "the human" (me, at review gates) — they are the audit trail, published unedited.
 
 ## How to read the grades
 
