@@ -127,3 +127,11 @@ Largely absent from this draft. No splits by seniority, geography, language ecos
 1. **Taxonomy fit:** source does not map onto T1–T11; proposed handling above (T3 + quality note). Per CLAUDE.md this is an escalation trigger — do not silently stretch.
 2. **Recheck for v2:** preliminary draft explicitly defers Propositions 2 and 4 and the covariate/placebo checks to "the full paper"; a revised version may exist by synthesis time.
 3. **Cross-ref candidates:** the attenuation of headline effects under stricter activity filters, and the abstract-quotes-the-peak pattern (e=0 vs simple ATT), should be checked against any secondary reporting of this paper — press coverage citing "+41 commits" without the decay profile would overstate it roughly twofold.
+
+## AMENDMENT (2026-07-17, R3 cycle — supersession + independence correction)
+
+The v2 revision of this paper (arXiv 2605.25438v2, 7 Jul 2026, retitled "Agentic Delegation and the Language Frontier of Software Developers") is extracted as its own record: **sources/quispe-2026-agentic-delegation.md**. Material changes v1→v2:
+1. **Independence grading of THIS record is corrected retroactively.** v2 adds a GitHub-employed co-author (Kevin Xu, khxu@github.com) and discloses: "This research was made possible by Alexander Quispe's time as a research associate at Microsoft–GitHub during summer 2026." The R1 grading "Caltech, independent of all our clusters" is therefore WRONG as an ongoing description: the work is Microsoft–GitHub-adjacent. It remains outside the CMU and AIDev clusters, but convergence with Microsoft-cluster sources (heilman-2026-microsoft, microsoft-cli-agents-2026) should no longer be counted as fully independent triangulation.
+2. v2 rebuilt measurement at commit level; the headline language-count effect roughly tripled (+0.83 → +2.5) — a measurement-sensitivity caution against citing either version's point estimate as stable.
+3. v2's cumulative-stock "keeps growing" outcome is self-flagged for differential pre-trends; the spike-then-decay pattern on flow outcomes persists.
+Use the v2 record for any forward citation; this record stands for the v1 snapshot R1 actually analysed.
