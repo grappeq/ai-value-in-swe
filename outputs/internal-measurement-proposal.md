@@ -2,7 +2,7 @@
 
 **July 2026 · companion to the exec brief · full reasoning in synthesis/rq6-measurement.md**
 
-Published research can't answer whether AI helps *your* teams. What it can do is tell you how to find out — and which mistakes other companies have already made so you don't repeat them. Three lessons drive this whole proposal:
+Published research can't answer whether AI helps *your* teams. What it can do is tell you how to find out — and which mistakes every other company has already made so you don't repeat them. Three lessons drive this whole proposal:
 
 1. **Individual gains shrink dramatically at company level** — so measure delivery, not activity.
 2. **Nobody pairs cost data with results data.** Not one published company. That's the single most common failure, so every cost meter here comes glued to an outcome meter.
@@ -21,7 +21,7 @@ Built as three cost/result pairs plus two safety checks — deliberately, so no 
 | 5 | **AI spend per developer — on the same dashboard as #1–3, tracked in consumption units** | Whether the money buys anything | Budget in tokens, not seats: 2025-style annual seat budgets ($100–500/dev/yr) are an order of magnitude below 2026 token-era reality ($150–500/dev/month averages; power-user tail $500–2,000+). Expect consumption to grow at constant prices (one vendor's own per-day estimate doubled with no price change). Date-stamp and unit-label any benchmark you compare against — and a spend number without a results number next to it is banned by design |
 | 6 | **People track, kept separate from productivity**: a morale/experience survey (labelled as sentiment) + occasional comprehension checks where AI is used for learning | Whether the team is healthy, and whether skills are quietly eroding | Surveys are fine *here* because they claim nothing about output. The skill check follows the one trial showing AI-assisted learners understood significantly less (effect size d=0.738) while going no faster |
 
-One thing worth measuring that nobody can yet: how maintainable AI-written code is over time. The evidence says this is the real cost, but no practical off-the-shelf way to track it exists today. Revisit in a year.
+One thing you'd want to measure but can't yet: how maintainable AI-written code is over time. The evidence says this is the real cost, but no practical off-the-shelf way to track it exists today. Revisit in a year.
 
 ## Nine metrics to refuse — each has already burned someone
 
