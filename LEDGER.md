@@ -108,6 +108,9 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | beyond-the-commit-2026 | RQ2, RQ6 | B/C (BNY Mellon single-company, n=2,989 survey + 11 interviews, CMU co-authored; wholly self-report; adds the 86%-satisfied vs <1hr/wk-saved disconnect + two longer-horizon productivity factors absent from SPACE/DORA) | E1/E2 (agentic explicitly out of scope despite 2026 date) | R1 |
 | cotroneo-2025-defects | RQ3 | B (ISSRE 2025 peer-reviewed, paired controlled generation, 507k specs, replication package; DESCRIPTIVE ONLY — no inferential stats; lab-only; 47% of human-Python defects = one lint rule) | E2 single-shot, 2023-era models — pre-agentic label required | R1 |
 | ai-spend-landscape-2026 | RQ4 | Landscape record (Gartner D-real / DX D / Anthropic telemetry D / Microsoft event C + figure REFUTED / PragEng C); headline: seat→token regime change in 2026; invoice-grade disclosure absent; corruption instance #15 (Uber's figure laundered onto Microsoft) | seat-era E1/E2 → token-era E3, per item | R2 |
+| agent-code-maintenance-2026 | RQ3, RQ4 | B (EASE 2026 peer-reviewed, NAIST, publicly funded; NO inferential stats; self-selection confound author-acknowledged; AIDev-derived — one-voice cluster) | E3 (5 agents; Codex excluded from attribution) | R3.1 |
+| dev-agent-misalignment-2026 | RQ3, RQ6 | B (20,574-session telemetry, SpecStory+Entire.io — NEW data provenance, independent of AIDev and CMU clusters; preprint; mild Google-co-author flag; LLM-judge validation partly circular) | E3 (6 agentic tools, IDE+CLI) | R3.1 |
+| failed-agentic-prs-2026 | RQ3, RQ5 | B (MSR 2026 peer-reviewed, Drexel; AIDev-pop subset — one-voice cluster; OSS ≥100-star only; no cost/seniority data) | E3 (5 agents; Codex 65% of corpus) | R3.1 |
 
 ## Queued
 | source_id / search target | RQ | priority |
@@ -149,9 +152,6 @@ All 12 seed anchors verified: 11 VERIFIED (stanford-denisov-blanch upgraded via 
 | — arXiv 2601.22208 "Stalled, Biased, and Confused" RCA reasoning failures, 48k scenarios (A/B, E3) | RQ3 | high |
 | — arXiv 2604.12108 Google Auto-Diagnose test-failure RCA, ICSE-SEIP 2026 (B/C, COI, E3) | RQ1 | medium |
 | — Datadog LLM postmortem pipeline (D, E3) | RQ1 | medium |
-| — E3 sweep, agent-code quality/security: arXiv 2605.06464 agent-code maintenance (B, E3) | RQ3 | high |
-| — arXiv 2601.15195 failed agentic PRs taxonomy (B, E3) | RQ3 | high |
-| — arXiv 2605.29442 developer-agent misalignment, 20,574 sessions (B, E3) | RQ3 | high |
 | — arXiv 2606.14796 tech-debt multivocal review (B, E2/E3) | RQ3 | medium |
 | — Amazon Mar 2026 AI-linked outages + 90-day safety reset (C journalism; causation contested by Amazon) | RQ3, RQ5 | medium |
 | — GitLab AI Accountability Report 2026 "AI Paradox" survey (D, E3, self-reported) | RQ5, RQ2 | medium |
