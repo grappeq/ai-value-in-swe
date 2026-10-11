@@ -26,12 +26,12 @@ One thing you'd want to measure but can't yet: how maintainable AI-written code 
 ## Nine metrics to refuse — each has already burned someone
 
 1. **Lines of code** — rewards bloat; grew 47% in the very study where developers got slower.
-2. **Raw commit/PR counts** — one 350-person team saw PRs rise 14% while real output stayed flat and rework hit 2.5×. Their dashboards said "great"; the truth said "negative ROI".
+2. **Raw commit/PR counts** — one 350-person team saw PRs rise 14% while real output stayed flat and rework hit 2.5×. Their dashboards said "great"; the truth said "negative ROI". The largest study yet (500,000 open-source developers) saw agents raise commits ~150% while releases rose ~20%.
 3. **Suggestion acceptance rate** — developers accepted under 44% of suggestions *while being slowed down*. Acceptance and value simply aren't related.
-4. **"% of code that's AI-generated"** — no validated way to compute it exists, even in academia. Vendor versions don't even say how they counted.
+4. **"% of code that's AI-generated"** — no validated way to compute it exists, even in academia. Vendor versions don't even say how they counted. A 15,000-developer survey's self-reported shares (agent-written, AI-assisted, manual) add up to 112%.
 5. **Token/usage volume as a success measure** — usage barely correlates with results (r≈0.2), heavy use can *underperform* moderate use, and one company's token leaderboard directly caused its budget blow-out.
 6. **Self-reported productivity multipliers** — wrong in both directions every time they've been checked, and inflating year on year.
-7. **"Time to first review comment"** — becomes automatically zero (and meaningless) the moment an AI comments on every PR; one vendor's rollout demonstrates exactly this. Watch *substantive* review measures instead.
+7. **"Time to first review comment"** — becomes automatically zero (and meaningless) the moment an AI comments on every PR; one vendor's rollout demonstrates exactly this. Watch *substantive* review measures instead. Review *duration* is no better: in the largest agent-PR dataset, time under review did not predict whether a merge later needed a fix. And vendor "elite/good" benchmark tiers are customer percentile ranks, not outcome-validated targets.
 8. **Agent PR merge/rejection rate** — in the largest open-source data, only about a third of rejected agent PRs demonstrably failed for code reasons; another third died with no recorded reason at all, and the rest died of process (nobody reviewed them, duplicates). So the true failure share is unknown — and per-agent rates differ 2× or more for workflow reasons alone. Either way, a merge rate measures the pipeline, not the agent.
 9. **Any single number by itself** — every metric above can be gamed alone; that's exactly why the adopt-list comes in pairs.
 
