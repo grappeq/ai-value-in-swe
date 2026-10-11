@@ -111,3 +111,14 @@ Never average conflicting results; never pick the convenient one.
 - Side B: Uber's own ICSE-SEIP 2026 paper (Aug–Sep 2025 telemetry) — IDE mode alone generates "hundreds of thousands" of tests per month, Headless tens of thousands, CLI thousands; ~44% of viable IDE tests explicitly accepted; ~11% of new reviewed tests are AutoCover's.
 - Likely reconciliation: different units (generated vs accepted/merged, or one mode only) — neither primary defines the unit, so the two figures cannot be reconciled from the documents. Same organisation, same programme: this is a within-org unit ambiguity of the Atlassian 45%/−30.8% kind, not two voices. Never cite either figure as "AutoCover output" without its unit caveat.
 - Related §5 tension: 7 (bad metrics — counts of generated artefacts); feeds RQ6.
+
+## R4 addendum to the verdict index (2026-10-11) — full memos carry dated R4 addenda
+| # | Tension | R4 movement |
+|---|---|---|
+| 1 | Perception gap | Operative claim stands; two new datapoint kinds (preference-vs-understanding; expert-vs-user, perception *below* measurement) |
+| 2 | Greenfield vs brownfield | Unchanged; practitioner perception map mirrors the measured direction; one weak positive brownfield case |
+| 3 | Throughput vs stability | Unchanged; CircleCI series (no AI variable) shows no durable CI-level decline; Amazon unresolved; DORA 2026 not out |
+| 4 | Quality debt | Verdict stands; persistence leg +2 directional rows; maintenance leg now an intra-AIDev contradiction; **detectability leg gains an independent lab provenance** |
+| 5 | Seniority | Unchanged; one E1 cluster-internal direction datapoint |
+| 6 | Bottleneck displacement | **Direction confidence raised to high** (first large-N measured attenuation chain; seven orgs, three vendors); magnitude bounded at OSS scale, one cluster; Q14 opened |
+| 7 | Bad metrics | Resolved stands; three exhibits added (112% code shares; review duration non-predictive; vendor tiers) |

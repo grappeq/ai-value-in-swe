@@ -41,3 +41,6 @@ A DORA 2026 annual report repeating the same self-report items would turn a two-
 ## 8. Feeds exec brief as
 
 The throughput story has already flipped once inside a single yearly survey and can't be trusted as a trend; the stability cost shows up almost everywhere it's looked for but has never been measured with a number we can act on, so budget for a review/incident-handling cost without believing anyone's current estimate of its size.
+
+## R4 addendum (2026-10-11) — CONTESTED stands; one vendor CI series added; Amazon still unresolved
+CircleCI's two 2026 reports (D, CI-vendor COI, **no AI-usage variable in either** — the AI framing is the vendor's interpretation) show main-branch success at a five-year low in September 2025 (70.8%) recovering by March 2026 (76.7%), with median main-branch throughput −6.8% then flat while feature-branch activity rose (+15%, then +7.7%); main-branch MTTR improved in the annual report's own tables. Read as "no durable stability decline visible at CI level" — direction-only, and not attributable to AI. Qodo's "89% of organisations report an AI-related production incident" (D, screened adopters, no definition or period) is hype-baseline colour, not a rate. Falsifier (e) did not fire: no primary on Amazon's sign-off requirements appeared after March 2026. DORA 2026 annual not published as of 11 Oct 2026.
