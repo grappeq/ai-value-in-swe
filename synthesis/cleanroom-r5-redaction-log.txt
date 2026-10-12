@@ -1,4 +1,4 @@
-# Clean-room export redaction log — level 3 — target /home/grappeq/work/ai-value-cleanroom-L3
+# Clean-room export redaction log — level 3 — target /home/grappeq/work/cleanroom-L3-opus
 agent-code-maintenance-2026.md:13	tension-ref	**Original ledger guess vs verified reality:** guess was "tier ~B, era E3, feeds
 agent-code-maintenance-2026.md:40	tension-ref	**RQ tag:** RQ1, RQ3, §5-tension-4 (quality debt)
 agent-code-maintenance-2026.md:56	tension-ref	**RQ tag:** RQ1, RQ3, §5-tension-4 (quality debt/refactor-rate proxy)
@@ -341,9 +341,11 @@ zhong-2026-agentic-review.md:63	tension-ref	5. Review of PR authored by agents v
 evidence-table.tsv:20:col16	CELL	Report's own footnote 20: these are "comparisons", not causal effects. Secondary
 evidence-table.tsv:29:col16	CELL	Confirmed exactly against Appendix A1. Same undisclosed ~3.3-3.8x record-count j
 evidence-table.tsv:35:col16	CELL	talk-published, no CIs, not peer-reviewed; verbatim transcript-confirmed 2026-07
+evidence-table.tsv:37:col16	CELL	talk-published, no CIs, not peer-reviewed; RESOLVED by transcript for these two 
 evidence-table.tsv:41:col16	CELL	talk-published, no CIs, not peer-reviewed; transcript-confirmed verbatim ("askin
 evidence-table.tsv:52:col13	CELL	Less-experienced devs, developers with heavier daily coding loads, and older (25
 evidence-table.tsv:53:col16	CELL	Control group's estimate was elicited after seeing a demo video, not a naive bas
+evidence-table.tsv:55:col16	CELL	No bug definition published anywhere (primary or secondary) - unclear if PR "bug
 evidence-table.tsv:55:col16	CELL	No bug definition published anywhere (primary or secondary) - unclear if PR "bug
 evidence-table.tsv:57:col16	CELL	Headline pooled effect; W-IV corrects for imperfect compliance (treated-group ad
 evidence-table.tsv:60:col16	CELL	The paper's clearest negative secondary signal â€” the quality-debt candidate fo
@@ -406,4 +408,4 @@ evidence-table.tsv:420:col16	CELL	Lines added is a gameable volume metric (PROTO
 evidence-table.tsv:503:col16	CELL	Supports bottleneck displacement (tension 6) as perception only; no queue, laten
 evidence-table.tsv:516:col11	CELL	unstated; AI-generated-code share is a gameable metric (PROTOCOL §5.7)
 evidence-table.tsv:546:col16	CELL	Authors state no rigorous best-practice set exists and patterns 'may not be opti
-evidence-table.tsv	SUMMARY	68 cell substitutions across 569 rows
+evidence-table.tsv	SUMMARY	70 cell substitutions across 569 rows

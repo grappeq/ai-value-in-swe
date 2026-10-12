@@ -58,7 +58,7 @@ def redact_table(path: pathlib.Path) -> str:
     hdr = rows[0]
     assert hdr.count("\t") == 16
     out = [hdr]
-    cell_pats = [p for k, p in LINE_PATTERNS if k in ("tension-ref", "synthesis-files", "outputs/ledger", "open-questions")]
+    cell_pats = [p for k, p in LINE_PATTERNS if k in ("tension-ref", "synthesis-files", "outputs/ledger", "open-questions", "verdict-words")]
     n_cells = 0
     for i, r in enumerate(rows[1:], 2):
         cells = r.split("\t")
