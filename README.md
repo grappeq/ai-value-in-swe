@@ -5,7 +5,7 @@ A personal research project, completed July 2026 and refreshed in October 2026. 
 ## Start here
 
 - **[The exec brief](outputs/exec-brief.md)** — the whole answer in two pages.
-- **[Count Voices, Not Papers](outputs/independence-crisis.md)** — a methods piece: how the AI-productivity literature shrinks by more than half once you check which "independent" sources are actually the same voice, with twenty-five documented cases of numbers corrupted in transit.
+- **[Count Voices, Not Papers](outputs/independence-crisis.md)** — a methods piece: how the AI-productivity literature shrinks by more than half once you check which "independent" sources are actually the same voice, with twenty-four documented cases of numbers corrupted in transit.
 - **[How to tell whether AI is working for you](outputs/internal-measurement-proposal.md)** — six things to measure, nine popular metrics to refuse, each with a documented case of it burning someone.
 - **[Open questions](outputs/follow-up-questions.md)** — what's still unknown and what would settle it.
 

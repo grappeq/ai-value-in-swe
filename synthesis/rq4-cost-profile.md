@@ -31,7 +31,7 @@ Per the pre-registration, RQ4 closes at **insufficient evidence for a cost-to-va
 ## 5. Claims, with confidence
 
 1. Per-developer/per-org agentic-coding cost grows fast and is concentrated in a heavy-usage tail, in every source that measures it (he-2026, Uber). **Medium** — two organisations, different measurement bases, consistent shape only.
-2. No source pairs cost data with outcome/effectiveness data for the same task. **High** — three independent organisations (he-2026, Cloudflare, Uber), each missing a different half of the pair, is a clean pattern.
+2. No source pairs cost data with outcome/effectiveness data for the same task. **Medium** (revised 2026-10-12 after the R5 comparison) — he-2026 in fact pairs spend with throughput (R5 correction 7), leaving Cloudflare and Uber (both Tier C) as the organisations missing one half; a Tier C-only pattern is capped at medium under PROTOCOL §8.
 3. Rework and review-verification overhead materially discount gross productivity gains wherever measured (Stanford: ~half; METR: ~9% of time; he-2026: cycle time +22%). **Medium** — concrete numbers, but each from a single research programme or firm.
 4. Popular quality-debt proxies (churn, duplication) do not predict the real downstream maintenance cost of agent-authored code. **Medium** — one clean independent E3 study, cross-checked against tension-4.
 5. Uncapped, incentive-driven usage (leaderboards, unlimited budgets) is a demonstrated failure mode that produces the cost blow-outs seen in the record. **Medium** — a single but well-corroborated named case (Uber), consistent with he-2026's own 20× ramp.
