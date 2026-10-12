@@ -117,8 +117,13 @@ Never average conflicting results; never pick the convenient one.
 |---|---|---|
 | 1 | Perception gap | Operative claim stands; two new datapoint kinds (preference-vs-understanding; expert-vs-user, perception *below* measurement) |
 | 2 | Greenfield vs brownfield | Unchanged; practitioner perception map mirrors the measured direction; one weak positive brownfield case |
-| 3 | Throughput vs stability | Unchanged; CircleCI series (no AI variable) shows no durable CI-level decline; Amazon unresolved; DORA 2026 not out |
-| 4 | Quality debt | Verdict stands; persistence leg +2 directional rows; maintenance leg now an intra-AIDev contradiction; **detectability leg gains an independent lab provenance** |
+| 3 | Throughput vs stability | Unchanged; CircleCI series (no AI variable) shows no durable CI-level decline; Amazon unresolved; DORA 2026 not out. R5: dual label — CONTESTED under the §5 framing; "unmeasured, low confidence" when derived from scratch |
+| 4 | Quality debt | Verdict stands; persistence leg +2 directional rows; maintenance leg now an intra-AIDev contradiction; **detectability leg gains a second data provenance** (lab; R5: authors overlap AIDev, so independent data, not an independent voice) |
 | 5 | Seniority | Unchanged; one E1 cluster-internal direction datapoint |
-| 6 | Bottleneck displacement | **Direction confidence raised to high** (first large-N measured attenuation chain; seven orgs, three vendors); magnitude bounded at OSS scale, one cluster; Q14 opened |
+| 6 | Bottleneck displacement | **Direction confidence high that the bottleneck moved, medium that it is review specifically** (R5 split — demirer measures no review time); first large-N measured attenuation chain; seven orgs, three vendors; magnitude bounded at OSS scale, one cluster; Q14 opened |
 | 7 | Bad metrics | Resolved stands; three exhibits added (112% code shares; review duration non-predictive; vendor tiers) |
+
+## Durability of agentic gains: compounding vs transient (R5, from the clean-room comparison)
+- Side A (as the exec brief had it until 2026-10-12): gains "grow with practice" and "compound over months" — he-2026-2x-mandate's throughput rose over ~9 months to 1.46–1.72×.
+- Side B: the same he-2026 record states the model-generation channel "is not credibly identified" — a placebo release moved the outcome as much as real model releases; demirer-2026-writing-vs-shipping attributes growth over time to model vintage, "not learning"; cursor-velocity-quality-2025 shows velocity gains decaying toward zero by months 3–6; agents-vs-ides-2026 and quispe-2026-claude-frontier show reversal or self-flagged pre-trends; demirer's async arm decays.
+- Status: CONTESTED. Practice, model vintage and selection are confounded in every longitudinal source. Our RQ5 memo and the measurement proposal already carried the fade; the brief had compressed it away — corrected 2026-10-12. Related §5 tensions: 2 and 6; feeds Q9 (J-curve) and Q14.
