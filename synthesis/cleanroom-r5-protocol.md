@@ -56,3 +56,7 @@ Triage of every discrepancy, logged in `synthesis/cleanroom-r5-comparison.md`, n
 - `synthesis/cleanroom-r5-redaction-log.txt` — every redacted line, file:line, with its first 80 characters, so the redaction itself can be audited.
 - `synthesis/cleanroom-r5-output-L3-opus/` — the analyst's six files, committed unedited after the run.
 - `synthesis/cleanroom-r5-comparison.md` — scored comparison and triage.
+
+## Execution note (2026-10-12, L3-opus)
+
+At the human's request the L3-opus run was executed as a fresh Opus subagent launched from the orchestrating session, pointed at `~/work/cleanroom-L3-opus`, rather than as a separate interactive session. Consequences for isolation, recorded honestly: the subagent has no access to this conversation's context (it is not a fork), but it runs under the orchestrating session's tool permissions, so the no-network and directory-restriction rules are enforced by instruction, not by the clean-room `settings.json`. The agent was required to state in its method notes which tools it used and whether it accessed anything outside the directory; that statement is the audit record for this run. The later Fable run should use a separate interactive session so the config-level denial is in force.
