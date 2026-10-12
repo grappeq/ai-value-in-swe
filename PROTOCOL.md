@@ -154,12 +154,22 @@ ai-value-research/
 ├── evidence/
 │   └── evidence-table.tsv
 ├── synthesis/
-│   ├── rq1-value-map.md … rq6-measurement.md
-│   └── contradictions.md    # where sources disagree and why
+│   ├── contradictions.md    # where sources disagree and why; verdict index
+│   ├── rq/                  # rq1-value-map.md … rq6-measurement.md
+│   ├── tension-verdicts/    # one memo per §5 tension
+│   ├── cycles/              # audit + re-derivation record per refresh cycle
+│   ├── reviews/             # independent reviews of the outputs
+│   └── cleanroom-r5/        # clean-room re-derivation: protocol, redaction log, output, referee scorecards
+├── tools/
+│   └── cleanroom_export.py  # builds the isolated export for clean-room runs
 └── outputs/
     ├── exec-brief.md
-    └── internal-measurement-proposal.md
+    ├── exec-brief-claims.md
+    ├── internal-measurement-proposal.md
+    ├── independence-crisis.md
+    └── follow-up-questions.md
 ```
+*(Layout as of October 2026; `synthesis/` was flat until the reorganisation of 2026-10-12.)*
 
 **Phases:**
 

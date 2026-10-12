@@ -1,9 +1,9 @@
 # Clean-room R5 comparison — L3-opus run, refereed by Opus
 
 **Referee:** a fresh Claude Opus 5.5 agent (2026-10-12). I wrote neither side. Side B was written by a model of my own family; I was told this and tried to correct for it. Where Side B's claims go further than the evidence, I say so.
-**Rubric:** `synthesis/cleanroom-r5-protocol.md` § "Comparison rubric (pre-registered)", followed as written.
-**Side A (programme):** `outputs/exec-brief.md`, `synthesis/contradictions.md` (verdict index + R4 addendum), `synthesis/tension-verdicts/tension-1…7`, `synthesis/rq1…rq6`, `outputs/follow-up-questions.md`, `outputs/independence-crisis.md`, `synthesis/rederivation-r4.md` §E, `outputs/internal-measurement-proposal.md`.
-**Side B (clean room):** `synthesis/cleanroom-r5-output-L3-opus/01…06`, all read in full.
+**Rubric:** `synthesis/cleanroom-r5/protocol.md` § "Comparison rubric (pre-registered)", followed as written.
+**Side A (programme):** `outputs/exec-brief.md`, `synthesis/contradictions.md` (verdict index + R4 addendum), `synthesis/tension-verdicts/tension-1…7`, `synthesis/rq1…rq6`, `outputs/follow-up-questions.md`, `outputs/independence-crisis.md`, `synthesis/cycles/rederivation-r4.md` §E, `outputs/internal-measurement-proposal.md`.
+**Side B (clean room):** `synthesis/cleanroom-r5/output-L3-opus/01…06`, all read in full.
 **Checks:** figures were checked against `evidence/evidence-table.tsv` and, where a row was ambiguous, against `sources/*.md`. No web access was used and no git commands were run.
 
 **Scoring conventions:**
@@ -444,7 +444,7 @@ Its method notes state the access boundary, and the protocol records config-leve
 
 ### The redaction was broader than intended
 
-It removed substantive, non-conclusion lines. Examples from `synthesis/cleanroom-r5-redaction-log.txt`:
+It removed substantive, non-conclusion lines. Examples from `synthesis/cleanroom-r5/redaction-log.txt`:
 - `he-2026-2x-mandate.md` lines 48–49 (the newer-code and review numbers headings), line 63 (seniority) and line 68 ("Can support");
 - `peng-2023-copilot-rct.md:59` (the self-report-vs-measured finding);
 - `google-rct-2024.md:41` (seniority heterogeneity).

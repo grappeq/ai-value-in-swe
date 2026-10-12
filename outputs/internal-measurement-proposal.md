@@ -1,6 +1,6 @@
 # How To Tell Whether AI Is Working For You
 
-**October 2026 (first issued July 2026; revised 12 Oct) · companion to the exec brief · full reasoning in synthesis/rq6-measurement.md**
+**October 2026 (first issued July 2026; revised 12 Oct) · companion to the exec brief · full reasoning in synthesis/rq/rq6-measurement.md**
 
 Published research can't answer whether AI helps *your* teams. What it can do is tell you how to find out — and which mistakes every other company has already made so you don't repeat them. Three lessons drive this whole proposal:
 

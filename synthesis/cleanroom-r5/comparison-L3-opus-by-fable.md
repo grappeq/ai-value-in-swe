@@ -1,6 +1,6 @@
 # Clean-room comparison — L3-opus run, refereed by Fable 5.1
 
-**Written 2026-10-12.** Referee: a fresh Fable 5.1 agent that wrote neither side. Rubric: `synthesis/cleanroom-r5-protocol.md`, "Comparison rubric (pre-registered)". Side A = the programme's conclusions (`outputs/exec-brief.md`, `synthesis/contradictions.md`, the seven tension memos with their R3/R4 addenda, the six RQ memos, `outputs/follow-up-questions.md`, `outputs/independence-crisis.md`, `synthesis/rederivation-r4.md` §E, `outputs/internal-measurement-proposal.md`). Side B = the six files in `synthesis/cleanroom-r5-output-L3-opus/`, read in full.
+**Written 2026-10-12.** Referee: a fresh Fable 5.1 agent that wrote neither side. Rubric: `synthesis/cleanroom-r5/protocol.md`, "Comparison rubric (pre-registered)". Side A = the programme's conclusions (`outputs/exec-brief.md`, `synthesis/contradictions.md`, the seven tension memos with their R3/R4 addenda, the six RQ memos, `outputs/follow-up-questions.md`, `outputs/independence-crisis.md`, `synthesis/cycles/rederivation-r4.md` §E, `outputs/internal-measurement-proposal.md`). Side B = the six files in `synthesis/cleanroom-r5/output-L3-opus/`, read in full.
 
 Calibration note recorded up front: Side A was produced by a model of this referee's family. Where Side A's wording outruns its own evidence I say so below (scarcity sub-head, "grows with practice", harness-evolution provenance). Where Side B over-reads a record I say that too (agents-vs-ides IF cohort, T5 refactoring, one-sided use of the AIDev maintenance pair).
 

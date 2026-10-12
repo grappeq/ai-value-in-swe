@@ -1,6 +1,6 @@
 # Open Questions for Follow-Up Research
 
-**October 2026 · updated after refresh cycle R4 (2026-10-11: 25 sources and 2 version-drift checks extracted against these questions; see synthesis/rederivation-r4.md; R5 corrections applied 2026-10-12 after a clean-room comparison and independent review) · planning material, not findings**
+**October 2026 · updated after refresh cycle R4 (2026-10-11: 25 sources and 2 version-drift checks extracted against these questions; see synthesis/cycles/rederivation-r4.md; R5 corrections applied 2026-10-12 after a clean-room comparison and independent review) · planning material, not findings**
 
 Status key: **OPEN** unchanged · **SHARPENED** new evidence narrowed it · **PARTIALLY ANSWERED** · **CLOSED** no further chase is worthwhile · **DISCHARGED** the underlying work was done.
 

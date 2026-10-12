@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Build a clean-room export for the R5 re-derivation (synthesis/cleanroom-r5-protocol.md).
+"""Build a clean-room export for the R5 re-derivation (synthesis/cleanroom-r5/protocol.md).
 
 Usage: python3 -I tools/cleanroom_export.py <target-dir> [--level 3|2]
-Refuses to run if <target-dir> exists. Writes synthesis/cleanroom-r5-redaction-log.txt in the repo.
+Refuses to run if <target-dir> exists. Writes synthesis/cleanroom-r5/redaction-log.txt in the repo.
 """
 import sys, re, pathlib, json, shutil
 
@@ -134,7 +134,7 @@ for f in sorted((repo / "sources").glob("*.md")):
 (target / "PROTOCOL.md").write_text(trim_protocol(repo / "PROTOCOL.md", level))
 (target / "CLAUDE.md").write_text(CLEANROOM_CLAUDE_MD)
 (target / ".claude" / "settings.json").write_text(json.dumps(SETTINGS, indent=2) + "\n")
-(repo / "synthesis" / "cleanroom-r5-redaction-log.txt").write_text(
+(repo / "synthesis" / "cleanroom-r5" / "redaction-log.txt").write_text(
     f"# Clean-room export redaction log — level {level} — target {target}\n" + "\n".join(log) + "\n")
 n_lines = sum(1 for l in log if "\tSECTION-REMOVED\t" not in l and "\tCELL\t" not in l and "\tSUMMARY\t" not in l)
 n_sec = sum(1 for l in log if "\tSECTION-REMOVED\t" in l)
