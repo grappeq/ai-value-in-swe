@@ -1,6 +1,6 @@
 # AI Coding Tools: What the Evidence Actually Says
 
-**Two pages · October 2026 (revised 12 Oct) · based on 99 sources (101 records) and 569 extracted findings · everything traceable in this repository**
+**Two pages · October 2026 (revised 12 Oct) · based on 99 sources (102 records) and 569 extracted findings · everything traceable in this repository**
 
 How to read the tags: **[A]** = rigorous experiment, **[B]** = large-scale data without an experiment, **[C]** = credible company account, **[D]** = vendor material (they have something to sell). Plus how sure we are: high / medium / low.
 

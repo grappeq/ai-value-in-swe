@@ -6,7 +6,7 @@ Published research can't answer whether AI helps *your* teams. What it can do is
 
 1. **Individual gains shrink dramatically at company level** — so measure delivery, not activity.
 2. **Almost nobody pairs cost data with results data.** One published firm does (spend up ~20× over a period in which throughput rose ~1.5–1.7×); everyone else publishes one or the other. That's the single most common failure, so every cost meter here comes glued to an outcome meter.
-3. **What people say tells you nothing about what happened** — shown in every study we found that paired the two (six so far). Surveys are for morale, never for productivity numbers.
+3. **What people say tells you nothing about what happened** — shown in every study we found that paired the two (four paired studies so far). Surveys are for morale, never for productivity numbers.
 
 ## Six things to track
 
