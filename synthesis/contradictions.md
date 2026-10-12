@@ -98,3 +98,32 @@ Never average conflicting results; never pick the convenient one.
 - Plausible reconciliation: none found in any source; the sign-off denial directly contradicts the reported reset mechanics and no follow-up reporting (through Jun 2026) resolves it. The reset's ~June 2026 conclusion went unreported. Unresolved.
 - Note: the widely-circulated "80% weekly Kiro usage mandate + ~1,500-engineer petition" claim traces only to one X post recycled by SEO blogs — REJECTED as aggregator smoke (candidate corruption instance #16).
 - Related §5 tension: 3 (throughput vs stability); feeds open question Q3.
+
+## Does agent code receive less maintenance, or more fixes? (R4 addendum to the maintenance entry above)
+- Side B (restated): agent-code-maintenance-2026 (NAIST, EASE 2026, AIDev-derived) — agent-generated *files* receive roughly half the maintenance-commit volume of matched human files and fewer fix-type commits (11.73% vs 16.76%); humans perform 83.21% of that maintenance.
+- Side C (new, R4): who-finishes-the-job-2026 (Deakin, preprint, AIDev-pop ≥500-star slice) — merged agent *PRs* receive a verified follow-up fix within 30 days at 1.62× the odds of contemporaneous human PRs in the same repositories (MH OR 1.62, 95% CI [1.10, 2.39], p=0.015; absolute 3.68% vs 2.34%); 69.6% of those fixes are opened by the same agent, 27.4% by a human.
+- Why both can be true: different units (file-level maintenance commits over months vs PR-level verified direct-fixes within 30 days), different denominators, and the NAIST self-selection confound (simpler files routed to agents) cuts against Side B while the Deakin result is repository-stratified but unmatched on PR size/task mix. Neither has a counterfactual; both are the same AIDev provenance, so this is an intra-cluster tension, not two voices.
+- What it does to the convergent '83% human' detail: the two papers now DISAGREE on who does the follow-up work (83% human maintenance commits vs 69.6% same-agent fix PRs) — and the Deakin paper itself warns 'same agent opened the fix' does not mean the agent initiated it (a human re-invokes it). Do not quote either share as a measure of autonomy.
+- Status: CONTESTED within one dataset; unresolved pending a study with matched PRs and a defect (not fix-PR) outcome. Related §5 tension: 4; feeds Q3 and Q8.
+
+## Uber AutoCover output: "5,000+ unit tests per month" vs "hundreds of thousands per month" (R4, within-org)
+- Side A: The Pragmatic Engineer (Mar 2026, reporting Uber speakers) — "AutoCover generates 5,000+ unit tests per month".
+- Side B: Uber's own ICSE-SEIP 2026 paper (Aug–Sep 2025 telemetry) — IDE mode alone generates "hundreds of thousands" of tests per month, Headless tens of thousands, CLI thousands; ~44% of viable IDE tests explicitly accepted; ~11% of new reviewed tests are AutoCover's.
+- Likely reconciliation: different units (generated vs accepted/merged, or one mode only) — neither primary defines the unit, so the two figures cannot be reconciled from the documents. Same organisation, same programme: this is a within-org unit ambiguity of the Atlassian 45%/−30.8% kind, not two voices. Never cite either figure as "AutoCover output" without its unit caveat.
+- Related §5 tension: 7 (bad metrics — counts of generated artefacts); feeds RQ6.
+
+## R4 addendum to the verdict index (2026-10-11) — full memos carry dated R4 addenda
+| # | Tension | R4 movement |
+|---|---|---|
+| 1 | Perception gap | Operative claim stands; two new datapoint kinds (preference-vs-understanding; expert-vs-user, perception *below* measurement) |
+| 2 | Greenfield vs brownfield | Unchanged; practitioner perception map mirrors the measured direction; one weak positive brownfield case |
+| 3 | Throughput vs stability | Unchanged; CircleCI series (no AI variable) shows no durable CI-level decline; Amazon unresolved; DORA 2026 not out. R5: dual label — CONTESTED under the §5 framing; "unmeasured, low confidence" when derived from scratch |
+| 4 | Quality debt | Verdict stands; persistence leg +2 directional rows; maintenance leg now an intra-AIDev contradiction; **detectability leg gains a second data provenance** (lab; R5: authors overlap AIDev, so independent data, not an independent voice) |
+| 5 | Seniority | Unchanged; one E1 cluster-internal direction datapoint |
+| 6 | Bottleneck displacement | **Direction confidence high that the bottleneck moved, medium that it is review specifically** (R5 split — demirer measures no review time); first large-N measured attenuation chain; seven orgs, three vendors; magnitude bounded at OSS scale, one cluster; Q14 opened |
+| 7 | Bad metrics | Resolved stands; three exhibits added (112% code shares; review duration non-predictive; vendor tiers) |
+
+## Durability of agentic gains: compounding vs transient (R5, from the clean-room comparison)
+- Side A (as the exec brief had it until 2026-10-12): gains "grow with practice" and "compound over months" — he-2026-2x-mandate's throughput rose over ~9 months to 1.46–1.72×.
+- Side B: the same he-2026 record states the model-generation channel "is not credibly identified" — a placebo release moved the outcome as much as real model releases; demirer-2026-writing-vs-shipping attributes growth over time to model vintage, "not learning"; cursor-velocity-quality-2025 shows velocity gains decaying toward zero by months 3–6; agents-vs-ides-2026 and quispe-2026-claude-frontier show reversal or self-flagged pre-trends; demirer's async arm decays.
+- Status: CONTESTED. Practice, model vintage and selection are confounded in every longitudinal source. Our RQ5 memo and the measurement proposal already carried the fade; the brief had compressed it away — corrected 2026-10-12. Related §5 tensions: 2 and 6; feeds Q9 (J-curve) and Q14.

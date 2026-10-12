@@ -1,0 +1,411 @@
+# Clean-room export redaction log — level 3 — target /home/grappeq/work/cleanroom-L3-opus
+agent-code-maintenance-2026.md:13	tension-ref	**Original ledger guess vs verified reality:** guess was "tier ~B, era E3, feeds
+agent-code-maintenance-2026.md:40	tension-ref	**RQ tag:** RQ1, RQ3, §5-tension-4 (quality debt)
+agent-code-maintenance-2026.md:56	tension-ref	**RQ tag:** RQ1, RQ3, §5-tension-4 (quality debt/refactor-rate proxy)
+agent-code-maintenance-2026.md:74	tension-ref	**RQ tag:** RQ3 (primary), §5-tension-6 (bottleneck displacement — humans still 
+agent-code-maintenance-2026.md:95	SECTION-REMOVED	## Cross-reference notes (against protocol tensions, not against other sources —
+agent-maintainability-2026.md:5	tension-ref	**RQs fed:** RQ3 (failure map — task-type-stratified failure mode, refactoring h
+agent-maintainability-2026.md:14	tension-ref	- **Status: preprint.** The PDF's own footer states "Preprint." on page 1; no jo
+agent-maintainability-2026.md:24	tension-ref	- **Consequence for this evidence base:** this is the **first genuinely independ
+agent-maintainability-2026.md:43	tension-ref	3. **Follow-On Issue, PR1→PR2:** the *original, unmodified* benchmark issue and 
+agent-maintainability-2026.md:104	tension-ref	The authors' own framing, confirmed from the full text: "static maintainability 
+agent-maintainability-2026.md:149	SECTION-REMOVED	## Cross-reference assessment for tension 4 (for orchestrator — not written to c
+agent-maintainability-2026.md:167	tension-ref	1. **Cynthia, S. T., Muttakin, A., & Roy, B. (2026). "Beyond Bug Fixes: An Empir
+agent-maintainability-2026.md:168	tension-ref	2. **Huang, H. et al. (2026). "More Code, Less Reuse: Investigating Code Quality
+agent-maintainability-2026.md:174	tension-ref	8. **arXiv:2606.13175 — "The End of Code Review: Coding Agents Supersede Human I
+agent-maintainability-2026.md:180	tension-ref	Paper is ~2.5 weeks old at verification (19 Jun 2026 → 6 Jul 2026), far inside t
+agentic-pr-merge-reject-2026.md:57	outputs/ledger	1. F3's exact Copilot/Cursor cell-level percentages were not fully resolved from
+agents-vs-ides-2026.md:26	tension-ref	- **Outcome data:** exclusively **measured/telemetry** — GHArchive for repo acti
+agents-vs-ides-2026.md:49	tension-ref	**Self-reported vs measured:** entirely measured/telemetry; **zero self-report d
+agents-vs-ides-2026.md:63	SECTION-REMOVED	## Cross-reference notes (for orchestrator; not written to contradictions.md)
+agoda-2026-bottleneck.md:5	tension-ref	**RQs fed:** RQ5 (primary, translation question), RQ1 (thin); PROTOCOL §5 tensio
+agoda-2026-bottleneck.md:36	outputs/ledger	- **Independence for triangulation purposes (§3 test — different org, own observ
+agoda-2026-bottleneck.md:78	outputs/ledger	**Can support:** a genuine, independently-arrived-at, named-practitioner (non-ve
+agoda-2026-bottleneck.md:80	outputs/ledger	**Cannot support:** any effect size, any Agoda-specific measured claim, any clai
+agoda-2026-bottleneck.md:82	SECTION-REMOVED	## Cross-ref assessment (for the human's review — synthesis/contradictions.md wa
+agoda-2026-bottleneck.md:94	outputs/ledger	1. **Zendesk "absorption capacity" piece, via InfoQ** — already queued (RQ5, hig
+ai-build-code-2026.md:88	SECTION-REMOVED	## Cross-reference notes (for the orchestrator)
+aidev-dataset-2026.md:5	outputs/ledger	**Purpose of this record:** a **PROVENANCE CHECK**, not an effect-size extractio
+aidev-dataset-2026.md:99	outputs/ledger	**Queued, confirmed dependent via this session's check:**
+aidev-dataset-2026.md:103	outputs/ledger	**Queued, likely dependent but not individually confirmed this session** (recomm
+aidev-dataset-2026.md:105	outputs/ledger	**New lead found during this check, not previously in the ledger:** **Ghaleb, T.
+aidev-dataset-2026.md:114	outputs/ledger	2. **Rahman, Rabbi & Zibran (2026), arXiv:2602.02345** — already queued; confirm
+aidev-dataset-2026.md:116	outputs/ledger	4. No published critique, retraction, erratum, or replication attempt of either 
+amazon-2026-outages.md:20	synthesis-files	- **~12–13 March 2026:** Multiple secondary outlets (creati.ai, TheSafetyMag, an
+amazon-2026-outages.md:80	synthesis-files	**Independence:** Mixed — this is the sharpest unresolved contradiction in the w
+amazon-2026-outages.md:125	synthesis-files	amazon-2026-outages	2026	C	E3	journalism (secondary reporting citing internal gu
+anthropic-economic-index.md:78	outputs/ledger	Can support: directional claims about *what Claude users ask Claude to do* (usag
+anthropic-postmortem-quality.md:67	SECTION-REMOVED	## Cross-reference to the September 2025 postmortem (background, not separately 
+anthropic-postmortem-quality.md:75	outputs/ledger	**Cannot support:** any quantified claim about the general prevalence, frequency
+arch-quality-agentic-2026.md:26	tension-ref	**Population:** 151 mature open-source Java repositories (74 treatment, 77 prope
+arch-quality-agentic-2026.md:58	outputs/ledger	6. **Per-type: unstable-dependency raw count (the one degradation-direction sign
+arch-quality-agentic-2026.md:72	tension-ref	- **Repo-level, not developer-level.** No seniority split possible; do not use t
+arch-quality-agentic-2026.md:81	open-questions	- The effect trajectory is still *expanding* at the end of the study window (mon
+atlassian-2026-ai-review.md:87	open-questions	2. No quality/defect/incident outcomes at all — the central open question (was t
+atlassian-2026-ai-review.md:94	SECTION-REMOVED	## Cross-referencing notes (for the orchestrator)
+bain-2026-benchmark.md:54	outputs/ledger	- **Can/cannot support:** This source can support **nothing**. Its only value is
+bain-2026-benchmark.md:63	outputs/ledger	1. **Triage-lead correction needed:** the lead that queued this source bundled t
+bockeler-2026-qcon.md:25	SECTION-REMOVED	## Figures with exact provenance — this is the load-bearing section for the RQ4 
+bockeler-2026-qcon.md:46	synthesis-files	**This resolves the escalation cleanly: it is not a conflict requiring a contrad
+bockeler-2026-qcon.md:79	SECTION-REMOVED	## Cross-ref assessment (for orchestrator review — synthesis/contradictions.md N
+borg-2026-echoes.md:5	tension-ref	**RQs fed:** PROTOCOL §5 tension 4 (quality debt — primary, counter-evidence can
+borg-2026-echoes.md:43	tension-ref	3. **Test coverage** (JaCoCo line coverage, 0–100%) — a construct not otherwise 
+borg-2026-echoes.md:76	SECTION-REMOVED	## Cross-ref adjudication — does this rebut, bound, or miss tension 4's legs (c)
+churn-151-repos-2025.md:3	synthesis-files	Side B of the `synthesis/contradictions.md` entry "Churn rise in the AI era: rea
+churn-151-repos-2025.md:65	SECTION-REMOVED	## Cross-reference: adjudicating the churn contradiction (report only — `synthes
+churn-151-repos-2025.md:81	outputs/ledger	1. **empirical-software.engineering blog post** (https://empirical-software.engi
+circleci-2026-delivery.md:51	tension-ref	- Era: UNSPLIT / indeterminate. The data contain no AI-usage variable, so the mo
+circleci-2026-delivery.md:57	tension-ref	- CAN support: a Tier D observation that CI activity on feature branches grew wh
+circleci-2026-pulse-q2.md:49	tension-ref	- Can support (low confidence, directional): a vendor-customer baseline that in 
+circleci-2026-pulse-q2.md:51	outputs/ledger	- Per Tier D rule, nothing here carries an exec-brief claim alone.
+cloudflare-2026-ai-review.md:5	tension-ref	**RQs fed:** RQ4 (primary — one of the few sources with real per-unit cost data)
+cloudflare-2026-ai-review.md:48	outputs/ledger	**Data period:** 30 days, **10 March – 9 April 2026** (stated directly alongside
+cloudflare-2026-ai-review.md:97	tension-ref	3. **No impact on human review load or time.** No before/after or with/without c
+cloudflare-2026-ai-review.md:110	tension-ref	**Can support:** a concrete, granular, single-organisation per-review-run cost d
+cloudflare-2026-ai-review.md:114	SECTION-REMOVED	## Cross-ref assessment (for orchestrator review — synthesis/contradictions.md N
+cloudflare-2026-ai-review.md:125	outputs/ledger	- **arXiv 2604.03196, "From Industry Claims to Empirical Reality"** (MSR 2026) —
+cloudflare-2026-ai-review.md:127	outputs/ledger	- **arXiv 2605.02273, "These Aren't the Reviews You're Looking For"** — already 
+cloudflare-2026-ai-review.md:128	outputs/ledger	- **GitHub blog, "Agent pull requests are everywhere"** (already queued, D, E3, 
+code-cleanliness-tokens-2026.md:92	tension-ref	2. **No CI/significance figures were recoverable** through the fetch tooling use
+cotroneo-2025-defects.md:61	outputs/ledger	- **Era: E2** (per §2, by modality). Single-shot docstring-to-function generatio
+cui-2024-copilot-field.md:56	tension-ref	**Seniority/tenure heterogeneity (Microsoft only — the only company with tenure/
+cui-2024-copilot-field.md:63	tension-ref	**Context vs. the lab RCT:** the paper explicitly benchmarks itself against Peng
+cui-2024-copilot-field.md:76	tension-ref	6. **Secondary quality signal:** the seed's description omits the build-success-
+cui-2024-copilot-field.md:80	outputs/ledger	- **Peng, Kalliamvakou, Cihon & Demirer (2023), "The Impact of AI on Developer P
+cui-2024-copilot-field.md:85	tension-ref	- **Live §5 tension 5 question — does the junior-gains pattern reverse in the ag
+cursor-velocity-quality-2025.md:5	tension-ref	**RQs fed:** RQ3 (failure map — quality-debt failure mode), RQ5 (translation que
+cursor-velocity-quality-2025.md:70	outputs/ledger	**4. Heterogeneity — robustness subsamples, but NOT the repo-age/size cut the tr
+cursor-velocity-quality-2025.md:75	tension-ref	- **No explicit repository-age or repository-size heterogeneity breakdown is rep
+cursor-velocity-quality-2025.md:94	tension-ref	**Can support (Tier A, E3-with-boundary-caveat, OSS-bounded):** that Cursor adop
+cursor-velocity-quality-2025.md:98	SECTION-REMOVED	## Cross-reference assessment (for orchestrator — not written to contradictions.
+defect-rate-side-b.md:3	synthesis-files	Combined record per remediation task (audit finding 6): fills the "Side B — NOT 
+defect-rate-side-b.md:117	outputs/ledger	**Cannot support:** any load-bearing exec-brief defect-rate or code-quality effe
+defect-rate-side-b.md:119	synthesis-files	## Relation to the existing contradiction entry (synthesis/contradictions.md, "C
+defect-rate-side-b.md:121	outputs/ledger	The existing entry's Side B was a placeholder ("NOT YET EXTRACTED") attributing 
+demirer-2026-writing-vs-shipping.md:143	tension-ref	- Activity outcomes (commits, lines, PRs) rise strongly after adoption of agenti
+demirer-2026-writing-vs-shipping.md:149	tension-ref	- Any quality, stability, review-load or incident claim (none measured). Cannot 
+demirer-2026-writing-vs-shipping.md:150	tension-ref	- Any claim about enterprise, closed-source or mature-brownfield production code
+demirer-2026-writing-vs-shipping.md:151	tension-ref	- Seniority asymmetry (§5.5): only an activity-quartile split, not experience.
+demirer-2026-writing-vs-shipping.md:163	tension-ref	3. **Activity metrics are gameable (PROTOCOL §5.7).** Commits, lines, PRs and re
+denisov-blanch-2026-ramp.md:96	tension-ref	denisov-blanch-2026-ramp	2026	B	E3	Study 2 velocity contrast on lines added (sam
+dev-agent-misalignment-2026.md:204	outputs/ledger	Apply corrections 1 to 6 wherever the record's figures have propagated: any ledg
+dont-vibe-control-2026.md:18	open-questions	- Survey (n=99): sampled from 4,141 GitHub users active in the past year in AI-r
+dont-vibe-control-2026.md:50	open-questions	- No measured outcomes, so no perception-reality delta can be computed. The pape
+dont-vibe-control-2026.md:62	tension-ref	- Task-suitability counts sit in tension with greenfield-vs-brownfield (§5.2): l
+dont-vibe-control-2026.md:75	open-questions	dont-vibe-control-2026	2025	C	E3	Qualitative interpretation in Discussion; evide
+dora-2024.md:72	tension-ref	## Corrections vs the seed description (PROTOCOL §5.3 / §6)
+dora-2024.md:83	synthesis-files	These notes are provided to support later adjudication of the throughput-flip co
+dora-2024.md:86	open-questions	2. **Construct definition changed within the 2024 wave itself, one year prior to
+dora-2024.md:90	synthesis-files	6. **Net assessment for whoever adjudicates the contradiction:** the "flip" cann
+dora-2024.md:98	tension-ref	5. **GitClear, "Distilled summary of 2024/2025 Google DORA Report"** — https://w
+dora-2025.md:70	tension-ref	## Corrections vs the seed description (PROTOCOL §5.3 / §6)
+dora-2025.md:73	tension-ref	2. Seed undersells one point: DORA 2025 is not merely a *reframe* of the 2024 fi
+dora-2025.md:87	tension-ref	7. **Faros AI, "DORA Report 2025 Key Takeaways"** — https://www.faros.ai/blog/ke
+dora-2025.md:90	tension-ref	10. **2026 DORA survey status** — no evidence found that the 2026 survey or annu
+dora-2026-roi.md:78	tension-ref	- Adjacent (non-DORA, secondhand) figures reported in passing, useful as separat
+dora-2026-roi.md:91	SECTION-REMOVED	## Cross-reference note re PROTOCOL §5 tension 3 (throughput vs. stability) — gu
+dora-2026-roi.md:99	tension-ref	3. **Stanford University, "Software Engineering Productivity Research"** — https
+dora-2026-roi.md:106	outputs/ledger	10. Items 2–10 already queued from sources/dora-2025.md's follow-up-leads list (
+duolingo-2026-risk-bot.md:14	outputs/ledger	Fetch limitation (important): the transcript was read through WebFetch, which re
+dx-reock-2026.md:5	tension-ref	**RQs fed:** RQ1, RQ5 (primary — cross-company throughput trend + translation qu
+dx-reock-2026.md:14	open-questions	- **Version note:** the newsletter page itself carries an editorial note — *"Edi
+dx-reock-2026.md:46	tension-ref	- **Primary metric: PR throughput**, explicitly chosen over SPACE/DX Core 4's fu
+dx-reock-2026.md:71	tension-ref	- (ii) Partial SDLC automation creates *new* bottlenecks — code review scrutiny 
+dx-reock-2026.md:74	tension-ref	- (v) Missing context — *"the knowledge of how things work lives in people's hea
+dx-reock-2026.md:75	tension-ref	4. **Other observations (asserted, no independent data given in this piece):** d
+dx-reock-2026.md:82	tension-ref	**Can support:** a directional, telemetry-based signal from a large (400-company
+dx-reock-2026.md:86	SECTION-REMOVED	## Cross-ref assessment (for the human's review — synthesis/contradictions.md wa
+end-of-code-review-2026.md:5	tension-ref	**RQs fed:** RQ1/T7 (code review value map — as a counter-position, not new data
+end-of-code-review-2026.md:54	SECTION-REMOVED	## Cross-reference adjudication (orchestrator review only — no files edited besi
+end-of-code-review-2026.md:66	outputs/ledger	**Can support:** a characterisation of the most direct, unhedged normative claim
+end-of-code-review-2026.md:68	tension-ref	**Cannot support:** any claim about actual field outcomes of agent-only or agent
+enterprise-ai-assistants-2026.md:62	tension-ref	- Delta: none computable. The paper provides no measured counterpart; per CLAUDE
+enterprise-ai-assistants-2026.md:66	outputs/ledger	- CANNOT support: any productivity, speed or quality effect size; adoption rates
+failed-agentic-prs-2026.md:93	tension-ref	- **No self-reported measure of any kind.** Every metric (merge status, LOC, fil
+failed-agentic-prs-2026.md:103	tension-ref	- **What this source cannot support:** RQ4 (cost — no data at all), RQ2's percep
+failed-agentic-prs-2026.md:105	SECTION-REMOVED	## Surprises / notes for cross-referencing
+faros-2026-whiplash.md:116	outputs/ledger	6. "No significant correlation between AI adoption and improvements at the compa
+faros-2026-whiplash.md:134	tension-ref	**Can support:** a large-N (22,000 developers, 4,000+ teams), within-company, te
+faros-2026-whiplash.md:136	outputs/ledger	**Cannot support:** any causal attribution of the magnitude of these percentage 
+faros-2026-whiplash.md:138	SECTION-REMOVED	## Cross-ref assessment (for the human's review — synthesis/contradictions.md wa
+faros-2026-whiplash.md:155	outputs/ledger	1. **arXiv:2607.01904** — already queued (RQ5/RQ1, high priority) — see Cross-re
+faros-2026-whiplash.md:156	outputs/ledger	2. **DORA "ROI of AI-assisted Software Development" (v2026.01, Apr 2026)** — alr
+faros-2026-whiplash.md:157	outputs/ledger	3. **Agoda / Zendesk bottleneck-displacement pieces (via InfoQ)** — already queu
+faros-2026-whiplash.md:158	outputs/ledger	4. **DX/Reock and DX/Noda (Mar 2026)** — already queued (RQ5/RQ1, high/medium) —
+faros-2026-whiplash.md:165	outputs/ledger	11. Several low-value SEO/content-mill-style pages surfaced in search (e.g. a "F
+genai-productivity-meta-2026.md:29	tension-ref	**The caveat, and it is severe: I² = 99% for the productivity pooled estimate.**
+genai-productivity-meta-2026.md:56	outputs/ledger	**Implication for RQ1/RQ5:** the pooled g = 0.33 productivity headline is overwh
+genai-productivity-meta-2026.md:58	SECTION-REMOVED	## Cross-reference: this meta-analysis independently includes the METR RCT
+genai-productivity-meta-2026.md:76	tension-ref	**Can support:** the greenfield/lab-vs-real-world split (PROTOCOL §5 tension 2) 
+genai-productivity-meta-2026.md:112	tension-ref	**Cannot support:** any statement about the *size of the perception-reality gap*
+genai-productivity-meta-2026.md:127	tension-ref	- Its central "lab inflates effects" finding (g=0.73 lab vs g≈0 real-world) dire
+genai-productivity-meta-2026.md:137	tension-ref	genai-productivity-meta-2026	2026	A	E3 (single study, embedded in meta-analysis)
+german-se-survey-2026.md:45	tension-ref	- Validation-type tasks generally lower — the authors call out a "clear divide b
+german-se-survey-2026.md:61	tension-ref	Junior engineers (<5 years) rated "being very specific with instructions" effect
+german-se-survey-2026.md:76	tension-ref	- **Quality-debt concern (interview):** a senior engineer: "I expect a large amo
+german-se-survey-2026.md:97	SECTION-REMOVED	## Cross-reference assessment (report only)
+german-se-survey-2026.md:107	outputs/ledger	1. **Neumann et al. (2026)** — the actual primary source for "regulatory pressur
+ghaleb-2026-fingerprinting.md:84	SECTION-REMOVED	## Cross-ref adjudication (for orchestrator review — nothing else edited)
+gitclear-2025.md:32	outputs/ledger	- **Tier: B, with a mandatory COI flag — flag strengthened by the full 2026 text
+gitclear-2025.md:124	synthesis-files	## Churn contradiction assessment (informs `synthesis/contradictions.md` — that 
+gitclear-2025.md:130	outputs/ledger	4. Net effect: this does not resolve the contradiction (arXiv 2507.10422 remains
+gitclear-2025.md:134	synthesis-files	1. **arXiv 2507.10422 — "Self-Admitted GenAI Usage in Open-Source Software"** — 
+gitclear-2025.md:139	tension-ref	6. **Google DORA 2024/2025** (already an anchor) — GitClear's defect argument le
+gitclear-2025.md:140	tension-ref	7. **Uplevel (2024) +41% bug rate** (PROTOCOL §5 tension 4) — GitClear provides 
+google-migrations-2025.md:140	tension-ref	**Can support:** (1) a Tier C, T5-tagged directional signal that mechanical, wel
+google-rct-2024.md:17	outputs/ledger	- **Tier: A (candidate)** — genuine RCT with random assignment, objective (telem
+google-rct-2024.md:18	outputs/ledger	- **Era: E1/E2 — autocomplete and context-aware suggestion tooling, not chat and
+google-rct-2024.md:41	tension-ref	5. **Heterogeneity — seniority:** each seniority-level increase associated with 
+google-rct-2024.md:56	outputs/ledger	**Can support:** a methodology reference for RCT-based, telemetry-measured (not 
+grigorev-2026-terraform-db.md:74	outputs/ledger	**Cannot support:** any claim about the *rate* or *frequency* of agentic-tooling
+he-2026-2x-mandate.md:5	tension-ref	**RQs fed:** RQ5 (primary, translation question), RQ1, RQ2, RQ3, RQ4 (thin); PRO
+he-2026-2x-mandate.md:48	tension-ref	3. **Newer-code concentration — exact numbers, and what "newer code" means.** "N
+he-2026-2x-mandate.md:49	tension-ref	4. **Review findings — the core of §5 tension 6, exact numbers.**
+he-2026-2x-mandate.md:63	tension-ref	7. **Seniority heterogeneity (§5 tension 5) — broadly uniform, one outlier.** Ta
+he-2026-2x-mandate.md:68	tension-ref	**Can support (Tier A, E3, single-firm-bounded):** that a near-doubling of per-d
+he-2026-2x-mandate.md:72	SECTION-REMOVED	## Cross-ref guidance (for orchestrator — not written to contradictions.md)
+he-2026-2x-mandate.md:87	outputs/ledger	- **Cui, K. Z., Demirer, M., Jaffe, S., Musolff, L., Peng, S., & Salz, T. (2026)
+he-2026-2x-mandate.md:88	tension-ref	- **He, H., Miller, C., Agarwal, S., Kästner, C., & Vasilescu, B. (2026). "Speed
+he-2026-2x-mandate.md:91	tension-ref	- **Borg, M., Hewett, D., Hagatulah, N., Couderc, N., Söderberg, E., Graham, D.,
+heilman-2026-microsoft.md:5	tension-ref	**RQs fed:** RQ1 (value map — throughput effect size), RQ5 (translation question
+heilman-2026-microsoft.md:68	tension-ref	5. **Quality/defect/rework — no data of any kind.** The outcome is PR *count* on
+heilman-2026-microsoft.md:72	tension-ref	## Authors' stated limitations (§5.2, in their own framing)
+heilman-2026-microsoft.md:86	SECTION-REMOVED	## Cross-ref guidance (for orchestrator — not written to contradictions.md)
+heilman-2026-microsoft.md:100	outputs/ledger	- **Hoffmann, M., Boysel, S., Nagle, F., Peng, S., & Xu, K. (2025). "Generative 
+heilman-2026-microsoft.md:101	outputs/ledger	- Cui et al. — already tracked in this project as cui-2024-copilot-field, with a
+heilman-2026-microsoft.md:103	outputs/ledger	- Forsgren, Storey, Maddila, Zimmermann, Houck & Butler (2021), "The SPACE of De
+hoffmann-2024-nature-of-work.md:65	outputs/ledger	1. **E1 despite recency.** Published late 2024, revised April 2025, but the tool
+hoffmann-2024-nature-of-work.md:71	outputs/ledger	7. **COI and data access.** Microsoft and GitHub co-authors, GitHub data and fun
+impaired-programming-2026.md:79	tension-ref	7. Inconsistent wording: perception-vs-measured here confirms calibration, so do
+jetbrains-2026-ecosystem.md:8	outputs/ledger	- Access note: pages were read through the WebFetch summariser (small-model para
+jetbrains-2026-ecosystem.md:63	tension-ref	- RQ relevance: RQ2 (self-report characteristics, internal inconsistency of the 
+linearb-2026-benchmarks.md:57	outputs/ledger	- Cannot support: any claim of AI quality or defect effect (nothing measured); a
+llm-software-design-2026.md:102	tension-ref	10. Possible tension with PROTOCOL §5: touches nothing directly; closest is seni
+mao-2026-code-metrics.md:19	outputs/ledger	- **Era: mixed, predominantly E2, not separable by the study's own data.** The A
+mao-2026-code-metrics.md:20	outputs/ledger	- **Independence:** academic authors (Indiana University, based on the Xiaofeng 
+mao-2026-code-metrics.md:53	tension-ref	- Code duplication (the clearest quality-debt-relevant delta): human-written 27.
+mao-2026-code-metrics.md:70	tension-ref	**Can support:** a Tier B, mixed/E2-weighted, code-metric-and-commit-metric data
+mao-2026-code-metrics.md:83	outputs/ledger	Source is 5 days old at time of extraction (v3: 1 Jul 2026; today: 6 Jul 2026) —
+metr-2025-rct.md:63	tension-ref	9. No independent full replication RCT found as of Jul 2026 — the perception–rea
+metr-2026-design-change.md:87	outputs/ledger	- **CANNOT support:** a standalone claim that "AI now gives experienced develope
+metr-2026-design-change.md:88	tension-ref	- **Relationship to PROTOCOL §5 tension 1 (perception–reality gap):** this sourc
+metr-2026-survey.md:61	SECTION-REMOVED	## Cross-referencing (reported, not written to contradictions.md/evidence-table.
+metr-2026-transcript-bound.md:10	tension-ref	**Identity check:** confirmed. Title, author, date, and URL match the task brief
+metr-2026-transcript-bound.md:98	tension-ref	- **Note on directionality — important cross-reference:** this is the **opposite
+metr-2026-transcript-bound.md:106	tension-ref	- **Can support:** an explicit, author-acknowledged open question about whether 
+metr-2026-transcript-bound.md:107	tension-ref	- **Cannot support:** any claim that the RCT's −19% finding has been superseded,
+metr-2026-transcript-bound.md:121	open-questions	- **Cannot support:** treating any number in this note as final; the authors the
+metr-2026-uplift.md:58	tension-ref	- **Tension 1 (perception–reality gap, PROTOCOL §5.1): untouched by this specifi
+metr-2026-uplift.md:63	tension-ref	1. **METR (2026-05-11), "Measuring the Self-Reported Impact of Early-2026 AI on 
+metr-2026-uplift.md:74	open-questions	Source is ~4.5 months old at extraction (24 Feb 2026 → 6 Jul 2026) — within the 
+microsoft-cli-agents-2026.md:4	tension-ref	**Date verified:** 2026-07-06 (remediation follow-up to audit finding 5, tension
+microsoft-cli-agents-2026.md:5	tension-ref	**RQs fed:** RQ1 (value map — CLI-agent throughput effect), RQ5 (translation — w
+microsoft-cli-agents-2026.md:11	outputs/ledger	**Affiliations:** All three authors — Microsoft Research / Microsoft internal en
+microsoft-cli-agents-2026.md:50	outputs/ledger	3. **Tool comparison (RQ4, single-tool adopters only): Copilot CLI +24.9% PRs/we
+microsoft-cli-agents-2026.md:65	outputs/ledger	7. **Survey colour (RQ-adjacent, explicitly qualitative, self-report):** an inte
+microsoft-cli-agents-2026.md:85	SECTION-REMOVED	## Cross-ref guidance (for orchestrator — not written to contradictions.md)
+microsoft-cli-agents-2026.md:93	tension-ref	## Recommended revision to tension 5's verdict wording (reported to orchestrator
+microsoft-cli-agents-2026.md:95	tension-ref	This source does not resolve tension 5 to "confirmed" or "resolved" — if anythin
+microsoft-cli-agents-2026.md:107	outputs/ledger	- No new arXiv follow-up leads were surfaced distinct from those already queued 
+more-code-less-reuse-2026.md:54	tension-ref	- Can support: a decision-relevant, E3-era, peer-reviewed empirical instance of 
+more-code-less-reuse-2026.md:89	tension-ref	5. No agent-tool identity, no cost data, no seniority data — cannot speak to RQ4
+more-code-less-reuse-2026.md:97	tension-ref	more-code-less-reuse-2026	2026	B	E3	Cross-comparison of the paper's own RQ1 (mea
+nubank-devin-2025.md:89	outputs/ledger	**Cannot support:** (1) any claim resting on the 20x cost-savings figure, the 8x
+one-developer-squad-2026.md:78	tension-ref	- Mechanism hypotheses: specification completeness (especially undocumented lega
+opsera-2026-benchmark.md:54	tension-ref	- **Review wait time:** AI-generated PRs wait 4.6x longer for first review than 
+opsera-2026-benchmark.md:56	tension-ref	- **Code duplication (quality-debt signal):** 13.5% (AI-assisted) vs 10.5% (manu
+opsera-2026-benchmark.md:64	outputs/ledger	**Cannot support:** any exec-brief effect-size claim on its own (Tier D, single 
+opsera-2026-benchmark.md:67	tension-ref	1. Bottleneck displacement — AI-generated PRs sitting longer in review than huma
+opsera-2026-benchmark.md:68	tension-ref	2. Code duplication rising in AI-assisted code (protocol tension #4) — direction
+opsera-2026-benchmark.md:69	tension-ref	3. The qualitative (unquantified) claim that junior engineers realise smaller AI
+opsera-2026-benchmark.md:73	outputs/ledger	**Red flags for the ledger:**
+opsera-2026-benchmark.md:87	tension-ref	opsera-2026-benchmark	2026	D	mixed/indeterminate	vendor product telemetry	250,00
+opsera-2026-benchmark.md:89	tension-ref	opsera-2026-benchmark	2026	D	mixed/indeterminate	vendor product telemetry	250,00
+opsera-2026-benchmark.md:93	tension-ref	opsera-2026-benchmark	2026	D	not applicable — this is the seniority claim itself
+peng-2023-copilot-rct.md:17	outputs/ledger	- **Tier: A, with a prominent COI flag.** Genuine RCT: random assignment to trea
+peng-2023-copilot-rct.md:45	tension-ref	- **Authors' own interpretation of these coefficients: less experienced develope
+peng-2023-copilot-rct.md:52	outputs/ledger	Tier-A-rigour (vendor-COI-flagged) evidence that, for a single short, fully-spec
+peng-2023-copilot-rct.md:59	tension-ref	- **New finding not in the seed:** the self-report vs measured comparison in thi
+peng-2023-copilot-rct.md:64	tension-ref	1. **Cui, K.Z., Demirer, M., Jaffe, S., Musolff, L., Peng, S., & Salz, T. (Feb 2
+peng-2023-copilot-rct.md:65	tension-ref	2. **Stray, V., Brandtzæg, E.G., Wivestad, V.T., Barbala, A., & Moe, N.B. (2026)
+peng-2023-copilot-rct.md:67	outputs/ledger	4. **DevX Platform blog, "The 55% Productivity Myth: What GitHub Copilot's Resea
+plandek-2026-benchmarks.md:40	tension-ref	- **F6 — Bottleneck displacement (negative/nuanced).** "AI accelerates developme
+plandek-2026-benchmarks.md:75	outputs/ledger	- **One-line verdict:** can support directional signal that AI-linked delivery g
+plandek-2026-benchmarks.md:88	tension-ref	RQ1 (directional only), RQ5 (F6 is a clean practitioner-adjacent statement of bo
+prageng-2026-survey.md:62	tension-ref	**Seniority splits [E3; directly relevant to §5 tension 5]:**
+prageng-2026-survey.md:93	tension-ref	**Can support:** a directional, self-reported picture of a heavily senior-/leade
+prageng-2026-survey.md:97	SECTION-REMOVED	## Cross-referencing assessment (for the human's review — not written to contrad
+prageng-2026-survey.md:119	tension-ref	3. **Part 1 and Part 2 paywalled sections** ("Shipper benefits" onward in Part 1
+qodo-2026-code-quality.md:43	outputs/ledger	- Cannot support: any rate or effect size of AI on incidents or defects; causal 
+qodo-2026-code-quality.md:54	tension-ref	9. Possible tension 6 (bottleneck displacement) evidence, perception only; no co
+qodo-2026-code-quality.md:60	tension-ref	qodo-2026-code-quality	2026	D	E3-leaning (unsplit)	Survey item: single-choice pr
+quispe-2026-agentic-delegation.md:49	tension-ref	3. **Outcome-construction methodology overhauled** — v2 states explicitly (§5.3)
+quispe-2026-claude-frontier.md:49	tension-ref	- **Instrument-changes-the-metric confound:** agentic workflows characteristical
+quispe-2026-claude-frontier.md:116	tension-ref	**Can support:** E3-era, measured evidence that Claude Code adoption coincides w
+review-agents-reality-2026.md:26	outputs/ledger	**Source dataset:** AIDev, created by Li et al. (2025), hosted on HuggingFace, c
+review-agents-reality-2026.md:29	outputs/ledger	1. Starts from the `PRReviewComment` table: **19,450** individual PR-review-comm
+review-agents-reality-2026.md:31	outputs/ledger	3. Bot-filtering pass removes CI/CD bots (e.g. `github-actions[bot]`) that are n
+review-agents-reality-2026.md:34	outputs/ledger	**Slice relationship to sibling AIDev sources in this evidence base:** this pape
+review-agents-reality-2026.md:44	outputs/ledger	1. **Qodo (2025)**, cited as a survey of 609 developers: **"81% of CRA users see
+review-agents-reality-2026.md:119	SECTION-REMOVED	## Cross-reference assessment (for orchestrator review — synthesis/contradiction
+review-agents-reality-2026.md:137	outputs/ledger	- **Qodo (2025) developer survey (609 developers)** — primary source of the "80%
+review-agents-reality-2026.md:140	outputs/ledger	- **arXiv 2605.22534, "Why Are Agentic Pull Requests Merged or Rejected? An Empi
+review-agents-reality-2026.md:141	outputs/ledger	- **arXiv 2604.24450, "On the Footprints of Reviewer Bots Feedback on Agentic Pu
+review-agents-reality-2026.md:142	outputs/ledger	- **arXiv 2606.13175, "The End of Code Review: Coding Agents Supersede Human Ins
+salesforce-2026-cursor-tests.md:71	tension-ref	- **Task-structure enabling condition:** effort reduction was concentrated in **
+salesforce-2026-cursor-tests.md:84	outputs/ledger	- **Tier: C** (named organisation, real numbers, credible engineering blog, firs
+salesforce-2026-cursor-tests.md:92	outputs/ledger	**Cannot support:** any precise, generalisable effect-size claim for exec-brief 
+salesforce-2026-cursor-tests.md:102	tension-ref	salesforce-2026-cursor-tests	2025	C	E3	practitioner case study / Q&A interview, 
+sergeyuk-2026-evolving.md:92	SECTION-REMOVED	## Cross-reference assessment (report only)
+shen-2026-coding-skills.md:23	outputs/ledger	- **Era: E2 (chat-assisted).** The AI condition was explicitly a **chat interfac
+shen-2026-coding-skills.md:40	outputs/ledger	- **Numeric caveat (flag for the ledger/next reader):** repeated fetches of the 
+shen-2026-coding-skills.md:52	open-questions	- **Three high-scoring patterns** (avg quiz ≥65%): (4) *Generation-Then-Comprehe
+shen-2026-coding-skills.md:88	SECTION-REMOVED	## Cross-reference assessment (report only — not written to contradictions.md)
+shen-2026-coding-skills.md:99	outputs/ledger	4. **Vella & Blincoe, two-wave longitudinal (arXiv 2605.23135)** — already queue
+shen-2026-coding-skills.md:100	outputs/ledger	5. **OSF data repository** (link corrected in arXiv v2 per the paper's own errat
+space-dx-core4.md:44	synthesis-files	- **Tier:** does not map cleanly onto the RQ1–RQ5 effect-size tier scale — it is
+space-dx-core4.md:92	outputs/ledger	- **Important correction — do not conflate "Diffs per Engineer" with "Diff Autho
+stackoverflow-survey-2025.md:89	tension-ref	**Human-verification / possible bottleneck-displacement signal [RQ2, RQ6, §5.6-r
+stackoverflow-survey-2025.md:95	tension-ref	**Can support:** a directional, self-reported claim that AI-tool adoption kept r
+stackoverflow-survey-2025.md:97	tension-ref	**Cannot support:** any measured/telemetry effect size, any causal claim about A
+stackoverflow-survey-2026.md:75	tension-ref	Everything here is self-reported. Nothing is measured: no telemetry, no timed ta
+stanford-denisov-blanch.md:5	tension-ref	**RQs fed:** RQ5 (primary), RQ1, RQ3, RQ2; PROTOCOL §5 tension 2 (greenfield vs 
+stanford-denisov-blanch.md:35	tension-ref	- **Measurement basis:** measured (telemetry + model-scored commits) throughout.
+stanford-denisov-blanch.md:46	tension-ref	1. **Greenfield vs brownfield × complexity quadrants** (June 2025 talk, `tbDDYKR
+stanford-denisov-blanch.md:52	verdict-words	2. **Rework/churn** (T4/T5 adjacent; RQ4-relevant) — **TRANSCRIPT-CONFIRMED:** A
+stanford-denisov-blanch.md:53	verdict-words	3. **Headline-number discrepancy — RESOLVED for two of the three figures; the th
+stanford-denisov-blanch.md:57	verdict-words	4. **Language ecosystem split** (June 2025 talk) — **TRANSCRIPT-CONFIRMED, exact
+stanford-denisov-blanch.md:58	verdict-words	5. **Codebase size** (June 2025 talk) — **TRANSCRIPT-CONFIRMED, with one correct
+stanford-denisov-blanch.md:60	verdict-words	7. **Codebase cleanliness moderator** (Nov 2025 talk; RQ3) — **TRANSCRIPT-CONFIR
+stanford-denisov-blanch.md:63	tension-ref	10. **Self-report vs measured productivity delta** (June 2025 talk; RQ2/§5 tensi
+stanford-denisov-blanch.md:70	tension-ref	Can support (with Tier B caveats and an era label): the *pattern* that measured 
+stanford-denisov-blanch.md:83	tension-ref	- **He, H., Agarwal, S., Denisov-Blanch, Y., Azaletskiy, P., Koyejo, S., Vasiles
+stanford-denisov-blanch.md:99	verdict-words	**Transcript verification pass (2026-07-06):** full auto-generated-caption trans
+stray-2026-nav.md:5	tension-ref	**RQs fed:** RQ2 (measurement methods — primary; a genuine individual-level pair
+stray-2026-nav.md:47	tension-ref	5. **[measured — the paired perception-vs-measured finding, primary value for te
+stray-2026-nav.md:71	tension-ref	**Can support:** (a) a real, individually-paired, non-vendor, telemetry-plus-sel
+stray-2026-nav.md:75	SECTION-REMOVED	## Cross-reference: tension 1 (perception–reality gap) — report only, `synthesis
+stray-2026-nav.md:99	tension-ref	- Stray, Moe, Ganeshan, & Kobbenes (2025), *"Generative AI and developer workflo
+stray-2026-nav.md:108	tension-ref	Checked 2026-07-06. arXiv v2 (28 Jan 2026) is under six months old; HICSS-59 pro
+task-stratified-agents-2026.md:5	tension-ref	**RQs fed:** RQ1 (value map — per-task-type effect sizes, direct T1–T11-relevant
+task-stratified-agents-2026.md:23	outputs/ledger	**Consequence for triangulation:** this paper is authorially independent of the 
+task-stratified-agents-2026.md:29	outputs/ledger	**Discrepancy with the triage note's headline figures (42.9% Devin / 81.6% Codex
+task-stratified-agents-2026.md:39	outputs/ledger	- **Dataset:** AIDev (Li, Zhang & Hassan 2025; HuggingFace + arXiv:2602.09185/26
+task-stratified-agents-2026.md:59	tension-ref	The paper's 12 AIDev task-type labels categorise the **kind of change** in a PR,
+task-stratified-agents-2026.md:141	SECTION-REMOVED	## Cross-reference assessment (for orchestrator — not written to contradictions.
+task-stratified-agents-2026.md:154	outputs/ledger	- Any published critique, replication, or citation of this specific paper — not 
+uber-2026-claude-cost.md:49	tension-ref	| Committed-code origination | ~70% of committed code originated from AI tools |
+uber-2026-claude-cost.md:68	SECTION-REMOVED	## Cross-ref assessment (for orchestrator review — synthesis/contradictions.md N
+uber-2026-claude-cost.md:84	outputs/ledger	- **QCon London 2026 Böckeler keynote (~$91k/year/dev)** — already queued at hig
+uber-2026-claude-cost.md:85	outputs/ledger	- **A dedicated search for Uber's own investor-relations or earnings-call commen
+uber-autocover-2026.md:94	tension-ref	7. **Acceptance rate (44% of viable IDE tests) is a "suggestion-acceptance" styl
+uber-autocover-2026.md:110	tension-ref	uber-autocover-2026	2026	C	E3	practitioner journalism of conference talk (Mar 20
+unmerged-fix-prs-2026.md:123	tension-ref	unmerged-fix-prs-2026	2026	B	E3	Same qualitative coding; category NRC explicitly
+unreviewed-ai-prs-2026.md:5	tension-ref	**RQs fed:** RQ5 (primary — bottleneck-displacement/governance-gap evidence), RQ
+unreviewed-ai-prs-2026.md:25	outputs/ledger	2. **Dataset independence: compromised, and more tightly than the ledger's stand
+unreviewed-ai-prs-2026.md:70	outputs/ledger	**Yes, the paper supplies a matched human-authored baseline — but only for the 𝑅
+unreviewed-ai-prs-2026.md:87	tension-ref	**Can support:** an independent (authorship-wise), large-N, peer-reviewed, OSS c
+unreviewed-ai-prs-2026.md:91	SECTION-REMOVED	## Cross-ref assessment (for orchestrator review — synthesis/contradictions.md N
+unreviewed-ai-prs-2026.md:103	outputs/ledger	- **arXiv:2602.09185, "AIDev: Studying AI Coding Agents on GitHub"** (Li, Zhang 
+unreviewed-ai-prs-2026.md:114	tension-ref	One discrepancy within the paper itself, flagged rather than silently resolved: 
+uplevel-2024.md:53	tension-ref	**Can support:** (a) a worked example of the access-vs-usage measurement confoun
+uplevel-2024.md:69	tension-ref	4. **GitHub Blog — "Research: Quantifying GitHub Copilot's impact in the enterpr
+vella-blincoe-2026.md:5	tension-ref	**RQs fed:** RQ2 (primary — perception/self-report methodology), RQ6 (secondary 
+vella-blincoe-2026.md:17	outputs/ledger	**Author-name verification (per task brief's flag):** triage note's authors are 
+vella-blincoe-2026.md:21	tension-ref	**VERIFIED — full text read**, via two independent WebFetch passes over the arXi
+vella-blincoe-2026.md:26	outputs/ledger	- **Era: correction to the ledger's provisional tag.** LEDGER.md's queue line ta
+vella-blincoe-2026.md:94	SECTION-REMOVED	## Cross-reference assessment (report only — not written to contradictions.md)
+vella-blincoe-2026.md:113	outputs/ledger	Paper is ~6 weeks old at verification (22 May 2026 → 6 Jul 2026) — well within t
+vella-blincoe-2026.md:115	outputs/ledger	## Ledger correction flagged for orchestrator
+vella-blincoe-2026.md:117	outputs/ledger	LEDGER.md's Queued-table line for this source currently reads era as "(B, E3)". 
+who-finishes-the-job-2026.md:60	outputs/ledger	- Exec-brief use: only as one AIDev-based Tier B signal, flagged with shared-dat
+wittig-2026-fragmented-markers.md:58	outputs/ledger	- Era: E1/E2 by the modalities covered (autocomplete and chat assistants; window
+xu-2025-maintenance-burden.md:22	tension-ref	The tool studied is **GitHub Copilot's June 2021 technical preview, built on Ope
+xu-2025-maintenance-burden.md:69	tension-ref	**Can support:** (1) the seniority-asymmetry tension (§5.5) as E1/pre-agentic ev
+xu-2025-maintenance-burden.md:71	outputs/ledger	**Cannot support:** any agentic-era (E3) effect-size claim; any claim about brow
+xu-2025-maintenance-burden.md:95	tension-ref	xu-2025-maintenance-burden	2025	B	E1	DiD, individual+month FE, continuous quarti
+zalando-2025-postmortems.md:5	tension-ref	**RQs fed:** RQ3 (primary — failure map, task type T8 debugging/incident respons
+zalando-2025-postmortems.md:102	SECTION-REMOVED	## Cross-ref assessment (report only — synthesis/contradictions.md NOT edited)
+zalando-2025-postmortems.md:117	outputs/ledger	1. **arXiv 2601.22208** ("Stalled, Biased, and Confused") — already queued in LE
+zalando-2025-postmortems.md:118	outputs/ledger	2. **arXiv 2604.12108** (Google Auto-Diagnose) — already queued (RQ1, medium pri
+zalando-2025-postmortems.md:119	outputs/ledger	3. **Datadog LLM postmortem pipeline** — already queued (RQ1, medium priority) —
+zalando-2025-postmortems.md:125	outputs/ledger	Checked 2026-07-06. The post (25 September 2025) is just over nine months old as
+zendesk-2026-absorption.md:5	tension-ref	**RQs fed:** RQ5 (translation question, thin — mechanism only); PROTOCOL §5 tens
+zendesk-2026-absorption.md:70	tension-ref	**Can support:** a second, genuinely independent, named-practitioner (non-vendor
+zendesk-2026-absorption.md:72	outputs/ledger	**Cannot support:** any effect size, any Zendesk-specific measured claim, any cl
+zendesk-2026-absorption.md:74	SECTION-REMOVED	## Cross-ref assessment (for the human's review — synthesis/contradictions.md wa
+zendesk-2026-absorption.md:90	outputs/ledger	2. **Bence A. Tóth's other Zendesk Engineering post**, "Leading while learning. 
+zendesk-2026-absorption.md:91	outputs/ledger	3. **Architecture Decision Records (ADRs) as "scaffolding for AI"** — the post's
+zhong-2026-agentic-review.md:55	outputs/ledger	- CANNOT support: any claim that AI review improves or harms defect rates, escap
+zhong-2026-agentic-review.md:63	tension-ref	5. Review of PR authored by agents vs humans is not separated. Bottleneck displa
+evidence-table.tsv:20:col16	CELL	Report's own footnote 20: these are "comparisons", not causal effects. Secondary
+evidence-table.tsv:29:col16	CELL	Confirmed exactly against Appendix A1. Same undisclosed ~3.3-3.8x record-count j
+evidence-table.tsv:35:col16	CELL	talk-published, no CIs, not peer-reviewed; verbatim transcript-confirmed 2026-07
+evidence-table.tsv:37:col16	CELL	talk-published, no CIs, not peer-reviewed; RESOLVED by transcript for these two 
+evidence-table.tsv:41:col16	CELL	talk-published, no CIs, not peer-reviewed; transcript-confirmed verbatim ("askin
+evidence-table.tsv:52:col13	CELL	Less-experienced devs, developers with heavier daily coding loads, and older (25
+evidence-table.tsv:53:col16	CELL	Control group's estimate was elicited after seeing a demo video, not a naive bas
+evidence-table.tsv:55:col16	CELL	No bug definition published anywhere (primary or secondary) - unclear if PR "bug
+evidence-table.tsv:55:col16	CELL	No bug definition published anywhere (primary or secondary) - unclear if PR "bug
+evidence-table.tsv:57:col16	CELL	Headline pooled effect; W-IV corrects for imperfect compliance (treated-group ad
+evidence-table.tsv:60:col16	CELL	The paper's clearest negative secondary signal â€” the quality-debt candidate fo
+evidence-table.tsv:61:col16	CELL	Core E1 anchor for tension 5 (seniority asymmetry). Adoption differentials point
+evidence-table.tsv:61:col16	CELL	Core E1 anchor for [redacted] (seniority asymmetry). Adoption differentials poin
+evidence-table.tsv:67:col16	CELL	Composite finding combining three separate survey items (adoption, favourability
+evidence-table.tsv:71:col16	CELL	Perception only, no measured/telemetry counterpart offered by this source - the 
+evidence-table.tsv:80:col16	CELL	Possible bottleneck-displacement / verification-cost signal (PROTOCOL Â§5, tensi
+evidence-table.tsv:84:col5	CELL	synthesis/methodology essay (ACM Queue, editorially reviewed, not empirical; cit
+evidence-table.tsv:87:col16	CELL	Analogy borrowed from transformation literature (continuous delivery, platform e
+evidence-table.tsv:91:col16	CELL	Correlational Bayesian DAG regression, not causal, per report's own "ice cream/s
+evidence-table.tsv:94:col16	CELL	The report's own "curious"/unexpected finding â€” AI adoption associated with LE
+evidence-table.tsv:110:col16	CELL	PROTOCOL Â§5 tension-2 (greenfield/brownfield) row â€” gains concentrate in newe
+evidence-table.tsv:111:col16	CELL	TENSION-6 CORE ROW â€” strongest quantitative, identification-strategy-backed co
+evidence-table.tsv:114:col16	CELL	The ONLY E3-era seniority datapoint identified in this research programme so far
+evidence-table.tsv:115:col16	CELL	Churn definition deliberately matches GitClear's 2-week/14-day window (same cons
+evidence-table.tsv:119:col16	CELL	Design caveat: within-team lowest-vs-highest-adoption-quarter comparison is func
+evidence-table.tsv:120:col16	CELL	Design caveat: within-team lowest-vs-highest-adoption-quarter comparison is func
+evidence-table.tsv:121:col16	CELL	Design caveat: within-team lowest-vs-highest-adoption-quarter comparison is func
+evidence-table.tsv:122:col16	CELL	Design caveat: within-team lowest-vs-highest-adoption-quarter comparison is func
+evidence-table.tsv:123:col16	CELL	Design caveat: within-team lowest-vs-highest-adoption-quarter comparison is func
+evidence-table.tsv:130:col16	CELL	Distinctive RQ2/RQ6 finding: both sides of this correlation (productivity change
+evidence-table.tsv:135:col14	CELL	OSS GitHub repos, >=10 stars "engineered project" filter (~97% precision), non-f
+evidence-table.tsv:135:col15	CELL	CMU lab â€” same group as he-2026-2x-mandate and agents-vs-ides-2026, ONE voice 
+evidence-table.tsv:136:col14	CELL	Same OSS/engineered-project sample as velocity row (>=10 stars, 806 treated/1,38
+evidence-table.tsv:136:col15	CELL	CMU lab â€” same group as he-2026-2x-mandate and agents-vs-ides-2026, ONE voice 
+evidence-table.tsv:136:col16	CELL	Persistent, non-decaying quality debt while the velocity bump (row 1, same sourc
+evidence-table.tsv:137:col7	CELL	T4 (general OSS dev/commit activity; mechanism claim about quality-debt feeding 
+evidence-table.tsv:137:col15	CELL	CMU lab â€” same group as he-2026-2x-mandate and agents-vs-ides-2026, ONE voice 
+evidence-table.tsv:137:col16	CELL	Internal tension flagged explicitly in the source itself (not written to contrad
+evidence-table.tsv:138:col15	CELL	CMU lab â€” same group as he-2026-2x-mandate and agents-vs-ides-2026, ONE voice 
+evidence-table.tsv:141:col16	CELL	Adoption/sentiment signal only, NOT a measured output/productivity breakdown - c
+evidence-table.tsv:145:col16	CELL	Â§5.7-suspect "AI-generated %" metric, no methodology disclosed; 84% and 95% are
+evidence-table.tsv:153:col5	CELL	Observational mining of PR-acceptance outcomes; population/filtering scope note 
+evidence-table.tsv:153:col8	CELL	overall PR acceptance rate under review-filtered AIDev-POP population vs. an unf
+evidence-table.tsv:153:col14	CELL	AIDev-POP subset (>=100-star repos, MIT/Apache-2.0 licence, >=1 independent revi
+evidence-table.tsv:153:col16	CELL	Open reconciliation item, not a resolved cross-ref â€” orchestrator should check
+evidence-table.tsv:154:col16	CELL	Single run per (model,condition,instance), no repeated-sampling variance estimat
+evidence-table.tsv:160:col16	CELL	Fourth and methodologically distinct datapoint for tension 1: a longitudinal wit
+evidence-table.tsv:172:col16	CELL	Skill-formation theme anchor (PROTOCOL v0.4). Absolute percentages unreconcilabl
+evidence-table.tsv:173:col16	CELL	"No speed gain, real learning cost" pairing -- the exec-brief-relevant framing, 
+evidence-table.tsv:173:col17	CELL	4 -- "no speed gain, real learning cost" is the exec-brief-relevant pairing
+evidence-table.tsv:176:col16	CELL	Zero "we do X" statements â€” a proposal, NOT a rollout report; the four compone
+evidence-table.tsv:179:col16	CELL	bounds tension 4: no pre-agentic maintainability penalty in a controlled design;
+evidence-table.tsv:181:col16	CELL	adoption-odds findings (+22% IC5 / â’13% IC2 / â’14% IC3) are ADOPTION not imp
+evidence-table.tsv:183:col16	CELL	whole source is E2-weighted/mixed-era per its own tool-mix data, not modality-se
+evidence-table.tsv:185:col16	CELL	authors caveat "low mean values suggest effects concentrated in a subset of comm
+evidence-table.tsv:189:col16	CELL	Â§5.7 bad-metric trap flagged by the source itself â€” commit count is a gameabl
+evidence-table.tsv:198:col16	CELL	outcome is perceived prompting effectiveness, not measured productivity; directi
+evidence-table.tsv:203:col16	CELL	descriptive only, no statistical testing; direction is ambiguous for quality â€”
+evidence-table.tsv:241:col16	CELL	open contradiction: Amazon denies the AI-specific sign-off element that secondar
+evidence-table.tsv:252:col16	CELL	Authors' own headline claim; causal mechanism (LLM sycophancy/plausibility) is d
+evidence-table.tsv:268:col16	CELL	one of the few categories the paper explicitly attributes to the human/maintaine
+evidence-table.tsv:314:col16	CELL	This is the METR "-19%" RCT already anchored in PROTOCOL §5/§6, now independentl
+evidence-table.tsv:321:col16	CELL	supports PROTOCOL S5 tension 2 (greenfield/low-complexity vs brownfield/complex)
+evidence-table.tsv:357:col16	CELL	report itself frames this as a "throughput illusion" / bottleneck-displacement f
+evidence-table.tsv:359:col16	CELL	directionally consistent with GitClear-type churn/duplication findings (tension 
+evidence-table.tsv:363:col16	CELL	CRITICAL CAVEAT: the quantified "nearly 5x" claim widely circulated in coverage 
+evidence-table.tsv:420:col16	CELL	Lines added is a gameable volume metric (PROTOCOL §5.7); null duplication contra
+evidence-table.tsv:503:col16	CELL	Supports bottleneck displacement (tension 6) as perception only; no queue, laten
+evidence-table.tsv:516:col11	CELL	unstated; AI-generated-code share is a gameable metric (PROTOCOL §5.7)
+evidence-table.tsv:546:col16	CELL	Authors state no rigorous best-practice set exists and patterns 'may not be opti
+evidence-table.tsv	SUMMARY	70 cell substitutions across 569 rows

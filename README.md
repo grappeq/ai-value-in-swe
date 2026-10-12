@@ -1,11 +1,12 @@
 # What AI Coding Tools Actually Deliver — an Evidence Review
 
-A personal research project, completed July 2026. I wanted a straight answer to one question: **where do AI coding tools measurably help software engineering, where do they hurt, and how would you even know?** The marketing numbers didn't survive contact with their own primary sources, so this repo is the systematic version: 74 graded sources, 362 extracted findings, every claim traceable to a source record.
+A personal research project, completed July 2026 and refreshed in October 2026. I wanted a straight answer to one question: **where do AI coding tools measurably help software engineering, where do they hurt, and how would you even know?** The marketing numbers didn't survive contact with their own primary sources, so this repo is the systematic version: 99 graded sources (102 records), 569 extracted findings, every claim traceable to a source record.
 
 ## Start here
 
 - **[The exec brief](outputs/exec-brief.md)** — the whole answer in two pages.
-- **[Count Voices, Not Papers](outputs/independence-crisis.md)** — a methods piece: how the AI-productivity literature shrinks by more than half once you check which "independent" sources are actually the same voice, with seventeen documented cases of numbers corrupted in transit.
+- **[Count Voices, Not Papers](outputs/independence-crisis.md)** — a methods piece: how the AI-productivity literature shrinks by more than half once you check which "independent" sources are actually the same voice, with twenty-four documented cases of numbers corrupted in transit.
+- **[Ten claims, checked](outputs/exec-brief-claims.md)** — the companion page: the ten things you will hear in meetings, each with a verdict, confidence, and the evidence behind it.
 - **[How to tell whether AI is working for you](outputs/internal-measurement-proposal.md)** — six things to measure, nine popular metrics to refuse, each with a documented case of it burning someone.
 - **[Open questions](outputs/follow-up-questions.md)** — what's still unknown and what would settle it.
 
@@ -27,7 +28,7 @@ Every claim carries a source tier and an era tag:
 
 | Path | What it is |
 |---|---|
-| `outputs/` | The four final documents (start here) |
+| `outputs/` | The five final documents (start here) |
 | `synthesis/` | Per-question synthesis memos, contradiction log, tension verdicts, review records — working documents, published as-is |
 | `sources/` | One extraction record per source: what it measured, what it can and cannot support |
 | `evidence/evidence-table.tsv` | Every extracted finding as one graded, era-tagged row |
