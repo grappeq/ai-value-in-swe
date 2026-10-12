@@ -5,14 +5,16 @@ A personal research project, completed July 2026 and refreshed in October 2026. 
 ## Start here
 
 - **[The exec brief](outputs/exec-brief.md)** — the whole answer in two pages.
+- **[Ten claims, checked](outputs/exec-brief-claims.md)** — its companion: the ten things you will hear in meetings, each with a verdict, how sure we are, and the evidence behind it.
 - **[Count Voices, Not Papers](outputs/independence-crisis.md)** — a methods piece: how the AI-productivity literature shrinks by more than half once you check which "independent" sources are actually the same voice, with twenty-four documented cases of numbers corrupted in transit.
-- **[Ten claims, checked](outputs/exec-brief-claims.md)** — the companion page: the ten things you will hear in meetings, each with a verdict, confidence, and the evidence behind it.
 - **[How to tell whether AI is working for you](outputs/internal-measurement-proposal.md)** — six things to measure, nine popular metrics to refuse, each with a documented case of it burning someone.
 - **[Open questions](outputs/follow-up-questions.md)** — what's still unknown and what would settle it.
 
 ## How this was made
 
 An AI research agent (Claude Code) executed a pre-registered protocol ([PROTOCOL.md](PROTOCOL.md)) under human review gates: fixed research questions, a source-quality grading scheme, rules against averaging away contradictions, and saturation criteria — with a human (me) reviewing each phase before the next opened. [CLAUDE.md](CLAUDE.md) contains the agent's working instructions, and [LEDGER.md](LEDGER.md) is the running log of what was searched, extracted, rejected, and why.
+
+The base was built in July 2026 and refreshed in October 2026 (25 more sources, each extracted by an agent that could not see the existing conclusions, followed by a from-scratch re-derivation — see `synthesis/cycles/`). The conclusions were then checked two ways: independent reviewers traced every claim in the final documents back to its source record (`synthesis/reviews/`), and a separate model, given only the extraction records and the evidence table with none of our synthesis, re-derived its own conclusions in an isolated environment; it reproduced 23 of our 24 scored positions, and where it differed we corrected ourselves (`synthesis/cleanroom-r5/`). The two places it caught us are described in the methods piece.
 
 That provenance matters for how you read it. The final documents in `outputs/` speak with two voices: "we" is the research programme reporting what it found; "you" is the reader — anyone deciding where to invest in AI. The working documents (`synthesis/`, `sources/`, `LEDGER.md`) keep their internal research voice, including mentions of "the human" (me, at review gates) — they are the audit trail, published unedited.
 
