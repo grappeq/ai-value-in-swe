@@ -29,12 +29,13 @@ Every claim carries a source tier and an era tag:
 | Path | What it is |
 |---|---|
 | `outputs/` | The five final documents (start here) |
-| `synthesis/` | Per-question synthesis memos, contradiction log, tension verdicts, review records — working documents, published as-is |
+| `synthesis/` | Working documents, published as-is: `contradictions.md` (the verdict index and contradiction log) · `rq/` per-question memos · `tension-verdicts/` one memo per §5 tension · `cycles/` the audit and the re-derivation record of each refresh cycle · `reviews/` independent reviews of the outputs · `cleanroom-r5/` the clean-room re-derivation (protocol, redaction log, the analyst's unedited output, two referee scorecards) |
 | `sources/` | One extraction record per source: what it measured, what it can and cannot support |
 | `evidence/evidence-table.tsv` | Every extracted finding as one graded, era-tagged row |
 | `PROTOCOL.md` | The pre-registered research protocol |
 | `LEDGER.md` | The audit trail: batches, rejections, blocked sources, RQ status |
 | `CLAUDE.md` | The research agent's operating instructions |
+| `tools/` | `cleanroom_export.py` — builds the isolated evidence export used for clean-room re-derivations |
 
 ## Licence
 

@@ -122,4 +122,4 @@ None of these forces is going away. The auditing burden is permanent, and it bel
 
 This is one research programme's corpus, assembled to answer specific questions, not a random sample of the literature. The twenty-four documented corruption cases are a lower bound, since we only caught what we happened to trace, and the count itself was revised once after review. We are not alleging misconduct in any named case: nearly everything here is ordinary compression, copying and marketing doing what they always do. That is exactly the point. It takes no bad actors for a literature to end up sounding far more certain, and far more numerous, than it is.
 
-*Every example above has a source record and grading in this repository (`sources/`, `synthesis/contradictions.md`, `synthesis/rederivation-r4.md` §E, `synthesis/cleanroom-r5-protocol.md`). The evidence rules that generated them are in `PROTOCOL.md` §3.*
+*Every example above has a source record and grading in this repository (`sources/`, `synthesis/contradictions.md`, `synthesis/cycles/rederivation-r4.md` §E, `synthesis/cleanroom-r5/protocol.md`). The evidence rules that generated them are in `PROTOCOL.md` §3.*

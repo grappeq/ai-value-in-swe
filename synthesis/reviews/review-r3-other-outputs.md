@@ -31,7 +31,7 @@ Method note: every quantitative or attributable claim in both documents was trac
 
 **What the record says:** as above — 35.7% is a floor, not a ceiling; source explicitly states the true share "could be anywhere between 35.7% and ~69%."
 
-This phrasing is inherited verbatim from `synthesis/rederivation-r3.md` ("≤36% of rejections are agent failures") and `synthesis/contradictions.md`'s T6 index entry (same "≤36%"), so the error originates upstream in the R3 synthesis step, not in follow-up-questions.md itself — but it is carried into the output uncorrected, and a reader of follow-up-questions.md has no way to know the "≤" is backward without pulling the primary source.
+This phrasing is inherited verbatim from `synthesis/cycles/rederivation-r3.md` ("≤36% of rejections are agent failures") and `synthesis/contradictions.md`'s T6 index entry (same "≤36%"), so the error originates upstream in the R3 synthesis step, not in follow-up-questions.md itself — but it is carried into the output uncorrected, and a reader of follow-up-questions.md has no way to know the "≤" is backward without pulling the primary source.
 
 **Suggested fix:** change "≤36%" to "only a confirmed 35.7% (true share uncertain, could run to ~69%)" here and propagate the correction back to rederivation-r3.md and contradictions.md's T6 entry, since both currently carry the same inversion.
 
@@ -42,7 +42,7 @@ This phrasing is inherited verbatim from `synthesis/rederivation-r3.md` ("≤36%
 **Text at issue** (`outputs/internal-measurement-proposal.md`, closing "Honest limits" section):
 > "The skill-erosion check (#6) rests on deliberately thin evidence — two studies, found incidentally, **one of them from the pre-agent era** — because we chose not to do a full evidence sweep on that theme."
 
-**What the record says** (`synthesis/rq6-measurement.md`, metric #8 row, evidence column):
+**What the record says** (`synthesis/rq/rq6-measurement.md`, metric #8 row, evidence column):
 > "`shen-2026-coding-skills`: d=0.738 comprehension loss with no speed offset; `vella-blincoe-2026`: self-reported productivity and self-reported experience are statistically decoupled... **Both are E2/self-report-only evidence**; treat as sentinel checks, not magnitude evidence..."
 
 Per LEDGER.md's own era tags: shen-2026-coding-skills = "E2 chat — NOT agentic; era-transfer caveat applies"; vella-blincoe-2026 = "E1/E2-dominant, unstratified encroaching E3 — NOT confirmed E3." Neither source is agentic-era. Saying "one of them" is pre-agent implies the other is not — the natural reading is that one study is agentic-era corroboration, which does not exist. This is precisely the kind of era-mislabelling PROTOCOL §2 is written to prevent ("Every effect-size claim... must rest on E3-era evidence or carry an explicit 'pre-agentic' label"), and it appears in the one paragraph of the proposal whose entire job is to state the limits honestly.
@@ -60,7 +60,7 @@ Per LEDGER.md's own era tags: shen-2026-coding-skills = "E2 chat — NOT agentic
 > Sept 2025 incident: infrastructure bugs affecting the Claude API, magnitude reported as "peaked at 16% of Sonnet 4 requests at worst; ~30% of Claude Code users reportedly hit at least one degraded response overall."
 > April 2026 incident: three separate product-layer issues; **only one of the three (the verbosity-limit change) has a quantified figure: "a 3% quality drop for both Opus 4.6 and 4.7 — the only quantified effect size in the postmortem."**
 
-The 3% figure belongs to one sub-issue inside the April 2026 postmortem only. The September 2025 incident, seven months earlier, had a different and much larger reported magnitude (16%/30%), not 3%. What genuinely recurred twice, seven months apart, is the *pattern* (evals missed user-perceived degradation; user complaints were the detection channel) — not the specific 3% figure. This same conflation appears in `synthesis/rederivation-r3.md` ("Anthropic itself could not detect a 3%-magnitude Claude Code quality regression through internal evals in two postmortems seven months apart") and in `LEDGER.md`'s R3 gate summary ("Anthropic's own evals missed a 3% regression twice") — an upstream synthesis error that follow-up-questions.md inherits uncorrected.
+The 3% figure belongs to one sub-issue inside the April 2026 postmortem only. The September 2025 incident, seven months earlier, had a different and much larger reported magnitude (16%/30%), not 3%. What genuinely recurred twice, seven months apart, is the *pattern* (evals missed user-perceived degradation; user complaints were the detection channel) — not the specific 3% figure. This same conflation appears in `synthesis/cycles/rederivation-r3.md` ("Anthropic itself could not detect a 3%-magnitude Claude Code quality regression through internal evals in two postmortems seven months apart") and in `LEDGER.md`'s R3 gate summary ("Anthropic's own evals missed a 3% regression twice") — an upstream synthesis error that follow-up-questions.md inherits uncorrected.
 
 **Suggested fix:** "Anthropic failed to catch user-perceptible quality regressions via internal evals twice, seven months apart (Sept 2025: ~16-30% of requests/users affected; Apr 2026: three issues, one quantified at a 3% drop) — detection was user complaints both times."
 
@@ -76,7 +76,7 @@ Same claim, same wording pattern, appears in `outputs/exec-brief.md`: "Anthropic
 **What the record says** (`sources/ai-spend-landscape-2026.md`, item 3):
 > "average $13/developer/active day... The **estimate silently doubled (~$6→$13/day) in April 2026**, attributed by Anthropic to Opus 4.7 usage patterns with 'no pricing change'..."
 
-The source states the doubling happened "in April 2026" but never gives a start date for the prior ~$6/day figure, so "three months" cannot be traced to this record (or to `synthesis/rq4-cost-profile.md`'s addendum, which uses the same undated phrasing: "its own per-day estimate silently doubling in Apr 2026"). This may well be accurate (Anthropic's docs pages typically carry a "last revised" date), but as written it is a specific, quantified claim with no source_id behind the specific number, which is exactly what CLAUDE.md rule 1 prohibits.
+The source states the doubling happened "in April 2026" but never gives a start date for the prior ~$6/day figure, so "three months" cannot be traced to this record (or to `synthesis/rq/rq4-cost-profile.md`'s addendum, which uses the same undated phrasing: "its own per-day estimate silently doubling in Apr 2026"). This may well be accurate (Anthropic's docs pages typically carry a "last revised" date), but as written it is a specific, quantified claim with no source_id behind the specific number, which is exactly what CLAUDE.md rule 1 prohibits.
 
 **Suggested fix:** either locate and cite the prior revision date, or soften to "doubled within months" / "doubled by April 2026, from an undated earlier baseline."
 
@@ -89,7 +89,7 @@ The source states the doubling happened "in April 2026" but never gives a start 
 **What the companion document says** (`outputs/exec-brief.md`, "What we should do" section):
 > "The companion proposal lists six things to track and **eight popular metrics to refuse**."
 
-**What the ground truth says** (`synthesis/rederivation-r3.md`, section D, "Output revisions applied"):
+**What the ground truth says** (`synthesis/cycles/rederivation-r3.md`, section D, "Output revisions applied"):
 > "internal-measurement-proposal.md: **reject metric #9** (raw agent-PR merge rate)..."
 
 R3 explicitly added a ninth reject-metric to the proposal and recorded doing so — but the corresponding count in exec-brief.md's summary line was not updated from eight to nine. The proposal itself is internally correct; the inconsistency sits in the companion document, but it is precisely the kind of cross-document contradiction the review brief asked to be checked (proposal numbers must not contradict the exec brief's), and a reader moving between the two documents will hit a direct numeric conflict on the headline count of the proposal's own reject list.
@@ -117,7 +117,7 @@ Two issues: (a) "nine months to peak" implies a plateau was reached and observed
 **Text at issue** (`outputs/internal-measurement-proposal.md`, reject-metric #8):
 > "...and per-agent rates differ 2× for workflow reasons alone."
 
-**What the record says** (`sources/agentic-pr-merge-reject-2026.md`, F3): Codex 47.8% vs Devin 24.2% "Agentic Failure" share among rejections (≈1.97×); Non-Agentic-Failure ("workflow") share: Devin 45.1% vs Codex 16.8% (≈2.68×). No sentence in the source or in `synthesis/rederivation-r3.md` ("per-agent rates driven by process signatures") states a "2×" figure. The closest matches to "2×" and to "workflow reasons" belong to different pairs of numbers (2.0× is the *agentic-failure* ratio, not workflow; the *workflow*/Non-Agentic-Failure ratio is closer to 2.7×).
+**What the record says** (`sources/agentic-pr-merge-reject-2026.md`, F3): Codex 47.8% vs Devin 24.2% "Agentic Failure" share among rejections (≈1.97×); Non-Agentic-Failure ("workflow") share: Devin 45.1% vs Codex 16.8% (≈2.68×). No sentence in the source or in `synthesis/cycles/rederivation-r3.md` ("per-agent rates driven by process signatures") states a "2×" figure. The closest matches to "2×" and to "workflow reasons" belong to different pairs of numbers (2.0× is the *agentic-failure* ratio, not workflow; the *workflow*/Non-Agentic-Failure ratio is closer to 2.7×).
 
 **Suggested fix:** either cite the specific ratio precisely ("Codex's confirmed failure share is roughly double Devin's; process-driven rejections vary even more, up to ~2.7× between agents") or drop the specific multiplier and keep the qualitative point (large, inconsistent per-agent variation).
 
@@ -128,7 +128,7 @@ Two issues: (a) "nine months to peak" implies a plateau was reached and observed
 **Text at issue** (`outputs/follow-up-questions.md`, item 5):
 > "T8 (debugging/incident response) **gained its first substantial evidence in R3** — but lab-only, non-frontier models, no human baseline..."
 
-**What the record says** (`synthesis/rq1-value-map.md`, task-type table, pre-R3):
+**What the record says** (`synthesis/rq/rq1-value-map.md`, task-type table, pre-R3):
 > "T8 Debugging/incident response | **Emerging** | Zalando: analysis days/weeks→hours (C, E2 pipeline)... task-stratified-agents-2026: Devin weaker on fix tasks (45.6% vs Codex 83.0%) | Positive for augmented RCA; unresolved for autonomous"
 
 T8 was already tagged "Emerging" (distinct from T1/T2/T9's "None — task-share only") before R3, on the strength of zalando-2025-postmortems and task-stratified-agents-2026. Grouping T8 with the genuinely dry T1/T2/T9 in the same sentence, and calling rca-failures-2026 the type's "first substantial evidence," overstates the prior gap; rca-failures-2026 is better characterised as the first *rigorous lab* evidence, layered on top of existing thin practitioner/observational T8 evidence.
@@ -168,4 +168,4 @@ T8 was already tagged "Emerging" (distinct from T1/T2/T9's "None — task-share 
 
 **`outputs/internal-measurement-proposal.md` — GO-WITH-FIXES.** Structurally strong (nine reject-metrics genuinely nine, six adopt-metrics faithfully consolidated from the eight RQ6 candidates, correct handling of the maintainability-metric feasibility gap, correct and precise use of the he-2026 bottleneck figures, the METR acceptance-rate figure, and the Stanford/350-engineer rework figures). One BLOCKER (finding 1) inverts a source's own stated confidence bound and should not stand as written; three further MAJOR findings (3, 5, 6) need correction before this is treated as final. Fix findings 1, 3, 5, 6 before distribution; the MINOR items (7, 8) are worth a pass but don't block.
 
-**`outputs/follow-up-questions.md` — GO-WITH-FIXES.** Internally consistent with `synthesis/rederivation-r3.md` almost everywhere checked (Q1, Q6, Q7, Q9, Q12, Q13 all trace cleanly), and the header counts (74 sources, 362 findings, 20 R3 sources, 155 rows) all check out exactly. Its problems are inherited rather than invented: findings 2 and 4 are both R3-synthesis-level errors (the ≤36% inversion and the 3%-twice conflation) that were carried from `synthesis/rederivation-r3.md` and `LEDGER.md` into this output without being caught — worth fixing at the synthesis layer too, not just here, since other documents (contradictions.md, LEDGER.md) currently repeat the same errors. Findings 9, 10, 11 are minor precision/terminology slips. None of this undermines the document's core function as a research-continuity record.
+**`outputs/follow-up-questions.md` — GO-WITH-FIXES.** Internally consistent with `synthesis/cycles/rederivation-r3.md` almost everywhere checked (Q1, Q6, Q7, Q9, Q12, Q13 all trace cleanly), and the header counts (74 sources, 362 findings, 20 R3 sources, 155 rows) all check out exactly. Its problems are inherited rather than invented: findings 2 and 4 are both R3-synthesis-level errors (the ≤36% inversion and the 3%-twice conflation) that were carried from `synthesis/cycles/rederivation-r3.md` and `LEDGER.md` into this output without being caught — worth fixing at the synthesis layer too, not just here, since other documents (contradictions.md, LEDGER.md) currently repeat the same errors. Findings 9, 10, 11 are minor precision/terminology slips. None of this undermines the document's core function as a research-continuity record.
