@@ -111,7 +111,15 @@ Stop when the six files are written. Do not edit anything outside `cleanroom-out
 
 SETTINGS = {
     "permissions": {
-        "deny": ["WebSearch", "WebFetch", "Bash(curl:*)", "Bash(wget:*)", "Bash(git:*)"],
+        "allow": [
+            "Read", "Grep", "Glob", "Agent",
+            "Write(cleanroom-output/**)", "Edit(cleanroom-output/**)",
+            "Bash(ls:*)", "Bash(cat:*)", "Bash(head:*)", "Bash(tail:*)", "Bash(sed -n:*)",
+            "Bash(grep:*)", "Bash(awk:*)", "Bash(cut:*)", "Bash(sort:*)", "Bash(uniq:*)",
+            "Bash(wc:*)", "Bash(find:*)", "Bash(tr:*)", "Bash(mkdir cleanroom-output:*)",
+        ],
+        "deny": ["WebSearch", "WebFetch", "Bash(curl:*)", "Bash(wget:*)", "Bash(git:*)",
+                 "Bash(python3:*)", "Bash(python:*)"],
     }
 }
 
